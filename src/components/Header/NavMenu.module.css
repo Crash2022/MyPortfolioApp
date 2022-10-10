@@ -1,6 +1,6 @@
 .navMenu {
     border: 1px solid yellow;
-    width: 350px;
+    width: 400px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -8,4 +8,5 @@
 .navMenu > a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }

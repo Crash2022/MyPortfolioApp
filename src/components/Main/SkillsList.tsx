@@ -13,9 +13,9 @@ export const SkillsList = (props: SkillsListPropsType) => {
                 props.skills.map(el => {
                     return (
                         <div key={v1()} className={style.mainBlock2_item}>
-                            <div>{el.icon}</div>
-                            <div>{el.title}</div>
-                            <div>{el.text}</div>
+                            <div className={style.item_icon}>{el.icon}</div>
+                            <div className={style.item_title}>{el.title}</div>
+                            <div className={style.item_text}>{el.text}</div>
                         </div>
                     )
                 })
