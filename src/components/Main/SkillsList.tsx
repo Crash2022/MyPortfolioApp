@@ -14,7 +14,7 @@ export const SkillsList = (props: SkillsListPropsType) => {
                     return (
                         <div key={v1()} className={style.mainBlock2_item}>
                             <div className={style.item_icon}>{el.icon}</div>
-                            <div className={style.item_title}>{el.title}</div>
+                            <div className={style.item_title}><h3>{el.title}</h3></div>
                             <div className={style.item_text}>{el.text}</div>
                         </div>
                     )
