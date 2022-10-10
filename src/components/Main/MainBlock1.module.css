@@ -1,7 +1,7 @@
-.mainBlock {
+/*.mainBlock {
     height: 100vh;
     background-color: dimgray;
-}
+}*/
 
 /*.container {
     border: 1px solid yellow;
@@ -14,15 +14,17 @@
     align-items: center;
 }*/
 
-/*.mainBlock1 {
+.mainBlock1 {
     border: 1px solid;
+    height: 100vh;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-}*/
+}
 .mainBlock1_text {
    background-color: seashell;
-    width: 450px;
+   width: 450px;
 }
 .mainBlock1_photo {
     background-color: cornsilk;

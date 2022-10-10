@@ -1,0 +1,18 @@
+.mainBlock2 {
+
+}
+
+.mainBlock2_skills {
+    background-color: lightskyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainBlock2_title {
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+.mainBlock2_item {
+    border: 1px solid black;
+}
