@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-evenly;
     /*width: 100%;*/
+    flex-wrap: wrap;
 }
 .mainBlock2_title {
     text-align: center;
@@ -19,14 +20,21 @@
     background-color: aqua;
     width: 250px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 .item_icon {
-
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    margin: 10px;
 }
 .item_title {
-
+    padding: 10px;
 }
 .item_text {
-
+    padding: 10px;
 }

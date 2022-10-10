@@ -16,9 +16,18 @@ export type SkillsArrayPropsType = {
 export const MainBlock2_Skills = () => {
 
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
-        {id: v1(), icon: 'ICON', title: 'React', text: 'Can make projects on ReactNative'},
-        {id: v1(), icon: 'ICON', title: 'Angular', text: 'Can make projects on Angular'},
-        {id: v1(), icon: 'ICON', title: 'JavaScript', text: 'Can make projects on JavaScript'}
+        {id: v1(), icon: 'ICON', title: 'React',
+            text: 'Can make projects on ReactNative'},
+        {id: v1(), icon: 'ICON', title: 'Angular',
+            text: 'Can make projects on Angular'},
+        {id: v1(), icon: 'ICON', title: 'JavaScript',
+            text: 'Can make projects on JavaScriptdfgdgdfgdfgggggggggggggggggggg'}
+        /*{id: v1(), icon: 'ICON', title: 'JavaScript',
+            text: 'Can make projects on JavaScriptdfgdgdfgdfgggggggggggggggggggg'},
+        {id: v1(), icon: 'ICON', title: 'JavaScript',
+            text: 'Can make projects on JavaScriptdfgdgdfgdfgggggggggggggggggggg'},
+        {id: v1(), icon: 'ICON', title: 'JavaScript',
+            text: 'Can make projects on JavaScriptdfgdgdfgdfgggggggggggggggggggg'}*/
     ])
 
     return (
