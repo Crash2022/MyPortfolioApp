@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../../common/styles/Container.module.css'
+import style from './Main.module.css'
 import {MainBlock1_Greeting} from './MainBlock1_Greeting'
 import {MainBlock2_Skills} from './MainBlock2_Skills'
 
