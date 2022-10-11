@@ -5,7 +5,7 @@ export const MainBlock4_Contacts = () => {
 
     return (
              <form className={style.mainBlock4} id='contacts'>
-                <h2>Контакты</h2>
+                <h2 className={style.mainBlock4_title}>Контакты</h2>
                 <input type="text"/>
                 <input type="text"/>
                 <textarea name="contacts"></textarea>

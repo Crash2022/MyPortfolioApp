@@ -2,12 +2,11 @@
     display: flex;
     flex-direction: column;
     /*min-height: 100vh;*/ /*блок по всей высоте*/
-    background-color: cadetblue;
+    background-color: blue;
+    border: 1px solid black;
 }
 
 .mainBlock3_projects {
-    background-color: lightskyblue;
-    border: 2px solid black;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
