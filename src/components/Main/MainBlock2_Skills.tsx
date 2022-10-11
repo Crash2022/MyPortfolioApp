@@ -26,12 +26,14 @@ export const MainBlock2_Skills = () => {
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.'
         },
-        {id: v1(), icon: 'ICON', title: 'JavaScript',
+        {
+            id: v1(), icon: 'ICON', title: 'JavaScript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?'
         },
-        {id: v1(), icon: 'ICON', title: 'JavaScript',
+        {
+            id: v1(), icon: 'ICON', title: 'JavaScript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         }/*,
         {id: v1(), icon: 'ICON', title: 'JavaScript',
@@ -41,10 +43,8 @@ export const MainBlock2_Skills = () => {
     ]);
 
     return (
-        <div className={style.mainBlock2}>
-            <div className={style.mainBlock2_title}>
-                <h2>Мои преимущества</h2>
-            </div>
+        <div className={style.mainBlock2} id='skills'>
+            <h2 className={style.mainBlock2_title}>Мои преимущества</h2>
             <div className={style.mainBlock2_skills}>
                 <SkillsList skills={skills}/>
             </div>

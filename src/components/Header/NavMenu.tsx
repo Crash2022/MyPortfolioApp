@@ -4,10 +4,10 @@ import style from './NavMenu.module.css'
 export const NavMenu = () => {
     return (
         <div className={style.navMenu}>
-            <a href="">ГЛАВНАЯ</a>
-            <a href="">ОПЫТ</a>
-            <a href="">ПРОЕКТЫ</a>
-            <a href="">КОНТАКТЫ</a>
+            <a href="#">ГЛАВНАЯ</a>
+            <a href="#skills">ОПЫТ</a>
+            <a href="#projects">ПРОЕКТЫ</a>
+            <a href="#contacts">КОНТАКТЫ</a>
         </div>
     );
 }

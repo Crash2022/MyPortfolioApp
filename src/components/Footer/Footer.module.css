@@ -1,7 +1,30 @@
 .footer {
-    height: 50px;
+    min-height: 10vh;
     background-color: darkkhaki;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.footer_title {
+    text-align: center;
+    background-color: darkmagenta;
+}
+.footer span {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.footer_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer_item {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
 }
