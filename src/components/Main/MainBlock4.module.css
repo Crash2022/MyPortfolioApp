@@ -9,3 +9,13 @@
     text-align: center;
     background-color: aquamarine;
 }
+
+.mainBlock4 textarea{
+    margin-bottom: 10px;
+}
+
+.mainBlock4 button{
+    width: 20%;
+    margin: 0 auto 10px;
+    padding: 10px;
+}
