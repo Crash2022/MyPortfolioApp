@@ -1,11 +1,11 @@
 .mainBlock4_contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .mainBlock4_leftInfo {
-    width: 300px;
+    /*width: 300px;*/
     border: 1px solid blue;
     /*margin-left: 20px;*/
     flex: 0 1 100%;
@@ -20,7 +20,7 @@
     border: 1px solid white;
 }
 
-@media (max-width: 697px) {
+@media (max-width: 767px) {
     .mainBlock4_contacts {
         flex-direction: column;
     }
