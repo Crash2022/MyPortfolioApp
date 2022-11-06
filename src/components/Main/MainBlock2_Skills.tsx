@@ -44,7 +44,9 @@ export const MainBlock2_Skills = () => {
 
     return (
         <div className={style.mainBlock2} id='skills'>
-            <h2 className={style.mainBlock2_title}>Мои навыки</h2>
+            <div className={style.mainBlock2_title}>
+                <h2>Мои навыки</h2>
+            </div>
             <div className={style.mainBlock2_skills}>
                 <SkillsList skills={skills}/>
             </div>

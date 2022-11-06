@@ -6,8 +6,23 @@ export const MainBlock4_Contacts = () => {
     return (
         <div className={style.mainBlock4_contacts}>
             <div className={style.mainBlock4_leftInfo}>
-                Контакты text
+                <div className={style.mainBlock4_leftInfo_title}>
+                    <h2>Будем на связи</h2>
+                </div>
+                <div className={style.mainBlock4_leftInfo_text}>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
+                        culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.
+                    </p>
+                </div>
+                <div className={style.mainBlock4_leftInfo_location}>
+                    <span>Местоположение</span>
+                </div>
+                <div className={style.mainBlock4_leftInfo_phone}>
+                    <span>Номер телефона</span>
+                </div>
             </div>
+
             <form className={style.mainBlock4_contactForm} id='contacts'>
                 <h2 className={style.mainBlock4_title}>Контакты</h2>
                 <input type="text"/>

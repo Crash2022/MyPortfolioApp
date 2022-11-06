@@ -42,7 +42,9 @@ export const MainBlock3_Projects = () => {
 
     return (
         <div className={style.mainBlock3} id='projects'>
-            <h2 className={style.mainBlock3_title}>Мои проекты</h2>
+            <div className={style.mainBlock3_title}>
+                <h2>Мои проекты</h2>
+            </div>
             <div className={style.mainBlock3_projects}>
                 <ProjectsList projects={projects}/>
             </div>

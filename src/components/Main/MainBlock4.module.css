@@ -7,8 +7,28 @@
 .mainBlock4_leftInfo {
     /*width: 300px;*/
     border: 1px solid blue;
-    /*margin-left: 20px;*/
+    /*margin-left: 55px;*/
     flex: 0 1 100%;
+}
+
+.mainBlock4_leftInfo > div {
+    margin-bottom: 10px;
+}
+
+.mainBlock4_leftInfo_title {
+
+}
+
+.mainBlock4_leftInfo_text {
+    max-width: 400px;
+}
+
+.mainBlock4_leftInfo_location {
+
+}
+
+.mainBlock4_leftInfo_phone {
+
 }
 
 .mainBlock4_contactForm {
@@ -16,6 +36,7 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    /*margin: 0 55px 0 auto;*/
     background-color: black;
     border: 1px solid white;
 }
