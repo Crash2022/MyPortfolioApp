@@ -14,19 +14,19 @@ export const MainBlock3_Projects = () => {
 
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
-            id: v1(), image: 'ICON', title: 'React',
+            id: v1(), image: 'ICON', title: 'Social Network',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         {
-            id: v1(), image: 'ICON', title: 'Angular',
+            id: v1(), image: 'ICON', title: 'Friday Project',
             text: 'Can make projects on Angular'
         },
         {
-            id: v1(), image: 'ICON', title: 'JavaScript',
+            id: v1(), image: 'ICON', title: 'Portfolio App',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.'
         },
-        {id: v1(), image: 'ICON', title: 'JavaScript',
+        {id: v1(), image: 'ICON', title: 'Counter',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?'

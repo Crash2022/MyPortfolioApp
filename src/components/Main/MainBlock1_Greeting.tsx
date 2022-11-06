@@ -8,7 +8,7 @@ export const MainBlock1_Greeting = () => {
             <div className={style.mainBlock1_text}>
                 <span>Всем привет!</span>
                 <h1>Меня зовут Чашин Александр</h1>
-                <p>Я веб-разработчик</p>
+                <p>Я react-разработчик</p>
             </div>
             <div className={style.mainBlock1_photo}>
                 {/*<img src={myPhotoMain} alt="my photo"/>*/}

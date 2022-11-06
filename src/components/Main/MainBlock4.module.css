@@ -1,10 +1,32 @@
-.mainBlock4 {
+.mainBlock4_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainBlock4_leftInfo {
+    width: 300px;
+    border: 1px solid blue;
+    /*margin-left: 20px;*/
+    flex: 0 1 100%;
+}
+
+.mainBlock4_contactForm {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
     background-color: black;
+    border: 1px solid white;
+}
+
+@media (max-width: 697px) {
+    .mainBlock4_contacts {
+        flex-direction: column;
+    }
+    .mainBlock4_leftInfo {
+        text-align: center;
+    }
 }
 
 .mainBlock4_title {
@@ -12,11 +34,11 @@
     background-color: aquamarine;
 }
 
-.mainBlock4 textarea{
+.mainBlock4 textarea {
     margin-bottom: 10px;
 }
 
-.mainBlock4 button{
+.mainBlock4 button {
     min-width: 20%;
     margin: 0 auto 10px;
     padding: 10px;

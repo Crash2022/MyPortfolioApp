@@ -1,16 +1,18 @@
 .mainBlock2 {
     display: flex;
     flex-direction: column;
-    /*min-height: 100vh;*/ /*блок по всей высоте*/
+    /*min-height: 100vh; !*блок по всей высоте*!*/
     background-color: darkorange;
     border: 1px solid black;
 }
 
 .mainBlock2_skills {
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-between;*/
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+    /*margin-top: 10px;
+    margin-bottom: 30px;*/
 }
 .mainBlock2_title {
     text-align: center;
@@ -20,12 +22,25 @@
 .mainBlock2_skillItem {
     border: 1px solid black;
     background-color: darkmagenta;
-    width: 250px;
+    /*width: 250px;*/ /*или убрать flex: 0 1 */
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    /*margin-bottom: 30px;*/
+    flex: 0 1 30%; /*по 3 элемента в ряду*/
+}
+
+@media (max-width: 767px) {
+    .mainBlock2_skillItem {
+        flex: 0 1 50%; /*по 2 элемента в ряду*/
+    }
+}
+
+@media (max-width: 500px) {
+    .mainBlock2_skillItem {
+        flex: 0 1 100%; /*по 1 элементу в ряду*/
+    }
 }
 
 .item_icon {

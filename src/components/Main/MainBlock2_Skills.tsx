@@ -14,29 +14,29 @@ export const MainBlock2_Skills = () => {
 
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
-            id: v1(), icon: 'ICON', title: 'React',
+            id: v1(), icon: 'ICON', title: 'React JS',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         {
-            id: v1(), icon: 'ICON', title: 'Angular',
+            id: v1(), icon: 'ICON', title: 'React Redux',
             text: 'Can make projects on Angular'
         },
         {
-            id: v1(), icon: 'ICON', title: 'JavaScript',
+            id: v1(), icon: 'ICON', title: 'Typescript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.'
         },
         {
-            id: v1(), icon: 'ICON', title: 'JavaScript',
+            id: v1(), icon: 'ICON', title: 'Storybook',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?'
         },
         {
-            id: v1(), icon: 'ICON', title: 'JavaScript',
+            id: v1(), icon: 'ICON', title: 'Postman',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
-        {id: v1(), icon: 'ICON', title: 'JavaScript',
+        {id: v1(), icon: 'ICON', title: 'Figma',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt' +
                 ' dolorem doloremque dolores ducimus.'
         }
@@ -44,7 +44,7 @@ export const MainBlock2_Skills = () => {
 
     return (
         <div className={style.mainBlock2} id='skills'>
-            <h2 className={style.mainBlock2_title}>Мои преимущества</h2>
+            <h2 className={style.mainBlock2_title}>Мои навыки</h2>
             <div className={style.mainBlock2_skills}>
                 <SkillsList skills={skills}/>
             </div>
