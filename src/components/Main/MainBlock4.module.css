@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f5df4e;
 }
 
 .mainBlock4_leftInfo {
@@ -37,7 +38,6 @@
     width: 100%;
     margin: 0 auto;
     /*margin: 0 55px 0 auto;*/
-    background-color: black;
     border: 1px solid white;
 }
 
@@ -52,7 +52,6 @@
 
 .mainBlock4_title {
     text-align: center;
-    background-color: aquamarine;
 }
 
 .mainBlock4 textarea {

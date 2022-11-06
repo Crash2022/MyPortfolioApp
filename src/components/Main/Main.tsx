@@ -4,6 +4,7 @@ import {MainBlock1_Greeting} from './MainBlock1_Greeting'
 import {MainBlock2_Skills} from './MainBlock2_Skills'
 import {MainBlock3_Projects} from "./MainBlock3_Projects";
 import {MainBlock4_Contacts} from "./MainBlock4_Contacts";
+import {MainBlock4_Something} from "./MainBlock4_Something";
 
 export const Main = () => {
     return (
@@ -12,6 +13,7 @@ export const Main = () => {
                 <MainBlock1_Greeting/>
                 <MainBlock2_Skills/>
                 <MainBlock3_Projects/>
+                <MainBlock4_Something/>
                 <MainBlock4_Contacts/>
             </div>
         </div>

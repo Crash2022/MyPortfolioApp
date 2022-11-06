@@ -9,6 +9,7 @@
 }
 .mainBlock1_text {
     /*margin-left: 50px;*/
+    margin: 30px;
 }
 
 .mainBlock1_greeting {
@@ -27,6 +28,7 @@
     width: 300px;
     height: 500px;
     /*margin-right: 50px;*/
+    margin: 30px;
 }
 .mainBlock1_photo img {
     height: 500px;

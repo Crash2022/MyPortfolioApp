@@ -7,7 +7,7 @@ export const MainBlock4_Contacts = () => {
         <div className={style.mainBlock4_contacts}>
             <div className={style.mainBlock4_leftInfo}>
                 <div className={style.mainBlock4_leftInfo_title}>
-                    <h2>Будем на связи</h2>
+                    <h2>Контакты</h2>
                 </div>
                 <div className={style.mainBlock4_leftInfo_text}>
                     <p>
@@ -24,7 +24,9 @@ export const MainBlock4_Contacts = () => {
             </div>
 
             <form className={style.mainBlock4_contactForm} id='contacts'>
-                <h2 className={style.mainBlock4_title}>Контакты</h2>
+                <div className={style.mainBlock4_title}>
+                    <h2>Форма обратной связи</h2>
+                </div>
                 <input type="text"/>
                 <input type="text"/>
                 <textarea name="contacts"></textarea>

@@ -1,33 +1,32 @@
-.mainBlock2 {
+.mainBlock4 {
     display: flex;
     flex-direction: column;
-    /*min-height: 100vh; !*блок по всей высоте*!*/
+    min-height: 50vh; /*блок по всей высоте*/
     background-color: #1f1f1f;
     border: 1px solid black;
     color: white;
 }
 
-.mainBlock2_skills {
+.mainBlock4_skills {
     display: flex;
     /*justify-content: space-between;*/
     justify-content: center;
     flex-wrap: wrap;
     /*margin-top: 10px;
     margin-bottom: 30px;*/
-
     /*ограничение по ширине*/
     /*width: 90%;*/
     /*margin: 0 auto;*/
 }
-.mainBlock2_title {
+.mainBlock4_title {
     text-align: center;
 }
-.mainBlock2_title h2 {
+.mainBlock4_title h2 {
 
 }
 
-.mainBlock2_skillItem {
-    border: 1px solid black;
+.mainBlock4_skillItem {
+    border: 1px solid white;
     /*width: 250px;*/ /*или убрать flex: 0 1 */
     text-align: center;
     display: flex;
@@ -36,16 +35,17 @@
     /*margin-bottom: 30px;*/
     flex: 0 1 30%; /*по 3 элемента в ряду*/
     margin: 10px;
+    height: 20vh;
 }
 
 @media (max-width: 767px) {
-    .mainBlock2_skillItem {
+    .mainBlock4_skillItem {
         flex: 0 1 45%; /*по 2 элемента в ряду*/
     }
 }
 
 @media (max-width: 500px) {
-    .mainBlock2_skillItem {
+    .mainBlock4_skillItem {
         flex: 0 1 100%; /*по 1 элементу в ряду*/
     }
 }

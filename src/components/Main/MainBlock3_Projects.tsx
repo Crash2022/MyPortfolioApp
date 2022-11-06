@@ -26,7 +26,7 @@ export const MainBlock3_Projects = () => {
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.'
         },
-        {id: v1(), image: 'ICON', title: 'Counter',
+        {id: v1(), image: 'ICON', title: 'Todolist',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?'

@@ -22,18 +22,32 @@ export const MainBlock2_Skills = () => {
             text: 'Can make projects on Angular'
         },
         {
-            id: v1(), icon: 'ICON', title: 'Typescript',
+            id: v1(), icon: 'ICON', title: 'React Native',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.'
         },
         {
-            id: v1(), icon: 'ICON', title: 'Storybook',
+            id: v1(), icon: 'ICON', title: 'Typescript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?'
         },
         {
-            id: v1(), icon: 'ICON', title: 'Postman',
+            id: v1(), icon: 'ICON', title: 'Storybook',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        {id: v1(), icon: 'ICON', title: 'Postman',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt' +
+                ' dolorem doloremque dolores ducimus.'
+        },
+        {
+            id: v1(), icon: 'ICON', title: 'Git',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
+                'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
+                'qui recusandae repellat voluptate voluptatem?'
+        },
+        {
+            id: v1(), icon: 'ICON', title: 'Unit Test',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         {id: v1(), icon: 'ICON', title: 'Figma',
