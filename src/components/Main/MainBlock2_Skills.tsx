@@ -35,11 +35,11 @@ export const MainBlock2_Skills = () => {
         {
             id: v1(), icon: 'ICON', title: 'JavaScript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        }/*,
+        },
         {id: v1(), icon: 'ICON', title: 'JavaScript',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt' +
                 ' dolorem doloremque dolores ducimus.'
-        }*/
+        }
     ]);
 
     return (
