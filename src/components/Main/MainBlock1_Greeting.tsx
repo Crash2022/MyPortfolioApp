@@ -14,9 +14,10 @@ export const MainBlock1_Greeting = () => {
                     <h1>Чашин Александр</h1>
                 </div>
                 <div className={style.mainBlock1_work}>
-                    <p>Я react-разработчик</p>
+                    <p>и я - react-разработчик</p>
                 </div>
             </div>
+
             <div className={style.mainBlock1_photo}>
                 {/*<img src={myPhotoMain} alt="my photo"/>*/}
             </div>

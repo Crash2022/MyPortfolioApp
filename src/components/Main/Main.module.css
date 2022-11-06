@@ -1,9 +1,8 @@
 .mainBlock {
-    background-color: dimgray;
+    background-color: white;
 }
 
 .container {
-    border: 1px solid yellow;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
