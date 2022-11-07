@@ -89,12 +89,23 @@
             padding: 10px;
 
             button {
-                padding: 15px;
+                padding: 15px 70px 15px 30px;
                 background-color: $bgColorDark;
                 color: $fontColorLight;
                 font-weight: bold;
                 font-size: 16px;
                 border: none;
+                box-shadow: 0 0 5px $bgColorDark;
+                position: relative;
+
+                &::after {
+                    content: url('../../../assets/icons/decor/arrow-right_01.svg');
+                    position: absolute;
+                    top: 5px;
+                    bottom: 0;
+                    left: 0;
+                    right: -100px;
+                }
 
                 &:hover {
                     opacity: $hoverOpacity;
