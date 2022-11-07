@@ -13,40 +13,49 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        /*margin-top: 10px;
-        margin-bottom: 30px;*/
+        margin-bottom: $marginBottomFromBlock;
 
         /*ограничение по ширине*/
         /*width: 90%;*/
         /*margin: 0 auto;*/
 
         .mainBlock2_skillItem {
-            border: 1px solid $bgColorLight;
+            //border: 1px solid $bgColorLight;
             /*width: 250px;*/ /*или убрать flex: 0 1 */
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            /*margin-bottom: 30px;*/
             flex: 0 1 29%; /*по 3 элемента в ряду*/
-            margin: 20px;
+            margin: 10px;
+
+            // чтобы выглядело как карточки
+            //background-color: $bgColorMedium;
+            //box-shadow: 0 0 10px #111111;
 
             @media (max-width: 767px) {
                 flex: 0 1 50%; /*по 2 элемента в ряду*/
             }
 
             .item_icon {
-                width: 60px;
-                height: 60px;
-                background-color: $bgColorLight;
-                margin: 5px;
+                //background-color: $bgColorLight;
+                //margin: 5px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
             }
             .item_title {
                 font-size: 20px;
-                padding: 5px;
+                //padding: 5px;
+                h3 {
+                    margin: 10px 0 20px 0;
+                }
             }
             .item_text {
-                padding: 5px;
+                //padding: 5px;
+                margin-bottom: 20px;
                 @include text(1.4, 18px);
             }
         }
