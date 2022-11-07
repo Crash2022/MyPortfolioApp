@@ -2,15 +2,19 @@
 
 .mainBlock1 {
     /*border: 1px solid black;*/
-    height: 100vh;
+    min-height: 100vh;
     background-color: $bgColorLight;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     .mainBlock1_text {
-        /*margin-left: 50px;*/
-        margin: 30px;
+        margin: 50px;
+
+        @media (max-width: 653px) {
+            text-align: center;
+        }
 
         .mainBlock1_greeting {
 
@@ -19,6 +23,12 @@
             h1 {
                 font-size: 60px;
                 line-height: 30px;
+            }
+
+            @media (max-width: 653px) {
+                h1 {
+                    line-height: 1;
+                }
             }
         }
         .mainBlock1_work {
@@ -33,10 +43,9 @@
         margin-right: 50px;
         padding: 30px;
 
-        @media (max-width: 967px) {
-            flex-direction: column;
-            flex-wrap: wrap;
-            //margin-bottom: 30px;
+        @media (max-width: 1003px) {
+            //margin: 0 auto;
+            margin-bottom: 30px;
         }
 
         .mainBlock1_photo img {
