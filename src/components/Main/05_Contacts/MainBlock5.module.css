@@ -49,9 +49,14 @@
     width: 100%;
     margin: 0 auto;
     /*margin: 0 55px 0 auto;*/
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     flex: 0 1 50%;
     padding: 40px;
+}
+
+.mainBlock5_contactForm > * {
+    padding: 5px;
+    margin: 3px;
 }
 
 @media (max-width: 767px) {

@@ -7,8 +7,8 @@ export const Footer = () => {
         <div className={styleMain.mainBlock}>
             <div className={styleMain.container}>
                 <div className={style.footer}>
-                    <div>
-                        <h3 className={style.footer_title}>Чашин Александр</h3>
+                    <div className={style.footer_title}>
+                        <h3>Чашин Александр</h3>
                     </div>
                     <div className={style.footer_items}>
                         <div className={style.footer_item}>1</div>
@@ -16,7 +16,9 @@ export const Footer = () => {
                         <div className={style.footer_item}>3</div>
                         <div className={style.footer_item}>4</div>
                     </div>
-                    <span>Все права защищены, 2022</span>
+                    <div className={style.footer_copyrigths}>
+                        <span>Все права защищены, 2022</span>
+                    </div>
                 </div>
             </div>
         </div>

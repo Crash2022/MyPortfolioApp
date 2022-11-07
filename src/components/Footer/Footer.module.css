@@ -12,9 +12,6 @@
     text-align: center;
     /*font-size: 18px;*/
 }
-.footer span {
-    margin-bottom: 20px;
-}
 
 .footer_items {
     display: flex;
@@ -33,4 +30,8 @@
     .footer_item {
         flex: 0 1 40%; /*по 2 элемента в ряду*/
     }
+}
+
+.footer_copyrigths {
+    margin-bottom: 20px;
 }
