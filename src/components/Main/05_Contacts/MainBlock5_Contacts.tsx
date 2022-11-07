@@ -28,10 +28,19 @@ export const MainBlock5_Contacts = () => {
                 <div className={style.mainBlock5_form_title}>
                     <h2>Форма обратной связи</h2>
                 </div>
-                <input type="text"/>
-                <input type="text"/>
-                <textarea name="contacts"></textarea>
-                <button>Отправить</button>
+                <div className={style.mainBlock5_form_input}>
+                    <input type="text"/>
+                </div>
+                <div className={style.mainBlock5_form_input}>
+                    <input type="text"/>
+                </div>
+                <div className={style.mainBlock5_form_textarea}>
+                    <textarea name="contacts"></textarea>
+                </div>
+                <div className={style.mainBlock5_form_sendButton}>
+                    <button>Отправить</button>
+                </div>
+
             </form>
         </div>
     );
