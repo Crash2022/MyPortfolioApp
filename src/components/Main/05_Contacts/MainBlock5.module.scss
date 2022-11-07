@@ -1,11 +1,13 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .mainBlock5_contacts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #f5df4e;
-    line-height: 1.4;
-    font-size: 18px;
+    background-color: $bgColorLight;
+    @include text(1.4, 18px);
 
     @media (max-width: 767px) {
         flex-direction: column;
@@ -50,8 +52,6 @@
         flex-direction: column;
         width: 100%;
         margin: 0 auto;
-        /*margin: 0 55px 0 auto;*/
-        /*border: 1px solid white;*/
         flex: 0 1 50%;
         padding: 40px;
 
@@ -90,11 +90,15 @@
 
             button {
                 padding: 15px;
-                background-color: #1f1f1f;
-                color: white;
+                background-color: $bgColorDark;
+                color: $fontColorLight;
                 font-weight: bold;
                 font-size: 16px;
                 border: none;
+
+                &:hover {
+                    opacity: $hoverOpacity;
+                }
             }
         }
     }

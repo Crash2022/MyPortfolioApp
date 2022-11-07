@@ -1,7 +1,9 @@
+@import './src/common/styles/sass/variables';
+
 .mainBlock1 {
     /*border: 1px solid black;*/
     height: 100vh;
-    background-color: #f5df4e;
+    background-color: $bgColorLight;
     display: flex;
     justify-content: space-around;
     align-items: center;

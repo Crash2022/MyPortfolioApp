@@ -1,10 +1,12 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .mainBlock3 {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /*блок по всей высоте*/
-    background-color: #f5df4e;
-    border: 1px solid black;
-    /*padding-top: 30px;*/
+    background-color: $bgColorLight;
+    border: 1px solid $bgColorDark;
 
     .mainBlock3_projects {
         display: flex;
@@ -15,7 +17,8 @@
         /*width: 100%;*/
 
         .mainBlock3_projectItem {
-            border: 1px solid black;
+            border: 1px solid $bgColorDark;
+            padding: 5px;
             /*width: 250px;*/
             text-align: center;
             display: flex;
@@ -37,6 +40,7 @@
                 align-items: center;
                 justify-content: center;
                 background-position: center;
+                //background-size: 120% auto;
                 background-size: cover;
                 background-repeat: no-repeat;
                 position: relative;
@@ -46,7 +50,7 @@
                 &::before {
                     content: '';
                     position: absolute;
-                    background-color: black;
+                    background-color: $bgColorDark;
                     top: 0;
                     bottom: 0;
                     left: 0;
@@ -58,12 +62,12 @@
                 /*}*/
 
                 a {
-                    border: 1px solid black;
+                    border: 1px solid $bgColorDark;
                     padding: 15px;
                     text-decoration: none;
-                    color: black;
+                    color: $bgColorDark;
                     /*background-color: #1f1f1f;*/
-                    background-color: #f5df4e;
+                    background-color: $bgColorLight;
                     font-weight: bold;
                     /*pointer-events: none; !*отмена перехода по ссылке*!*/
                     //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
@@ -71,7 +75,7 @@
                     cursor: pointer;
 
                     &:hover {
-                        opacity: 0.7;
+                        opacity: $hoverOpacity;
                         text-decoration: underline;
                     }
                 }
@@ -91,8 +95,7 @@
 
             .item_description {
                 padding: 5px;
-                line-height: 1.4;
-                font-size: 18px;
+                @include text(1.4, 18px);
             }
         }
     }
