@@ -19,12 +19,13 @@
     /*width: 90%;*/
     /*margin: 0 auto;*/
 }
-.mainBlock2_title {
-    text-align: center;
-}
-.mainBlock2_title h2 {
 
-}
+/*.mainBlock2_title {*/
+/*    text-align: center;*/
+/*}*/
+/*.mainBlock2_title h2 {*/
+/*    margin: 0;*/
+/*}*/
 
 .mainBlock2_skillItem {
     border: 1px solid black;

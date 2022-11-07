@@ -1,38 +1,45 @@
-.mainBlock4_contacts {
+.mainBlock5_contacts {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f5df4e;
 }
 
-.mainBlock4_leftInfo {
+.mainBlock5_leftInfo {
     /*width: 300px;*/
     border: 1px solid blue;
     /*margin-left: 55px;*/
     flex: 0 1 100%;
 }
 
-.mainBlock4_leftInfo > div {
+.mainBlock5_leftInfo > div {
     margin-bottom: 10px;
 }
 
-.mainBlock4_leftInfo_title {
+.mainBlock5_leftInfo_title {
 
 }
 
-.mainBlock4_leftInfo_text {
+@media (max-width: 767px) {
+    .mainBlock5_leftInfo_title {
+        text-align: center;
+    }
+
+}
+
+.mainBlock5_leftInfo_text {
     max-width: 400px;
 }
 
-.mainBlock4_leftInfo_location {
+.mainBlock5_leftInfo_location {
 
 }
 
-.mainBlock4_leftInfo_phone {
+.mainBlock5_leftInfo_phone {
 
 }
 
-.mainBlock4_contactForm {
+.mainBlock5_contactForm {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -42,23 +49,23 @@
 }
 
 @media (max-width: 767px) {
-    .mainBlock4_contacts {
+    .mainBlock5_contacts {
         flex-direction: column;
     }
-    .mainBlock4_leftInfo {
+    .mainBlock5_leftInfo {
         text-align: center;
     }
 }
 
-.mainBlock4_title {
+.mainBlock5_title {
     text-align: center;
 }
 
-.mainBlock4 textarea {
+.mainBlock5 textarea {
     margin-bottom: 10px;
 }
 
-.mainBlock4 button {
+.mainBlock5 button {
     min-width: 20%;
     margin: 0 auto 10px;
     padding: 10px;

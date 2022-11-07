@@ -5,8 +5,9 @@ export const NavMenu = () => {
     return (
         <div className={style.navMenu}>
             <a href="#">ГЛАВНАЯ</a>
-            <a href="#skills">ОПЫТ</a>
+            <a href="#skills">НАВЫКИ</a>
             <a href="#projects">ПРОЕКТЫ</a>
+            <a href="#some">РАЗДЕЛ?</a>
             <a href="#contacts">КОНТАКТЫ</a>
         </div>
     );

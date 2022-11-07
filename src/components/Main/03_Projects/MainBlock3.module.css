@@ -14,9 +14,13 @@
     /*margin-top: 10px;*/
     /*width: 100%;*/
 }
-.mainBlock3_title {
-    text-align: center;
-}
+
+/*.mainBlock3_title {*/
+/*    text-align: center;*/
+/*}*/
+/*.mainBlock3_title h2 {*/
+/*    margin: 0;*/
+/*}*/
 
 .mainBlock3_projectItem {
     border: 1px solid black;
@@ -52,6 +56,7 @@
     padding: 10px;
     text-decoration: none;
     color: white;
+    pointer-events: none; /*отмена перехода по ссылке*/
 }
 .item_title {
     padding: 5px;

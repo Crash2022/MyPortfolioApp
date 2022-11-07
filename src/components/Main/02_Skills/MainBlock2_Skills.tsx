@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import style from '../Main/MainBlock2.module.css'
+import style from './MainBlock2.module.css'
 import {v1} from 'uuid';
 import {SkillsList} from './SkillsList';
+import {Title} from "../../../common/components/Title";
 
 export type SkillsArrayPropsType = {
     id: string
@@ -58,9 +59,10 @@ export const MainBlock2_Skills = () => {
 
     return (
         <div className={style.mainBlock2} id='skills'>
-            <div className={style.mainBlock2_title}>
-                <h2>Мои навыки</h2>
-            </div>
+            {/*<div className={style.mainBlock2_title}>*/}
+            {/*    <h2>Мои навыки</h2>*/}
+            {/*</div>*/}
+            <Title title={'Мои навыки'}/>
             <div className={style.mainBlock2_skills}>
                 <SkillsList skills={skills}/>
             </div>

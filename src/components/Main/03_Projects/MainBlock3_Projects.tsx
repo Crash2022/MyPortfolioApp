@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import style from '../Main/MainBlock3.module.css'
+import style from './MainBlock3.module.css'
 import {v1} from 'uuid';
 import {ProjectsList} from './ProjectsList';
+import {Title} from "../../../common/components/Title";
 
 export type ProjectsArrayPropsType = {
     id: string
@@ -42,9 +43,10 @@ export const MainBlock3_Projects = () => {
 
     return (
         <div className={style.mainBlock3} id='projects'>
-            <div className={style.mainBlock3_title}>
-                <h2>Мои проекты</h2>
-            </div>
+            {/*<div className={style.mainBlock3_title}>*/}
+            {/*    <h2>Мои проекты</h2>*/}
+            {/*</div>*/}
+            <Title title={'Мои проекты'}/>
             <div className={style.mainBlock3_projects}>
                 <ProjectsList projects={projects}/>
             </div>

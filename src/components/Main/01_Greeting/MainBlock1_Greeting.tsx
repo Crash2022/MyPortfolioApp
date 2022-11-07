@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../Main/MainBlock1.module.css'
+import style from './MainBlock1.module.css'
 //import myPhotoMain from '../../assets/images/myPhotoMain.jpg'
 
 export const MainBlock1_Greeting = () => {

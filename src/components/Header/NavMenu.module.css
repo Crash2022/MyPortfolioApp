@@ -1,5 +1,5 @@
 .navMenu {
-    width: 400px;
+    width: 700px;
     display: flex;
     justify-content: space-evenly;
     margin-right: 50px;
@@ -12,3 +12,9 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+/*@media (max-width: 767px) {*/
+/*    .navMenu a {*/
+/*        flex: 0 1 33.333%; !*по 3 элемента в ряду*!*/
+/*    }*/
+/*}*/

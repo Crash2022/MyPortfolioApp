@@ -22,14 +22,14 @@
     margin-bottom: 15px;
 }
 .footer_item {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
     border: 1px solid white;
 }
 
 @media (max-width: 480px) {
     .footer_item {
-        flex: 0 1 45%; /*по 2 элемента в ряду*/
+        flex: 0 1 40%; /*по 2 элемента в ряду*/
     }
 }

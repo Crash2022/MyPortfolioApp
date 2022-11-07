@@ -1,7 +1,7 @@
 import React from 'react'
 import {v1} from "uuid"
 import {SkillsArrayPropsType} from './MainBlock2_Skills'
-import style from '../Main/MainBlock2.module.css'
+import style from './MainBlock2.module.css'
 
 export type SkillsListPropsType = { skills: Array<SkillsArrayPropsType> }
 
