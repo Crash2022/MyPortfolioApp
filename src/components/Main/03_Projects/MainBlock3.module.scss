@@ -1,0 +1,99 @@
+.mainBlock3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*блок по всей высоте*/
+    background-color: #f5df4e;
+    border: 1px solid black;
+    /*padding-top: 30px;*/
+
+    .mainBlock3_projects {
+        display: flex;
+        /*justify-content: space-between;*/
+        justify-content: center;
+        flex-wrap: wrap;
+        /*margin-top: 10px;*/
+        /*width: 100%;*/
+
+        .mainBlock3_projectItem {
+            border: 1px solid black;
+            /*width: 250px;*/
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /*margin: 10px;*/
+            flex: 0 1 45%; /*по 2 элемента в ряду*/
+            margin: 20px;
+
+            @media (max-width: 801px) {
+                flex: 0 1 100%; /*по 1 элементу в ряду*/
+            }
+
+            .item_image {
+                width: 100%;
+                height: 200px;
+                /*border: 1px solid black;*/
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+                //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+
+                /*чтобы кнопка была сверху*/
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-color: black;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    opacity: 0;
+                }
+                /*.item_image:hover {*/
+                /*    opacity: 0.5;*/
+                /*}*/
+
+                a {
+                    border: 1px solid black;
+                    padding: 15px;
+                    text-decoration: none;
+                    color: black;
+                    /*background-color: #1f1f1f;*/
+                    background-color: #f5df4e;
+                    font-weight: bold;
+                    /*pointer-events: none; !*отмена перехода по ссылке*!*/
+                    //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+                    /*opacity: 0.8;*/
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.7;
+                        text-decoration: underline;
+                    }
+                }
+
+
+                /*чтобы кнопка была сверху*/
+                .item_button {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+
+            .item_title {
+                padding: 5px;
+                font-size: 20px;
+            }
+
+            .item_description {
+                padding: 5px;
+                line-height: 1.4;
+                font-size: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.mainBlock5_contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f5df4e;
+    line-height: 1.4;
+    font-size: 18px;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+
+    .mainBlock5_leftInfo {
+        /*width: 300px;*/
+        /*margin-left: 55px;*/
+        flex: 0 1 50%;
+        width: 100%;
+        padding: 40px;
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 767px) {
+            text-align: center;
+            padding: 0 40px 0 40px;
+        }
+
+        .mainBlock5_leftInfo_title {
+            font-size: 30px;
+
+            @media (max-width: 767px) {
+                text-align: center;
+            }
+        }
+        .mainBlock5_leftInfo_text {
+            /*max-width: 400px;*/
+        }
+        .mainBlock5_leftInfo_location {
+
+        }
+        .mainBlock5_leftInfo_phone {
+
+        }
+    }
+
+    .mainBlock5_contactForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        /*margin: 0 55px 0 auto;*/
+        /*border: 1px solid white;*/
+        flex: 0 1 50%;
+        padding: 40px;
+
+        * {
+            padding: 5px;
+            margin: 3px;
+        }
+
+        @media (max-width: 767px) {
+            padding: 0 40px 20px 40px;
+        }
+
+        .mainBlock5_form_title {
+            text-align: center;
+            font-size: 30px;
+        }
+        &textarea {
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        &button {
+            min-width: 20%;
+            margin: 5px auto 10px;
+            padding: 15px;
+            //background-color: #f5df4e;
+            background-color: #1f1f1f;
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}

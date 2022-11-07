@@ -1,5 +1,6 @@
 import React from 'react'
-import style from './MainBlock5.module.css'
+// import style from './MainBlock5.module.css'
+import style from './MainBlock5.module.scss'
 
 export const MainBlock5_Contacts = () => {
 
@@ -24,7 +25,7 @@ export const MainBlock5_Contacts = () => {
             </div>
 
             <form className={style.mainBlock5_contactForm} id='contacts'>
-                <div className={style.mainBlock5_title}>
+                <div className={style.mainBlock5_form_title}>
                     <h2>Форма обратной связи</h2>
                 </div>
                 <input type="text"/>

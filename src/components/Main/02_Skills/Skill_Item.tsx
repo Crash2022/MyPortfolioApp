@@ -1,5 +1,6 @@
 import React from 'react'
-import style from './MainBlock2.module.css'
+//import style from './MainBlock2.module.css'
+import style from './MainBlock2.module.scss'
 
 type SkillItemPropsType = {
     icon: string

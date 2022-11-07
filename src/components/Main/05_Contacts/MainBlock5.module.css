@@ -65,14 +65,14 @@
     }
     .mainBlock5_leftInfo {
         text-align: center;
-        padding: 0px 40px 0px 40px;
+        padding: 0 40px 0 40px;
     }
     .mainBlock5_contactForm {
-        padding: 0px 40px 20px 40px;
+        padding: 0 40px 20px 40px;
     }
 }
 
-.mainBlock5_title {
+.mainBlock5_form_title {
     text-align: center;
     font-size: 30px;
 }
