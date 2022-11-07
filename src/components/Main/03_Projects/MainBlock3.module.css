@@ -4,6 +4,7 @@
     min-height: 100vh; /*блок по всей высоте*/
     background-color: #f5df4e;
     border: 1px solid black;
+    /*padding-top: 30px;*/
 }
 
 .mainBlock3_projects {
@@ -31,7 +32,7 @@
     align-items: center;
     /*margin: 10px;*/
     flex: 0 1 45%; /*по 2 элемента в ряду*/
-    margin: 10px;
+    margin: 20px;
 }
 
 @media (max-width: 767px) {
@@ -52,15 +53,20 @@
     background-size: cover;*/
 }
 .item_image a {
-    border: 1px solid black;
-    padding: 10px;
+    /*border: 1px solid black;*/
+    padding: 15px;
     text-decoration: none;
     color: white;
+    background-color: #1f1f1f;
+    font-weight: bold;
     pointer-events: none; /*отмена перехода по ссылке*/
 }
 .item_title {
     padding: 5px;
+    font-size: 20px;
 }
 .item_description {
     padding: 5px;
+    line-height: 1.4;
+    font-size: 18px;
 }

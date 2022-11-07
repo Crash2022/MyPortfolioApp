@@ -10,7 +10,7 @@ export const MainBlock1_Greeting = () => {
                     <span>Добро пожаловать!</span>
                 </div>
                 <div className={style.mainBlock1_name}>
-                    <h1>Меня зовут</h1>
+                    <h2>Меня зовут</h2>
                     <h1>Чашин Александр</h1>
                 </div>
                 <div className={style.mainBlock1_work}>

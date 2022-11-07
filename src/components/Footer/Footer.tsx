@@ -7,7 +7,9 @@ export const Footer = () => {
         <div className={styleMain.mainBlock}>
             <div className={styleMain.container}>
                 <div className={style.footer}>
-                    <h3 className={style.footer_title}>Чашин Александр</h3>
+                    <div>
+                        <h3 className={style.footer_title}>Чашин Александр</h3>
+                    </div>
                     <div className={style.footer_items}>
                         <div className={style.footer_item}>1</div>
                         <div className={style.footer_item}>2</div>

@@ -5,6 +5,7 @@
     background-color: #1f1f1f;
     border: 1px solid black;
     color: white;
+    /*padding-top: 30px;*/
 }
 
 .mainBlock4_skills {
@@ -34,7 +35,7 @@
     align-items: center;
     /*margin-bottom: 30px;*/
     flex: 0 1 30%; /*по 3 элемента в ряду*/
-    margin: 10px;
+    margin: 20px;
     height: 20vh;
 }
 
