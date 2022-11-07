@@ -1,20 +1,22 @@
 import React from 'react'
-import style from './MainBlock3.module.css'
+import styles from './MainBlock3.module.css'
+import {StyleType} from "./MainBlock3_Projects";
 
 type ProjectItemPropsType = {
     title: string
     text: string
+    style: StyleType
 }
 
-export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text}) => {
+export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style}) => {
 
     return (
         <>
-            <div className={style.item_image}>
+            <div className={styles.item_image} style={style}>
                 <a href="#">Посмотреть</a>
             </div>
-            <div className={style.item_title}><h3>{title}</h3></div>
-            <div className={style.item_description}>{text}</div>
+            <div className={styles.item_title}><h3>{title}</h3></div>
+            <div className={styles.item_description}>{text}</div>
         </>
     );
 }

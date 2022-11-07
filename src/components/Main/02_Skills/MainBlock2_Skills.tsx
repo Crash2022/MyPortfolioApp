@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import style from './MainBlock2.module.css'
-import {v1} from 'uuid';
-import {SkillsList} from './SkillsList';
-import {Title} from "../../../common/components/Title";
+import {v1} from 'uuid'
+import {SkillsList} from './SkillsList'
+import {Title} from '../../../common/components/Title'
 
 export type SkillsArrayPropsType = {
     id: string

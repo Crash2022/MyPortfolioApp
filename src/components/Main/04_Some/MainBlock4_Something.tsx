@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './MainBlock4.module.css'
-import {Title} from "../../../common/components/Title";
+import {Title} from '../../../common/components/Title'
 
 export const MainBlock4_Something = () => {
 
