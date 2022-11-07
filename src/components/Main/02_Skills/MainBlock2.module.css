@@ -21,36 +21,29 @@
     /*margin: 0 auto;*/
 }
 
-/*.mainBlock2_title {*/
-/*    text-align: center;*/
-/*}*/
-/*.mainBlock2_title h2 {*/
-/*    margin: 0;*/
-/*}*/
-
 .mainBlock2_skillItem {
-    border: 1px solid black;
+    border: 1px solid #f5df4e;
     /*width: 250px;*/ /*или убрать flex: 0 1 */
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     /*margin-bottom: 30px;*/
-    flex: 0 1 30%; /*по 3 элемента в ряду*/
+    flex: 0 1 29%; /*по 3 элемента в ряду*/
     margin: 20px;
 }
 
 @media (max-width: 767px) {
     .mainBlock2_skillItem {
-        flex: 0 1 45%; /*по 2 элемента в ряду*/
+        flex: 0 1 50%; /*по 2 элемента в ряду*/
     }
 }
 
-@media (max-width: 500px) {
-    .mainBlock2_skillItem {
-        flex: 0 1 100%; /*по 1 элементу в ряду*/
-    }
-}
+/*@media (max-width: 500px) {*/
+/*    .mainBlock2_skillItem {*/
+/*        flex: 0 1 45%; !*по 1 элементу в ряду*!*/
+/*    }*/
+/*}*/
 
 .item_icon {
     width: 60px;

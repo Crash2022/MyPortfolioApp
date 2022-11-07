@@ -27,7 +27,7 @@
 }
 
 .mainBlock4_skillItem {
-    border: 1px solid white;
+    border: 1px solid #f5df4e;
     /*width: 250px;*/ /*или убрать flex: 0 1 */
     text-align: center;
     display: flex;
