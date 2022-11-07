@@ -1,6 +1,7 @@
 .mainBlock5_contacts {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #f5df4e;
 }
@@ -9,7 +10,8 @@
     /*width: 300px;*/
     border: 1px solid blue;
     /*margin-left: 55px;*/
-    flex: 0 1 100%;
+    flex: 0 1 50%;
+    width: 100%;
 }
 
 .mainBlock5_leftInfo > div {
@@ -28,7 +30,7 @@
 }
 
 .mainBlock5_leftInfo_text {
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 
 .mainBlock5_leftInfo_location {
@@ -46,6 +48,7 @@
     margin: 0 auto;
     /*margin: 0 55px 0 auto;*/
     border: 1px solid white;
+    flex: 0 1 50%;
 }
 
 @media (max-width: 767px) {
