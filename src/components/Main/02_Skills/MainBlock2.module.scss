@@ -26,15 +26,17 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            flex: 0 1 29%; /*по 3 элемента в ряду*/
+            flex: 0 1 31%; /*по 3 элемента в ряду*/
             margin: 10px;
+            padding: 10px;
+            //border: 1px solid $fontColorLight;
 
             // чтобы выглядело как карточки
             //background-color: $bgColorMedium;
             //box-shadow: 0 0 10px #111111;
 
             @media (max-width: 767px) {
-                flex: 0 1 50%; /*по 2 элемента в ряду*/
+                flex: 0 1 45%; /*по 2 элемента в ряду*/
             }
 
             .item_icon {

@@ -7,12 +7,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
+
+    @media (max-width: 1014px) {
+        flex-direction: column;
+    }
 
     .mainBlock1_text {
         margin: 50px;
 
-        @media (max-width: 653px) {
+        @media (max-width: 664px) {
             text-align: center;
         }
 
@@ -25,9 +29,13 @@
                 line-height: 30px;
             }
 
-            @media (max-width: 653px) {
+            @media (max-width: 664px) {
                 h1 {
                     line-height: 1;
+
+                    @media (max-width: 400px) {
+                        font-size: 40px;
+                    }
                 }
             }
         }
@@ -43,9 +51,8 @@
         margin-right: 50px;
         padding: 30px;
 
-        @media (max-width: 1003px) {
-            //margin: 0 auto;
-            margin-bottom: 30px;
+        @media (max-width: 1014px) {
+            margin: 0 auto 30px auto;
         }
 
         .mainBlock1_photo img {

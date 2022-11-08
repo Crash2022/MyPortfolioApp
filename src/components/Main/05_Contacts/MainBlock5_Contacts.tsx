@@ -17,24 +17,29 @@ export const MainBlock5_Contacts = () => {
                     </p>
                 </div>
                 <div className={style.mainBlock5_leftInfo_location}>
-                    <span>Местоположение</span>
+                    <div>Местоположение:</div>
+                    <div>Россия, г.Москва</div>
                 </div>
                 <div className={style.mainBlock5_leftInfo_phone}>
-                    <span>Номер телефона</span>
+                    <div>Номер телефона:</div>
+                    <div>+7 (903) 311-11-11</div>
                 </div>
             </div>
 
             <form className={style.mainBlock5_contactForm} id='contacts'>
                 <div className={style.mainBlock5_form_title}>
-                    <h2>Форма обратной связи</h2>
+                    <h2>Напишите мне</h2>
                 </div>
                 <div className={style.mainBlock5_form_input}>
+                    <div>Введите ваше имя:</div>
                     <input type="text"/>
                 </div>
                 <div className={style.mainBlock5_form_input}>
+                    <div>Введите ваш e-mail:</div>
                     <input type="text"/>
                 </div>
                 <div className={style.mainBlock5_form_textarea}>
+                    <div>Введите ваше сообщение:</div>
                     <textarea name="contacts"></textarea>
                 </div>
                 <div className={style.mainBlock5_form_sendButton}>
