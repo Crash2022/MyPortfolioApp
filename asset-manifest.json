@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.dac2c95b.css",
-    "main.js": "/MyPortfolioApp/static/js/main.93328b01.js",
-    "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.37649ce05ec5092bb339.jpg",
+    "main.css": "/MyPortfolioApp/static/css/main.5748d3df.css",
+    "main.js": "/MyPortfolioApp/static/js/main.b71bdb04.js",
+    "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.b3da9769c4bd47ca8de9.jpg",
     "static/media/project_friday1.jpg": "/MyPortfolioApp/static/media/project_friday1.7a6151b06c549761fff4.jpg",
     "static/media/project_portfolio.jpg": "/MyPortfolioApp/static/media/project_portfolio.234781db7890ea30ef3c.jpg",
     "static/media/project_social2.jpg": "/MyPortfolioApp/static/media/project_social2.a52c68a910ded93a5b64.jpg",
@@ -47,11 +47,11 @@
     "static/media/git_02.svg": "/MyPortfolioApp/static/media/git_02.da7cbb7e0f60abd807f4ef40cc3da768.svg",
     "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow-right_01.svg": "/MyPortfolioApp/static/media/arrow-right_01.005db17ec85108051de5.svg",
-    "main.dac2c95b.css.map": "/MyPortfolioApp/static/css/main.dac2c95b.css.map",
-    "main.93328b01.js.map": "/MyPortfolioApp/static/js/main.93328b01.js.map"
+    "main.5748d3df.css.map": "/MyPortfolioApp/static/css/main.5748d3df.css.map",
+    "main.b71bdb04.js.map": "/MyPortfolioApp/static/js/main.b71bdb04.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac2c95b.css",
-    "static/js/main.93328b01.js"
+    "static/css/main.5748d3df.css",
+    "static/js/main.b71bdb04.js"
   ]
 }
