@@ -29,54 +29,55 @@ export const MainBlock2_Skills = () => {
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
             id: v1(), icon: ReactLogo, title: 'React JS',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            text: 'На сегодняшний день React является одной из самых популярных и удобных библиотек для создания веб приложений'
         },
         {
             id: v1(), icon: ReactRedux, title: 'React Redux',
-            text: 'Can make projects on Angular'
+            text: 'Использование библиотеки React-Redux способствует тому, чтобы разрабатываемое приложение соответствовало FLUX-архитектуре'
         },
         {
             id: v1(), icon: ReduxToolkit, title: 'Redux-Toolkit',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
-                'culpa deserunt dolorem doloremque.'
+            text: 'Redux Toolkit является усовершенствованной версией React-Redux и делает разработку приложения более удобной'
         },
         {
             id: v1(), icon: ReactNative, title: 'React Native',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
-                'dolorem doloremque dolores'
+            text: 'Сегодня более 65% информации просматривается с помощью мобильных приложений, ' +
+                'и поэтому необходимо знать технологии для разработки приложений для мобильных устройств'
         },
         {
             id: v1(), icon: Typescript, title: 'Typescript',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            text: 'Проекты становятся объемнее и сложнее, поэтому разработку приложений ' +
+                'уже невозможно представить без использования Typescript, который помогает разрабатывать приложение без ошибок'
         },
         {id: v1(), icon: Storybook, title: 'Storybook',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt' +
-                ' dolorem doloremque dolores.'
+            text: 'Очень удобно, когда есть возможность разрабатывать приложение и ' +
+                'видеть промежуточный или готовый результат, а также тестировать его на наличие ошибок.'
         },
         {
             id: v1(), icon: RestAPI, title: 'Rest API',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
-                'dolorem doloremque dolores ducimus eaque eos ex harum'
+            text: 'Любое приложение взаимодействует с данными, которые хранятся на сервере'
         },
         {
             id: v1(), icon: Postman, title: 'Postman',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            text: 'Знание подобных программ значительно ускоряет разработку приложения, ' +
+                'ведь мы можем без написания кода взаимодействовать с сервером'
         },
         {id: v1(), icon: UnitTest, title: 'JEST',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt' +
-                ' dolorem doloremque dolores ducimus.'
+            text: 'Чтобы свести количество ошибок приложения к минимуму, ' +
+                'необходимо заранее продумывать систему тестирования'
         },
         {
             id: v1(), icon: Git, title: 'Git',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
-                'dolorem doloremque dolores ducimus eaque eos ex harum minus neque'
+            text: 'Любые шаги по разработке приложения, особенно в команде, ' +
+                'легко отслеживать с помощью системы контроля версий GIT'
         },
         {
             id: v1(), icon: SASS, title: 'HTML/CSS/SASS',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            text: 'Вёрстка приложения является его "фасадом", а различные ' +
+                'препроцессоры способствуют более удобной разработке '
         },
         {id: v1(), icon: Figma, title: 'Figma',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt'
+            text: 'С помощью программы Figma можно быстро и легко сделать макет приложения, чтобы разработка была более продуктивной'
         }
     ]);
 

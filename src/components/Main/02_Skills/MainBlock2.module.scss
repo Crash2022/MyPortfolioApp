@@ -21,7 +21,8 @@
 
         .mainBlock2_skillItem {
             //border: 1px solid $bgColorLight;
-            /*width: 250px;*/ /*или убрать flex: 0 1 */
+            /*width: 150px;*/ /*или убрать flex: 0 1 */
+            min-width: 150px;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -35,7 +36,7 @@
             //background-color: $bgColorMedium;
             //box-shadow: 0 0 10px #111111;
 
-            @media (max-width: 767px) {
+            @media (max-width: 858px) {
                 flex: 0 1 45%; /*по 2 элемента в ряду*/
             }
 
