@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.f61d7973.css",
-    "main.js": "/MyPortfolioApp/static/js/main.3dcb1c97.js",
+    "main.css": "/MyPortfolioApp/static/css/main.dac2c95b.css",
+    "main.js": "/MyPortfolioApp/static/js/main.93328b01.js",
+    "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.37649ce05ec5092bb339.jpg",
     "static/media/project_friday1.jpg": "/MyPortfolioApp/static/media/project_friday1.7a6151b06c549761fff4.jpg",
     "static/media/project_portfolio.jpg": "/MyPortfolioApp/static/media/project_portfolio.234781db7890ea30ef3c.jpg",
     "static/media/project_social2.jpg": "/MyPortfolioApp/static/media/project_social2.a52c68a910ded93a5b64.jpg",
@@ -38,17 +39,19 @@
     "static/media/storybook_02.svg": "/MyPortfolioApp/static/media/storybook_02.b6d767c00a79834e60d327872d6ad339.svg",
     "static/media/jest.svg": "/MyPortfolioApp/static/media/jest.37d6cec8e2a46763874c9d05614bf722.svg",
     "static/media/react_04.svg": "/MyPortfolioApp/static/media/react_04.b7e0fffe41414fb856f4c5aea2f10d8b.svg",
-    "static/media/redux-logo.svg": "/MyPortfolioApp/static/media/redux-logo.d81fad54282cfb5c2e14133ee4061ee0.svg",
+    "static/media/redux-logo_01.svg": "/MyPortfolioApp/static/media/redux-logo_01.d81fad54282cfb5c2e14133ee4061ee0.svg",
+    "static/media/ReduxToolkit_01.svg": "/MyPortfolioApp/static/media/ReduxToolkit_01.ead3a9ac77c7b4f36c6dee0f35ef1db1.svg",
     "static/media/typescript_02.svg": "/MyPortfolioApp/static/media/typescript_02.0862127c02a57f6d39dabe211ae436ab.svg",
     "static/media/figma.svg": "/MyPortfolioApp/static/media/figma.d8e11e391a62a9686ea585915c747d73.svg",
     "index.html": "/MyPortfolioApp/index.html",
     "static/media/git_02.svg": "/MyPortfolioApp/static/media/git_02.da7cbb7e0f60abd807f4ef40cc3da768.svg",
+    "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow-right_01.svg": "/MyPortfolioApp/static/media/arrow-right_01.005db17ec85108051de5.svg",
-    "main.f61d7973.css.map": "/MyPortfolioApp/static/css/main.f61d7973.css.map",
-    "main.3dcb1c97.js.map": "/MyPortfolioApp/static/js/main.3dcb1c97.js.map"
+    "main.dac2c95b.css.map": "/MyPortfolioApp/static/css/main.dac2c95b.css.map",
+    "main.93328b01.js.map": "/MyPortfolioApp/static/js/main.93328b01.js.map"
   },
   "entrypoints": [
-    "static/css/main.f61d7973.css",
-    "static/js/main.3dcb1c97.js"
+    "static/css/main.dac2c95b.css",
+    "static/js/main.93328b01.js"
   ]
 }
