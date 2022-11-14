@@ -1,7 +1,7 @@
 import React from 'react'
 // import style from './MainBlock1.module.css'
 import style from './MainBlock1.module.scss'
-import myPhotoMain from '../../../assets/images/myPhotoMain_02.jpg'
+import myPhotoMain from '../../../assets/images/myPhotoMain.jpg'
 
 export const MainBlock1_Greeting = () => {
     return (
@@ -15,12 +15,12 @@ export const MainBlock1_Greeting = () => {
                     <h1>Чашин Александр</h1>
                 </div>
                 <div className={style.mainBlock1_work}>
-                    <p>и я - react-разработчик</p>
+                    <p>и я Front-End React-разработчик</p>
                 </div>
             </div>
 
             <div className={style.mainBlock1_photo}>
-                {/*<img src={myPhotoMain} alt="my photo"/>*/}
+                <img src={myPhotoMain} alt="my photo"/>
             </div>
         </div>
     );

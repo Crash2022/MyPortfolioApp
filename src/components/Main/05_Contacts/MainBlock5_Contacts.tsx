@@ -24,6 +24,10 @@ export const MainBlock5_Contacts = () => {
                     <div>Номер телефона:</div>
                     <div>+7 (903) 311-11-11</div>
                 </div>
+                <div className={style.mainBlock5_leftInfo_email}>
+                    <div>Электронная почта:</div>
+                    <div>1111111@gmail.com</div>
+                </div>
             </div>
 
             <form className={style.mainBlock5_contactForm} id='contacts'>
