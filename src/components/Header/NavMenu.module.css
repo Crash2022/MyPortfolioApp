@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-right: 50px;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .navMenu > a {
@@ -13,8 +13,23 @@
     font-weight: bold;
 }
 
-/*@media (max-width: 767px) {*/
-/*    .navMenu a {*/
-/*        flex: 0 1 33.333%; !*по 3 элемента в ряду*!*/
-/*    }*/
-/*}*/
+@media (max-width: 800px) {
+    .navMenu {
+        margin: 0 auto;
+    }
+    .navMenu > a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navMenu {
+        /*display: none;*/
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+        .navMenu a {
+            /*margin: 10px;*/
+            padding: 10px;
+        }
+}
