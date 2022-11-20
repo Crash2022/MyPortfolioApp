@@ -40,7 +40,7 @@
                 flex: 0 1 45%; /*по 2 элемента в ряду*/
             }
 
-            @media (max-width: 401px) {
+            @media (max-width: 500px) {
                 flex: 0 1 95%; /*по 1 элементу в ряду*/
                 padding: 20px;
             }
