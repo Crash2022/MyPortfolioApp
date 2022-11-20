@@ -4,10 +4,10 @@ import style from './MainBlock3.module.scss'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../common/components/Title'
-import projectSocial from '../../../assets/images/project_social2.jpg'
-import projectFriday from '../../../assets/images/project_friday1.jpg'
-import projectPortfolio from '../../../assets/images/project_portfolio.jpg'
-import projectTodolist from '../../../assets/images/project_todolist1.jpg'
+import projectSocial from '../../../assets/images/projects/project_social2.jpg'
+import projectFriday from '../../../assets/images/projects/project_friday1.jpg'
+import projectPortfolio from '../../../assets/images/projects/project_portfolio.jpg'
+import projectTodolist from '../../../assets/images/projects/project_todolist1.jpg'
 
 export type ProjectsArrayPropsType = {
     id: string

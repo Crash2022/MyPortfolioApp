@@ -1,7 +1,7 @@
 import React from 'react'
 // import style from './MainBlock1.module.css'
 import style from './MainBlock1.module.scss'
-import myPhotoMain from '../../../assets/images/myPhotoMain.jpg'
+import myPhotoMain from '../../../assets/images/photos/myPhotoMain.jpg'
 
 export const MainBlock1_Greeting = () => {
     return (

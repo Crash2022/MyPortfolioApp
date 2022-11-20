@@ -1,6 +1,7 @@
 import React from 'react'
 // import style from './MainBlock5.module.css'
 import style from './MainBlock5.module.scss'
+import {Button} from "../../../common/components/Button";
 
 export const MainBlock5_Contacts = () => {
 
@@ -49,7 +50,6 @@ export const MainBlock5_Contacts = () => {
                 <div className={style.mainBlock5_form_sendButton}>
                     <button>Отправить</button>
                 </div>
-
             </form>
         </div>
     );
