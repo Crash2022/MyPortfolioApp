@@ -5,7 +5,7 @@ import myPhotoMain from '../../../assets/images/photos/myPhotoMain.jpg'
 
 export const MainBlock1_Greeting = () => {
     return (
-        <div className={style.mainBlock1}>
+        <div className={style.mainBlock1} id='#top'>
             <div className={style.mainBlock1_text}>
                 <div className={style.mainBlock1_greeting}>
                     <span>Добро пожаловать!</span>
