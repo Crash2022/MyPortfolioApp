@@ -5,7 +5,7 @@ import style from './NavMenu.module.scss'
 export const NavMenu = () => {
     return (
         <div className={style.navMenu}>
-            <a href="#">Главная</a>
+            <a href="#main">Главная</a>
             <a href="#skills">Навыки</a>
             <a href="#projects">Проекты</a>
             <a href="#resume">Резюме</a>

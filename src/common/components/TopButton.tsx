@@ -5,7 +5,7 @@ export const TopButton = () => {
 
     return (
         <button className={styles.topBtn}>
-            <a href="#top" style={{color: 'white'}}>
+            <a href="#">
                 Top
             </a>
         </button>
