@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.5748d3df.css",
-    "main.js": "/MyPortfolioApp/static/js/main.b71bdb04.js",
+    "main.css": "/MyPortfolioApp/static/css/main.8985d310.css",
+    "main.js": "/MyPortfolioApp/static/js/main.9b30c6fc.js",
     "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.b3da9769c4bd47ca8de9.jpg",
     "static/media/project_friday1.jpg": "/MyPortfolioApp/static/media/project_friday1.7a6151b06c549761fff4.jpg",
     "static/media/project_portfolio.jpg": "/MyPortfolioApp/static/media/project_portfolio.234781db7890ea30ef3c.jpg",
@@ -15,6 +15,7 @@
     "static/media/Mulish-Black.ttf": "/MyPortfolioApp/static/media/Mulish-Black.e5311e6e336254c64baf.ttf",
     "static/media/Mulish-Regular.ttf": "/MyPortfolioApp/static/media/Mulish-Regular.d8529ef4b5107c99c613.ttf",
     "static/media/Mulish-Bold.ttf": "/MyPortfolioApp/static/media/Mulish-Bold.1155f3ad0f9b3590c078.ttf",
+    "static/media/photo_resume.jpg": "/MyPortfolioApp/static/media/photo_resume.c25ad0cebe69fdc30f6d.jpg",
     "static/media/Mulish-SemiBold.woff": "/MyPortfolioApp/static/media/Mulish-SemiBold.a7e56602b90357046986.woff",
     "static/media/Mulish-Black.woff": "/MyPortfolioApp/static/media/Mulish-Black.b662452450e4043b5068.woff",
     "static/media/Mulish-Medium.woff": "/MyPortfolioApp/static/media/Mulish-Medium.5ff01ad2c56b7e76163a.woff",
@@ -46,12 +47,13 @@
     "index.html": "/MyPortfolioApp/index.html",
     "static/media/git_02.svg": "/MyPortfolioApp/static/media/git_02.da7cbb7e0f60abd807f4ef40cc3da768.svg",
     "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
-    "static/media/arrow-right_01.svg": "/MyPortfolioApp/static/media/arrow-right_01.005db17ec85108051de5.svg",
-    "main.5748d3df.css.map": "/MyPortfolioApp/static/css/main.5748d3df.css.map",
-    "main.b71bdb04.js.map": "/MyPortfolioApp/static/js/main.b71bdb04.js.map"
+    "static/media/arrow-right_01_dark.svg": "/MyPortfolioApp/static/media/arrow-right_01_dark.a508dacc6d2b16b33fa1.svg",
+    "static/media/arrow-right_01_light.svg": "/MyPortfolioApp/static/media/arrow-right_01_light.005db17ec85108051de5.svg",
+    "main.8985d310.css.map": "/MyPortfolioApp/static/css/main.8985d310.css.map",
+    "main.9b30c6fc.js.map": "/MyPortfolioApp/static/js/main.9b30c6fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5748d3df.css",
-    "static/js/main.b71bdb04.js"
+    "static/css/main.8985d310.css",
+    "static/js/main.9b30c6fc.js"
   ]
 }
