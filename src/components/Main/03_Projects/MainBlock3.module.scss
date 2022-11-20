@@ -13,12 +13,17 @@
         /*justify-content: space-between;*/
         justify-content: center;
         flex-wrap: wrap;
+        //padding: 20px;
         /*width: 100%;*/
         margin-bottom: $marginBottomFromBlock;
 
+        @media (max-width: 801px) {
+            padding: 30px;
+        }
+
         .mainBlock3_projectItem {
             //border: 1px solid $bgColorDark;
-            padding: 5px;
+            padding: 10px;
             /*width: 250px;*/
             text-align: center;
             display: flex;
