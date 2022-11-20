@@ -17,7 +17,7 @@
         margin-bottom: $marginBottomFromBlock;
 
         .mainBlock3_projectItem {
-            border: 1px solid $bgColorDark;
+            //border: 1px solid $bgColorDark;
             padding: 5px;
             /*width: 250px;*/
             text-align: center;
@@ -27,6 +27,7 @@
             /*margin: 10px;*/
             flex: 0 1 45%; /*по 2 элемента в ряду*/
             margin: 20px;
+            box-shadow: 0 0 10px $bgColorDark;
 
             @media (max-width: 801px) {
                 flex: 0 1 100%; /*по 1 элементу в ряду*/

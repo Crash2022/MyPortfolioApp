@@ -1,9 +1,9 @@
 .mainBlock4 {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /*блок по всей высоте*/
+    min-height: 80vh; /*блок по всей высоте*/
     background-color: #1f1f1f;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     color: white;
 }
 
@@ -12,10 +12,12 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 30px;
+    /*border: 1px solid white;*/
+    /*margin-top: 20px;*/
 }
 
 .mainBlock4_photo {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -26,7 +28,7 @@
 }
 
 .mainBlock4_text {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding: 20px;
     display: flex;
     align-items: center;
