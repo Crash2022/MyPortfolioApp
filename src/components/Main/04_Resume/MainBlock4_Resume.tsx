@@ -22,9 +22,8 @@ export const MainBlock4_Resume = () => {
                             React-разработчик
                         </div>
                         <div className={style.mainBlock4_text_body}>
-                            Уже на протяжении 2-х лет разрабатываю приложения на библиотеке React.
-                            Уже на протяжении 2-х лет разрабатываю приложения на библиотеке React.
-                            Уже на протяжении 2-х лет разрабатываю приложения на библиотеке React.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
+                            culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.
                         </div>
                         <div className={style.mainBlock4_text_file}>
                             <Button title={'Скачать резюме'}/>

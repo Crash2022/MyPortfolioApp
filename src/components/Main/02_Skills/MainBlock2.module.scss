@@ -28,7 +28,7 @@
             flex-direction: column;
             align-items: center;
             flex: 0 1 31%; /*по 3 элемента в ряду*/
-            margin: 10px;
+            margin: 5px;
             padding: 10px;
             //border: 1px solid $fontColorLight;
 
@@ -42,7 +42,7 @@
 
             @media (max-width: 500px) {
                 flex: 0 1 95%; /*по 1 элементу в ряду*/
-                padding: 20px;
+                padding: 5px;
             }
 
             .item_icon {

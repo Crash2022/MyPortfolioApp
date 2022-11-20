@@ -15,7 +15,8 @@
 }
 
 .navMenu > a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #f5df4e;
 }
 
 @media (max-width: 800px) {

@@ -17,10 +17,10 @@ export const MainBlock5_Contacts = () => {
                         culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.
                     </p>
                 </div>
-                <div className={style.mainBlock5_leftInfo_location}>
-                    <div>Местоположение:</div>
-                    <div>Россия, г.Москва</div>
-                </div>
+                {/*<div className={style.mainBlock5_leftInfo_location}>*/}
+                {/*    <div>Местоположение:</div>*/}
+                {/*    <div>Россия, г.Москва</div>*/}
+                {/*</div>*/}
                 <div className={style.mainBlock5_leftInfo_phone}>
                     <div>Номер телефона:</div>
                     <div>+7 (903) 311-11-11</div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import style from './NavMenu.module.css'
+// import style from './NavMenu.module.css'
+import style from './NavMenu.module.scss'
 
 export const NavMenu = () => {
     return (
