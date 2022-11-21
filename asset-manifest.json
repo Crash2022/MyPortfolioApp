@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.132786e6.css",
-    "main.js": "/MyPortfolioApp/static/js/main.00e08b08.js",
+    "main.css": "/MyPortfolioApp/static/css/main.857ce9ca.css",
+    "main.js": "/MyPortfolioApp/static/js/main.706e28bd.js",
     "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.6ec4dd8fd2bb416a9d39.jpg",
     "static/media/project_friday1.jpg": "/MyPortfolioApp/static/media/project_friday1.7a6151b06c549761fff4.jpg",
     "static/media/project_portfolio.jpg": "/MyPortfolioApp/static/media/project_portfolio.234781db7890ea30ef3c.jpg",
@@ -15,7 +15,6 @@
     "static/media/Mulish-Black.ttf": "/MyPortfolioApp/static/media/Mulish-Black.e5311e6e336254c64baf.ttf",
     "static/media/Mulish-Regular.ttf": "/MyPortfolioApp/static/media/Mulish-Regular.d8529ef4b5107c99c613.ttf",
     "static/media/Mulish-Bold.ttf": "/MyPortfolioApp/static/media/Mulish-Bold.1155f3ad0f9b3590c078.ttf",
-    "static/media/photo_resume.jpg": "/MyPortfolioApp/static/media/photo_resume.c25ad0cebe69fdc30f6d.jpg",
     "static/media/Mulish-SemiBold.woff": "/MyPortfolioApp/static/media/Mulish-SemiBold.a7e56602b90357046986.woff",
     "static/media/Mulish-Black.woff": "/MyPortfolioApp/static/media/Mulish-Black.b662452450e4043b5068.woff",
     "static/media/Mulish-Medium.woff": "/MyPortfolioApp/static/media/Mulish-Medium.5ff01ad2c56b7e76163a.woff",
@@ -25,6 +24,7 @@
     "static/media/Mulish-Light.woff": "/MyPortfolioApp/static/media/Mulish-Light.04dbad679c30f34c7875.woff",
     "static/media/Mulish-ExtraLight.woff": "/MyPortfolioApp/static/media/Mulish-ExtraLight.11e04f49bc22c6b925d6.woff",
     "static/media/Mulish-ExtraLight_1.woff": "/MyPortfolioApp/static/media/Mulish-ExtraLight_1.f21caf9a8766149f21bb.woff",
+    "static/media/photo_resume_03.jpg": "/MyPortfolioApp/static/media/photo_resume_03.85584514eb9922708428.jpg",
     "static/media/project_todolist1.jpg": "/MyPortfolioApp/static/media/project_todolist1.4f94ff059863808c909b.jpg",
     "static/media/Mulish-SemiBold.woff2": "/MyPortfolioApp/static/media/Mulish-SemiBold.33569a7ad9b11cd96719.woff2",
     "static/media/Mulish-Black.woff2": "/MyPortfolioApp/static/media/Mulish-Black.bdbcb919e548fb3c3feb.woff2",
@@ -49,11 +49,11 @@
     "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow-right_01_dark.svg": "/MyPortfolioApp/static/media/arrow-right_01_dark.a508dacc6d2b16b33fa1.svg",
     "static/media/arrow-right_01_light.svg": "/MyPortfolioApp/static/media/arrow-right_01_light.005db17ec85108051de5.svg",
-    "main.132786e6.css.map": "/MyPortfolioApp/static/css/main.132786e6.css.map",
-    "main.00e08b08.js.map": "/MyPortfolioApp/static/js/main.00e08b08.js.map"
+    "main.857ce9ca.css.map": "/MyPortfolioApp/static/css/main.857ce9ca.css.map",
+    "main.706e28bd.js.map": "/MyPortfolioApp/static/js/main.706e28bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.132786e6.css",
-    "static/js/main.00e08b08.js"
+    "static/css/main.857ce9ca.css",
+    "static/js/main.706e28bd.js"
   ]
 }
