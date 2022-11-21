@@ -9,8 +9,6 @@
 }
 
 .mainBlock5_leftInfo {
-    /*width: 300px;*/
-    /*margin-left: 55px;*/
     flex: 0 1 50%;
     width: 100%;
     padding: 40px;
@@ -48,8 +46,6 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    /*margin: 0 55px 0 auto;*/
-    /*border: 1px solid white;*/
     flex: 0 1 50%;
     padding: 40px;
 }

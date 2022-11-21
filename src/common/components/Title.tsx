@@ -1,6 +1,6 @@
 import React from 'react'
 // import style from '../styles/CommonStyles.module.css'
-import style from '../styles/CommonStyles.module.scss'
+import style from './Title.module.scss'
 
 export type TitleType = {
     title: string

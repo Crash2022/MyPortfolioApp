@@ -1,24 +1,16 @@
-@import './src/common/styles/sass/variables';
-
-.common_title {
-    text-align: center;
-    font-size: 30px;
-
-    h2 {
-        margin: 40px 0 20px 0;
-    }
-}
+@import '../styles/sass/variables';
 
 .topBtn {
-    position: sticky;
+    //position: sticky;
+    position: fixed;
     bottom: 20px;
-    left: 95%;
-    max-width: 60px;
+    left: 93%;
+    max-width: 75px;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     border-color: rgba(85, 85, 85, 0.2);
     background-color: rgb(100,100,100);
-    padding: 5px;
+    padding: 10px;
     border-radius: 4px;
 
     a {

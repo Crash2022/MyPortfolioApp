@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../styles/CommonStyles.module.scss";
+import styles from "./TopButton.module.scss";
 
 export const TopButton = () => {
 
