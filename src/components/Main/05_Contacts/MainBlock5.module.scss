@@ -10,8 +10,16 @@
     background-color: $bgColorLight;
     @include text(1.4, 18px);
 
+    h2 {
+        margin: 0;
+    }
+
     @media (max-width: 767px) {
         flex-direction: column;
+
+        h2 {
+            margin-top: 20px;
+        }
     }
 
     @media (max-width: 425px) {

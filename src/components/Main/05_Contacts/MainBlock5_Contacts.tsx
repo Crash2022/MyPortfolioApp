@@ -33,7 +33,7 @@ export const MainBlock5_Contacts = () => {
 
             <form className={style.mainBlock5_contactForm} id='contacts'>
                 <div className={style.mainBlock5_form_title}>
-                    <h2>Напишите мне</h2>
+                    <h2>Обратная связь</h2>
                 </div>
                 <div className={style.mainBlock5_form_input}>
                     <div>Введите ваше имя:</div>

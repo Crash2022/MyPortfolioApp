@@ -4,7 +4,7 @@ import {NavMenu} from "./NavMenu"
 
 export const Header = () => {
     return (
-        <div className={style.header} id='main'>
+        <div className={style.header}>
             <NavMenu/>
         </div>
     );

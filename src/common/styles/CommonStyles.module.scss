@@ -10,10 +10,8 @@
 }
 
 .topBtn {
-    position: fixed;
+    position: sticky;
     bottom: 20px;
-    float: right;
-    right: 18.5%;
     left: 95%;
     max-width: 60px;
     width: 100%;
