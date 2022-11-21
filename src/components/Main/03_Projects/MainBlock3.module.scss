@@ -4,7 +4,7 @@
 .mainBlock3 {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /*блок по всей высоте*/
+    //min-height: 100vh; /*блок по всей высоте*/
     background-color: $bgColorLight;
     //border: 1px solid $bgColorDark;
 
@@ -14,7 +14,6 @@
         justify-content: center;
         flex-wrap: wrap;
         //padding: 20px;
-        /*width: 100%;*/
         margin-bottom: $marginBottomFromBlock;
 
         @media (max-width: 801px) {
@@ -24,12 +23,10 @@
         .mainBlock3_projectItem {
             //border: 1px solid $bgColorDark;
             padding: 10px;
-            /*width: 250px;*/
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            /*margin: 10px;*/
             flex: 0 1 45%; /*по 2 элемента в ряду*/
             margin: 20px;
             box-shadow: 0 0 10px $bgColorDark;
