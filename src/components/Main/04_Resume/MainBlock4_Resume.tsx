@@ -22,8 +22,8 @@ export const MainBlock4_Resume = () => {
                             React-разработчик
                         </div>
                         <div className={style.mainBlock4_text_body}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
-                            culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.
+                            Мой стэк знания технологий, а также многолетний опыт позволяют
+                            разрабатывать веб приложения различного уровня и потребностей
                         </div>
                         <div className={style.mainBlock4_text_file}>
                             <Button title={'Скачать резюме'}/>

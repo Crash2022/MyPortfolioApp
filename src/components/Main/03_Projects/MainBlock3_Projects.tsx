@@ -5,9 +5,9 @@ import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../common/components/Title'
 import projectSocial from '../../../assets/images/projects/project_social2.jpg'
-import projectFriday from '../../../assets/images/projects/project_friday1.jpg'
-import projectPortfolio from '../../../assets/images/projects/project_portfolio.jpg'
-import projectTodolist from '../../../assets/images/projects/project_todolist1.jpg'
+import projectFriday from '../../../assets/images/projects/project_friday3.jpg'
+import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
+import projectTodolist from '../../../assets/images/projects/project_todolist3.jpg'
 
 export type ProjectsArrayPropsType = {
     id: string
@@ -25,21 +25,21 @@ export const MainBlock3_Projects = () => {
 
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
-            id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Social Network',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Социальная сеть',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
             link: 'https://github.com/Crash2022/IT-Samurai-Social'
         },
         {
-            id: v1(), style: {backgroundImage: `url(${projectFriday})`}, title: 'Friday Project',
-            text: 'Can make projects on Angular', link: 'https://github.com/Crash2022/Samurai-Counter'
+            id: v1(), style: {backgroundImage: `url(${projectFriday})`}, title: 'Пятничный проект',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', link: 'https://github.com/Crash2022/Samurai-Counter'
         },
         {
-            id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Portfolio App',
+            id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Портфолио',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
-                'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.',
+                'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum',
             link: 'https://github.com/Crash2022/MyPortfolioApp'
         },
-        {id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Todolist',
+        {id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?',

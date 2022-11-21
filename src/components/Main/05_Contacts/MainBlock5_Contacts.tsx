@@ -13,8 +13,8 @@ export const MainBlock5_Contacts = () => {
                 </div>
                 <div className={style.mainBlock5_leftInfo_text}>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
-                        culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum.
+                        Если вам необходимо разработать веб приложение, вы всегда можете
+                        обратиться ко мне любым из указнных ниже способов
                     </p>
                 </div>
                 {/*<div className={style.mainBlock5_leftInfo_location}>*/}
