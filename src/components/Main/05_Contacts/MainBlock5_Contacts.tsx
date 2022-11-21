@@ -23,11 +23,11 @@ export const MainBlock5_Contacts = () => {
                 {/*</div>*/}
                 <div className={style.mainBlock5_leftInfo_phone}>
                     <div>Номер телефона:</div>
-                    <div>+7 (903) 311-11-11</div>
+                    <div>+7 (9033) 98-84-05</div>
                 </div>
                 <div className={style.mainBlock5_leftInfo_email}>
                     <div>Электронная почта:</div>
-                    <div>1111111@gmail.com</div>
+                    <div>crash56zzz@gmail.com</div>
                 </div>
             </div>
 

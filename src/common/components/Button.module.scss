@@ -15,6 +15,10 @@
     box-shadow: 0 0 10px black;
     position: relative;
 
+    @media (max-width: 470px) {
+      width: 100%;
+    }
+
     &::after {
       content: url('../../assets/icons/decor/arrow-right_01_dark.svg');
       position: absolute;
@@ -22,6 +26,13 @@
       bottom: 0;
       left: 0;
       right: -140px;
+
+      @media (max-width: 351px) {
+        width: 100%;
+        top: 15px;
+        bottom: 0;
+        left: 50px;
+      }
     }
 
     &:hover {
