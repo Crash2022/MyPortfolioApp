@@ -2,6 +2,7 @@ import React from 'react'
 // import style from './Footer.module.css'
 import style from './Footer.module.scss'
 import styleMain from '../Main/00_Main/Main.module.css'
+import {TopButton} from "../../common/components/TopButton";
 
 export const Footer = () => {
     return (
@@ -22,6 +23,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
+            <TopButton/>
         </div>
     );
 }
