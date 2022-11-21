@@ -6,7 +6,7 @@ export const TopButton = () => {
     return (
         // <button className={styles.topBtn}>
             <a href="#main" className={styles.topBtn}>
-                Наверх
+                наверх
             </a>
         // </button>
     );

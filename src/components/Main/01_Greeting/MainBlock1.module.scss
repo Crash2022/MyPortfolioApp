@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -80px; // чтобы sticky-меню не перекрывало = высота menu
 
     @media (max-width: 1014px) {
         flex-direction: column;
