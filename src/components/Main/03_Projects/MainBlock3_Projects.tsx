@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 // import style from './MainBlock3.module.css'
 import style from './MainBlock3.module.scss'
+// import s from '../00_Main/Main.module.css'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../common/components/Title'
@@ -30,8 +31,11 @@ export const MainBlock3_Projects = () => {
             link: 'https://github.com/Crash2022/IT-Samurai-Social'
         },
         {
-            id: v1(), style: {backgroundImage: `url(${projectFriday})`}, title: 'Пятничный проект',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', link: 'https://github.com/Crash2022/Samurai-Counter'
+            id: v1(),
+            style: {backgroundImage: `url(${projectFriday})`},
+            title: 'Пятничный проект',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            link: 'https://github.com/Crash2022/Samurai-Counter'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Портфолио',
@@ -39,7 +43,8 @@ export const MainBlock3_Projects = () => {
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum',
             link: 'https://github.com/Crash2022/MyPortfolioApp'
         },
-        {id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
+        {
+            id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?',
@@ -49,10 +54,15 @@ export const MainBlock3_Projects = () => {
 
     return (
         <div className={style.mainBlock3} id='projects'>
-            <Title title={'Мои проекты'}/>
-            <div className={style.mainBlock3_projects}>
-                <ProjectsList projects={projects}/>
-            </div>
+            {/*<div className={s.container}>*/}
+
+                <Title title={'Мои проекты'}/>
+
+                <div className={style.mainBlock3_projects}>
+                    <ProjectsList projects={projects}/>
+                </div>
+            {/*</div>*/}
+
         </div>
     );
 }

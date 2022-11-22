@@ -8,14 +8,16 @@ import {MainBlock4_Resume} from "../04_Resume/MainBlock4_Resume";
 
 export const Main = () => {
     return (
-        <div className={style.mainBlock}>
-            <div className={style.container}>
+        // <div className={style.mainBlock}>
+        //     <div className={style.container}>
+        <div>
                 <MainBlock1_Greeting/>
                 <MainBlock2_Skills/>
                 <MainBlock3_Projects/>
                 <MainBlock4_Resume/>
                 <MainBlock5_Contacts/>
-            </div>
         </div>
+            // </div>
+        // </div>
     );
 }

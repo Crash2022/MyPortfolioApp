@@ -14,8 +14,10 @@ export const SkillsList = (props: SkillsListPropsType) => {
             {
                 props.skills.map(el => {
                     return (
-                        <div key={v1()} className={style.mainBlock2_skillItem}>
-                            <Skill_Item icon={el.icon} title={el.title} text={el.text}/>
+                        <div key={v1()} className={style.mainBlock2_skillItem_column}>
+                            <div className={style.mainBlock2_skillItem}>
+                                <Skill_Item icon={el.icon} title={el.title} text={el.text}/>
+                            </div>
                         </div>
                     )
                 })

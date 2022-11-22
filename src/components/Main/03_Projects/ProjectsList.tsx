@@ -14,13 +14,15 @@ export const ProjectsList = (props: ProjectsListPropsType) => {
             {
                 props.projects.map(el => {
                     return (
-                        <div key={v1()} className={style.mainBlock3_projectItem}>
-                            <Project_Item title={el.title}
-                                          text={el.text}
-                                          style={el.style}
-                                          link={el.link}
-                            />
-                        </div>
+                        // <div className={style.mainBlock3_projectItem_column}>
+                            <div key={v1()} className={style.mainBlock3_projectItem}>
+                                <Project_Item title={el.title}
+                                              text={el.text}
+                                              style={el.style}
+                                              link={el.link}
+                                />
+                            </div>
+                        // </div>
                     )
                 })
             }

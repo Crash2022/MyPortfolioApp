@@ -6,8 +6,8 @@ import {TopButton} from "../../common/components/TopButton";
 
 export const Footer = () => {
     return (
-        <div className={styleMain.mainBlock}>
-            <div className={styleMain.container}>
+        // <div className={styleMain.mainBlock}>
+        //     <div className={styleMain.container}>
                 <div className={style.footer}>
                     <div className={style.footer_title}>
                         <h3>Чашин Александр</h3>
@@ -21,8 +21,8 @@ export const Footer = () => {
                     <div className={style.footer_copyrigths}>
                         <span>Все права защищены, 2022</span>
                     </div>
-                </div>
-            </div>
+                {/*</div>*/}
+            {/*</div>*/}
             <TopButton/>
         </div>
     );

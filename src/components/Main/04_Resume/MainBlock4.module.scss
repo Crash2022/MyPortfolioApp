@@ -1,7 +1,10 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .mainBlock4 {
     display: flex;
     flex-direction: column;
-    min-height: 70vh; /*блок по всей высоте*/
+    min-height: 60vh; /*блок по всей высоте*/
     background-color: #1f1f1f;
     /*border: 1px solid black;*/
     color: white;
@@ -10,14 +13,23 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 30px;
+        //padding: 30px;
         /*border: 1px solid white;*/
+        margin-bottom: $marginBottomFromBlock;
+
+        @media (max-width: 700px) {
+            padding: 0 30px;
+        }
 
         .mainBlock4_photo {
             /*border: 1px solid white;*/
             padding: 10px;
             display: flex;
             justify-content: center;
+
+            //@media (max-width: 700px) {
+            //    padding: 0 30px;
+            //}
 
             img {
                 max-width: 100%;

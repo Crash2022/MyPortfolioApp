@@ -72,9 +72,9 @@
                     /*background-color: #1f1f1f;*/
                     background-color: $bgColorLight;
                     font-weight: bold;
-                    /*pointer-events: none; !*отмена перехода по ссылке*!*/
+                    /*pointer-events: none; !*отмена перехода по ссылке*!*!
                     //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
-                    /*opacity: 0.8;*/
+                    !*opacity: 0.8;*!
                     cursor: pointer;
 
                     &:hover {
@@ -84,7 +84,7 @@
                 }
 
 
-                /*чтобы кнопка была сверху*/
+                !*чтобы кнопка была сверху*/
                 .item_button {
                     position: relative;
                     z-index: 1;
@@ -103,4 +103,136 @@
             }
         }
     }
+  }
 }
+
+/*--------------------------------------------------------------*/
+
+/*
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.mainBlock3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; !*блок по всей высоте*!
+    background-color: $bgColorLight;
+    //border: 1px solid $bgColorDark;
+
+    .mainBlock3_projects {
+        //display: flex;
+        !*justify-content: space-between;*!
+        //justify-content: center;
+        flex-wrap: wrap;
+        //padding: 20px;
+        //margin-bottom: $marginBottomFromBlock;
+        margin: 0 -10px; !*отступ между колонками: отрицательное число вдвое меньше проектного*!
+
+        //@media (max-width: 801px) {
+        //    padding: 30px;
+        //}
+
+        // колонка = карточка
+        .projectItem_column {
+            flex: 0 1 50%; !*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*!
+            margin-bottom: 20px;
+            padding: 0 10px; !*тоже значение, что и отрицательный margin*!
+
+            //@media (max-width: 1060px) {
+            //    flex: 0 1 33.333%; !*по 3 элемента в ряду*!
+            //}
+            //
+            //@media (max-width: 800px) {
+            //    flex: 0 1 50%; !*по 2 элемента в ряду*!
+            //}
+
+            @media (max-width: 590px) {
+                flex: 0 1 100%; !*по 1 элементу в ряду*!
+            }
+
+            // непосредственно сама карточка
+            .mainBlock3_projectItem {
+                //border: 1px solid $bgColorDark;
+                //padding: 10px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                //flex: 0 1 45%; !*по 2 элемента в ряду*!
+                //margin: 10px;
+                box-shadow: 0 0 10px $bgColorDark;
+
+                //@media (max-width: 801px) {
+                //    flex: 0 1 100%; !*по 1 элементу в ряду*!
+                //}
+
+                .item_image {
+                    flex: 0 0 200px;
+                    width: 100%;
+                    //height: 200px;
+                    !*border: 1px solid black;*!
+                    //display: flex;
+                    //align-items: center;
+                    //justify-content: center;
+                    background-position: center;
+                    //background-size: 120% auto;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+
+                    !*чтобы кнопка была сверху*!
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-color: $bgColorDark;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 0;
+                    }
+                    !*.item_image:hover {*!
+                    !*    opacity: 0.5;*!
+                    !*}*!
+
+                    a {
+                        //border: 1px solid $bgColorDark;
+                        padding: 15px;
+                        text-decoration: none;
+                        color: $bgColorDark;
+                        !*background-color: #1f1f1f;*!
+                        background-color: $bgColorLight;
+                        font-weight: bold;
+                        !*pointer-events: none; !*отмена перехода по ссылке*!*!
+                        //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+                        !*opacity: 0.8;*!
+                        cursor: pointer;
+
+                        &:hover {
+                            opacity: $hoverOpacity;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    !*чтобы кнопка была сверху*!
+                    .item_button {
+                        position: relative;
+                        z-index: 1;
+                        box-shadow: 0 0 10px $bgColorDark;
+                    }
+                }
+
+                .item_title {
+                    padding: 5px;
+                    font-size: 20px;
+                }
+
+                .item_description {
+                    padding: 5px;
+                    @include text(1.4, 18px);
+                }
+            }
+        }
+    }
+}*/
