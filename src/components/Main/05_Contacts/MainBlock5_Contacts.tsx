@@ -17,10 +17,6 @@ export const MainBlock5_Contacts = () => {
                         обратиться ко мне любым из указнных ниже способов
                     </p>
                 </div>
-                {/*<div className={style.mainBlock5_leftInfo_location}>*/}
-                {/*    <div>Местоположение:</div>*/}
-                {/*    <div>Россия, г.Москва</div>*/}
-                {/*</div>*/}
                 <div className={style.mainBlock5_leftInfo_phone}>
                     <div>Номер телефона:</div>
                     <div>+7 (9033) 98-84-05</div>
@@ -28,6 +24,10 @@ export const MainBlock5_Contacts = () => {
                 <div className={style.mainBlock5_leftInfo_email}>
                     <div>Электронная почта:</div>
                     <div>crash56zzz@gmail.com</div>
+                </div>
+                <div className={style.mainBlock5_leftInfo_location}>
+                    <div>GitHub:</div>
+                    <div>https://github.com/Crash2022</div>
                 </div>
             </div>
 

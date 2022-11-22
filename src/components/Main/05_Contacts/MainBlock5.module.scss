@@ -4,7 +4,7 @@
 .mainBlock5_contacts {
     min-height: 50vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     background-color: $bgColorLight;
@@ -37,6 +37,12 @@
             margin-bottom: 10px;
         }
 
+        @media (max-width: 890px) {
+            flex: 0 1 100%;
+            text-align: center;
+            padding: 50px;
+        }
+
         @media (max-width: 767px) {
             text-align: center;
             padding: 0 40px 0 40px;
@@ -51,6 +57,12 @@
         }
         .mainBlock5_leftInfo_text {
             max-width: 600px;
+
+            @media (max-width: 890px) {
+                max-width: 70%;
+                text-align: center;
+                margin: 0 auto;
+            }
         }
         .mainBlock5_leftInfo_location {
             :first-child {
@@ -80,6 +92,10 @@
         * {
             //padding: 5px;
             margin: 3px;
+        }
+
+        @media (max-width: 890px) {
+            padding: 0 50px;
         }
 
         @media (max-width: 767px) {
