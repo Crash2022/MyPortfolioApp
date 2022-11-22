@@ -88,13 +88,9 @@
         }
 
         .mainBlock4_item_column {
-            flex: 0 1 50%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
+            flex: 1 1 50%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
             margin-bottom: 30px;
             padding: 0 20px; /*тоже значение, что и отрицательный margin*/
-
-            //@media (max-width: 1180px) {
-            //    flex: 0 1 50%;
-            //}
 
             .mainBlock4_photo {
                 /*border: 1px solid white;*/
@@ -103,10 +99,15 @@
                 justify-content: center;
 
                 img {
-                    width: 100%;
+                    width: 70%;
                     //max-width: 600px;
                     //height: auto;
                     box-shadow: 0 0 10px black;
+
+                    @media (max-width: 1170px) {
+                        flex: 0 1 100%;
+                        max-width: 500px;
+                    }
                 }
             }
         }
@@ -118,7 +119,7 @@
             align-items: center;
 
             .mainBlock4_item_column {
-                flex: 0 1 100%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
+                flex: 1 1 100%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
                 margin-bottom: 30px;
                 padding: 0 20px; /*тоже значение, что и отрицательный margin*/
 
