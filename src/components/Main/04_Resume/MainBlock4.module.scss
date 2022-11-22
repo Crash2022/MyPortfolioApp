@@ -67,7 +67,7 @@
 }*/
 
 .mainBlock4 {
-    //display: flex;
+    display: flex;
     //flex-direction: column;
     min-height: 55vh; /*блок по всей высоте*/
     background-color: #1f1f1f;
@@ -92,9 +92,9 @@
             margin-bottom: 30px;
             padding: 0 20px; /*тоже значение, что и отрицательный margin*/
 
-            @media (max-width: 1180px) {
-                flex: 0 1 80%;
-            }
+            //@media (max-width: 1180px) {
+            //    flex: 0 1 50%;
+            //}
 
             .mainBlock4_photo {
                 /*border: 1px solid white;*/
