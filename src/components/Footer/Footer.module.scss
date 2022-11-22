@@ -17,7 +17,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 10px -15px; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
+        margin: 30px -15px 0; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
 
         .footer_item {
             flex: 0 1 12.5%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
@@ -43,5 +43,13 @@
     .footer_copyrigths {
         margin-bottom: 20px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+            padding: 0 10px;
+        }
     }
 }

@@ -18,9 +18,9 @@ export const Footer = () => {
         <div className={style.footer}>
             <div className={s.container}>
 
-                <div className={style.footer_title}>
+                {/*<div className={style.footer_title}>
                     <h3>Чашин Александр</h3>
-                </div>
+                </div>*/}
 
                 {/*flex-row*/}
                 <div className={style.footer_items}>
@@ -50,8 +50,18 @@ export const Footer = () => {
                     </div>
                 </div>
 
+                {/*<div className={style.footer_title}>
+                    <h3>Чашин Александр</h3>
+                </div>*/}
+
                 <div className={style.footer_copyrigths}>
-                    <span>Все права защищены, 2022</span>
+                    <div>
+                        <h3>Чашин Александр.</h3>
+                    </div>
+                    <div>
+                        <span>Все права защищены, 2022</span>
+                    </div>
+
                 </div>
 
             </div>
