@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.b9eac0ed.css",
-    "main.js": "/MyPortfolioApp/static/js/main.bca2a06f.js",
+    "main.css": "/MyPortfolioApp/static/css/main.168accae.css",
+    "main.js": "/MyPortfolioApp/static/js/main.d6e8a189.js",
     "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.6ec4dd8fd2bb416a9d39.jpg",
     "static/media/project_todolist3.jpg": "/MyPortfolioApp/static/media/project_todolist3.682a54f7b39a3bb627f9.jpg",
     "static/media/project_portfolio3.jpg": "/MyPortfolioApp/static/media/project_portfolio3.d51f6d3602f9ce00904e.jpg",
@@ -42,18 +42,18 @@
     "static/media/react_04.svg": "/MyPortfolioApp/static/media/react_04.b7e0fffe41414fb856f4c5aea2f10d8b.svg",
     "static/media/redux-logo_01.svg": "/MyPortfolioApp/static/media/redux-logo_01.d81fad54282cfb5c2e14133ee4061ee0.svg",
     "static/media/ReduxToolkit_01.svg": "/MyPortfolioApp/static/media/ReduxToolkit_01.ead3a9ac77c7b4f36c6dee0f35ef1db1.svg",
+    "static/media/material-ui.svg": "/MyPortfolioApp/static/media/material-ui.da7fba49c4e54be0ace3c4556eada283.svg",
     "static/media/typescript_02.svg": "/MyPortfolioApp/static/media/typescript_02.0862127c02a57f6d39dabe211ae436ab.svg",
-    "static/media/figma.svg": "/MyPortfolioApp/static/media/figma.d8e11e391a62a9686ea585915c747d73.svg",
     "index.html": "/MyPortfolioApp/index.html",
     "static/media/git_02.svg": "/MyPortfolioApp/static/media/git_02.da7cbb7e0f60abd807f4ef40cc3da768.svg",
     "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow-right_01_dark.svg": "/MyPortfolioApp/static/media/arrow-right_01_dark.a508dacc6d2b16b33fa1.svg",
     "static/media/arrow-right_01_light.svg": "/MyPortfolioApp/static/media/arrow-right_01_light.005db17ec85108051de5.svg",
-    "main.b9eac0ed.css.map": "/MyPortfolioApp/static/css/main.b9eac0ed.css.map",
-    "main.bca2a06f.js.map": "/MyPortfolioApp/static/js/main.bca2a06f.js.map"
+    "main.168accae.css.map": "/MyPortfolioApp/static/css/main.168accae.css.map",
+    "main.d6e8a189.js.map": "/MyPortfolioApp/static/js/main.d6e8a189.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9eac0ed.css",
-    "static/js/main.bca2a06f.js"
+    "static/css/main.168accae.css",
+    "static/js/main.d6e8a189.js"
   ]
 }
