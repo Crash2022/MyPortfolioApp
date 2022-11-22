@@ -13,7 +13,7 @@ import Typescript from '../../../assets/icons/skills/typescript_02.svg'
 import Storybook from '../../../assets/icons/skills/storybook_02.svg'
 import RestAPI from '../../../assets/icons/skills/RestAPI_01.png'
 import Postman from '../../../assets/icons/skills/postman_01.svg'
-import UnitTest from '../../../assets/icons/skills/jest.svg'
+import Jest from '../../../assets/icons/skills/jest.svg'
 import Git from '../../../assets/icons/skills/git_02.svg'
 import Material from '../../../assets/icons/skills/material-ui.svg'
 import SASS from '../../../assets/icons/skills/SASS_01.svg'
@@ -68,7 +68,7 @@ export const MainBlock2_Skills = () => {
                 'ведь мы можем без написания кода взаимодействовать с сервером'
         },
         {
-            id: v1(), icon: UnitTest, title: 'JEST',
+            id: v1(), icon: Jest, title: 'JEST',
             text: 'Чтобы свести количество ошибок приложения к минимуму, ' +
                 'нужно заранее разрабатывать систему тестирования'
         },

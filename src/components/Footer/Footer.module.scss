@@ -2,42 +2,46 @@
 
 .footer {
     min-height: 10vh;
-    background-color: $bgColorDark;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    //flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
     color: $fontColorLight;
-    //position: relative;
-    //top: 0;
-    //bottom: 0;
-    //left: 0;
-    //right: 0;
+    background-color: $bgColorDark;
 
     .footer_title {
         text-align: center;
-        /*font-size: 18px;*/
     }
 
     .footer_items {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 15px;
+        margin: 10px -15px; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
 
         .footer_item {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            border: 1px solid $fontColorLight;
+            flex: 0 1 12.5%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 0 15px; /*тоже значение, что и отрицательный margin*/
+            //border: 1px solid $fontColorLight;
 
-            @media (max-width: 480px) {
-                flex: 0 1 40%; /*по 2 элемента в ряду*/
+            img {
+                width: 30px;
+                height: 30px;
             }
+
+            @media (max-width: 490px) {
+                flex: 0 1 25%; /*по 4 элемента в ряду*/
+            }
+            //@media (max-width: 330px) {
+            //    flex: 0 1 50%; /*по 2 элемента в ряду*/
+            //}
         }
     }
 
     .footer_copyrigths {
         margin-bottom: 20px;
+        text-align: center;
     }
 }
