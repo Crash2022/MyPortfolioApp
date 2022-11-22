@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolioApp/static/css/main.575c8ef4.css",
+    "main.css": "/MyPortfolioApp/static/css/main.371c4f6d.css",
     "main.js": "/MyPortfolioApp/static/js/main.79fa798c.js",
     "static/media/myPhotoMain.jpg": "/MyPortfolioApp/static/media/myPhotoMain.6ec4dd8fd2bb416a9d39.jpg",
     "static/media/project_todolist3.jpg": "/MyPortfolioApp/static/media/project_todolist3.682a54f7b39a3bb627f9.jpg",
@@ -49,11 +49,11 @@
     "static/media/SASS_01.svg": "/MyPortfolioApp/static/media/SASS_01.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow-right_01_dark.svg": "/MyPortfolioApp/static/media/arrow-right_01_dark.a508dacc6d2b16b33fa1.svg",
     "static/media/arrow-right_01_light.svg": "/MyPortfolioApp/static/media/arrow-right_01_light.005db17ec85108051de5.svg",
-    "main.575c8ef4.css.map": "/MyPortfolioApp/static/css/main.575c8ef4.css.map",
+    "main.371c4f6d.css.map": "/MyPortfolioApp/static/css/main.371c4f6d.css.map",
     "main.79fa798c.js.map": "/MyPortfolioApp/static/js/main.79fa798c.js.map"
   },
   "entrypoints": [
-    "static/css/main.575c8ef4.css",
+    "static/css/main.371c4f6d.css",
     "static/js/main.79fa798c.js"
   ]
 }
