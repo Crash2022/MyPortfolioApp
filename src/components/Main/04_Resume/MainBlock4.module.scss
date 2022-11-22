@@ -76,30 +76,38 @@
 
     .mainBlock4_resume {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
-        padding: 0 50px;
+        padding: 0 30px;
         /*border: 1px solid white;*/
-        margin-bottom: $marginBottomFromBlock;
+        //margin-bottom: $marginBottomFromBlock;
+        margin: 0 -20px; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
 
         @media (max-width: 700px) {
             padding: 0 30px;
         }
 
-        .mainBlock4_photo {
-            /*border: 1px solid white;*/
-            padding: 10px;
-            display: flex;
-            justify-content: center;
+        .mainBlock4_item_column {
+            flex: 0 1 50%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
+            margin-bottom: 30px;
+            padding: 0 20px; /*тоже значение, что и отрицательный margin*/
 
-            //@media (max-width: 700px) {
-            //    padding: 0 30px;
-            //}
+            @media (max-width: 1180px) {
+                flex: 0 1 80%;
+            }
 
-            img {
-                max-width: 100%;
-                width: 600px;
-                box-shadow: 0 0 10px black;
+            .mainBlock4_photo {
+                /*border: 1px solid white;*/
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    //max-width: 600px;
+                    //height: auto;
+                    box-shadow: 0 0 10px black;
+                }
             }
         }
 
@@ -109,21 +117,27 @@
             display: flex;
             align-items: center;
 
-            .mainBlock4_text_item {
+            .mainBlock4_item_column {
+                flex: 0 1 100%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
+                margin-bottom: 30px;
+                padding: 0 20px; /*тоже значение, что и отрицательный margin*/
 
-                .mainBlock4_text_title {
-                    margin-bottom: 30px;
-                    font-size: 30px;
-                    font-weight: bold;
-                }
+                .mainBlock4_text_item {
 
-                .mainBlock4_text_body {
-                    margin-bottom: 30px;
-                    max-width: 500px;
-                    line-height: 2;
-                }
-                .mainBlock4_text_file {
+                    .mainBlock4_text_title {
+                        margin-bottom: 30px;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
 
+                    .mainBlock4_text_body {
+                        margin-bottom: 30px;
+                        max-width: 500px;
+                        line-height: 2;
+                    }
+                    .mainBlock4_text_file {
+
+                    }
                 }
             }
         }
