@@ -19,15 +19,27 @@ export const MainBlock5_Contacts = () => {
                 </div>
                 <div className={style.mainBlock5_leftInfo_phone}>
                     <div>Номер телефона:</div>
-                    <div>+7 (9033) 98-84-05</div>
+                    <div>
+                        <a href='tel:+79033988405'>
+                            +7 (9033) 98-84-05
+                        </a>
+                    </div>
                 </div>
                 <div className={style.mainBlock5_leftInfo_email}>
                     <div>Электронная почта:</div>
-                    <div>crash56zzz@gmail.com</div>
+                    <div>
+                        <a href='mailto:crash56zzz@gmail.com'>
+                            crash56zzz@gmail.com
+                        </a>
+                    </div>
                 </div>
                 <div className={style.mainBlock5_leftInfo_location}>
                     <div>GitHub:</div>
-                    <div>https://github.com/Crash2022</div>
+                    <div>
+                        <a href='https://github.com/Crash2022'>
+                            github.com/Crash2022
+                        </a>
+                    </div>
                 </div>
             </div>
 

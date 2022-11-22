@@ -37,6 +37,10 @@
             margin-bottom: 10px;
         }
 
+        a {
+            color: $fontColorDark;
+        }
+
         @media (max-width: 890px) {
             flex: 0 1 100%;
             text-align: center;
