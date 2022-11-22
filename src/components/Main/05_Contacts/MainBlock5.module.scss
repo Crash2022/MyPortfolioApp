@@ -128,12 +128,12 @@
 
             button {
                 padding: 15px 70px 15px 30px;
-                background-color: $bgColorDark;
+                background-color: $bgColorMediumDark;
                 color: $fontColorLight;
                 font-weight: bold;
                 font-size: 16px;
                 border: none;
-                box-shadow: 0 0 5px $bgColorDark;
+                box-shadow: 0 0 5px $bgColorMediumDark;
                 position: relative;
 
                 &::after {

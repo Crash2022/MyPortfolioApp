@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh; !*блок по всей высоте*!
-    background-color: $bgColorDark;
-    //border: 1px solid $bgColorDark;
+    background-color: $bgColorMediumDark;
+    //border: 1px solid $bgColorMediumDark;
     color: $fontColorLight;
 
     .mainBlock2_skills {
@@ -81,7 +81,7 @@
     display: flex;
     flex-direction: column;
     //min-height: 100vh; /*блок по всей высоте*/
-    background-color: $bgColorDark;
+    background-color: $bgColorMediumDark;
     color: $fontColorLight;
 
     // ряд с карточками flex-row
