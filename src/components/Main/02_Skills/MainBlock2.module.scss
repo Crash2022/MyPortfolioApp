@@ -96,17 +96,20 @@
         .mainBlock2_skillItem_column {
             flex: 0 1 25%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
             margin-bottom: 20px;
+            //margin: 10px;
             padding: 0 10px; /*тоже значение, что и отрицательный margin*/
+            //background-color: $bgColorMedium;
+            //box-shadow: 0 0 10px #111111;
 
-            @media (max-width: 1060px) {
+            @media (max-width: 1130px) {
                 flex: 0 1 33.333%; /*по 3 элемента в ряду*/
             }
 
-            @media (max-width: 800px) {
+            @media (max-width: 880px) {
                 flex: 0 1 50%; /*по 2 элемента в ряду*/
             }
 
-            @media (max-width: 590px) {
+            @media (max-width: 630px) {
                 flex: 0 1 100%; /*по 1 элементу в ряду*/
             }
 
@@ -130,6 +133,7 @@
                 }
                 .item_title {
                     font-size: 20px;
+                    text-align: center;
 
                     h3 {
                         margin: 10px 0 20px 0;

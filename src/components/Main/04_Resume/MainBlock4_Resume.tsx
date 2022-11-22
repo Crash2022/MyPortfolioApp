@@ -2,7 +2,7 @@ import React from 'react'
 // import style from './MainBlock4.module.css'
 import style from './MainBlock4.module.scss'
 import {Title} from '../../../common/components/Title'
-import working from '../../../assets/images/photos/photo_resume_03.jpg'
+import working from '../../../assets/images/photos/photo_resume_02.jpg'
 import {Button} from "../../../common/components/Button";
 import s from "../00_Main/Main.module.css";
 import {v1} from "uuid";
