@@ -1,6 +1,7 @@
 import React from 'react'
 //import style from './MainBlock2.module.css'
 import style from './MainBlock2.module.scss'
+import {Fade} from "react-awesome-reveal";
 
 type SkillItemPropsType = {
     icon: string
@@ -11,7 +12,7 @@ type SkillItemPropsType = {
 export const Skill_Item: React.FC<SkillItemPropsType> = ({icon, title, text}) => {
 
     return (
-        <>
+        <Fade>
             <div className={style.item_icon}>
                 <img src={icon} alt="skill_logo"/>
             </div>
@@ -21,6 +22,6 @@ export const Skill_Item: React.FC<SkillItemPropsType> = ({icon, title, text}) =>
             <div className={style.item_text}>
                 {text}
             </div>
-        </>
+        </Fade>
     );
 }

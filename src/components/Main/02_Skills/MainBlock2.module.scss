@@ -84,6 +84,10 @@
     background-color: $bgColorMediumDark;
     color: $fontColorLight;
 
+    div > h2 {
+        color: $titleColorLight;
+    }
+
     // ряд с карточками flex-row
     .mainBlock2_skills {
         display: flex;
@@ -141,7 +145,7 @@
                 }
                 .item_text {
                     text-align: center;
-                    @include text(1.4, 18px);
+                    @include text(1.4, 16px);
                 }
             }
         }

@@ -9,6 +9,7 @@ import projectSocial from '../../../assets/images/projects/project_social2.jpg'
 import projectFriday from '../../../assets/images/projects/project_friday3.jpg'
 import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
 import projectTodolist from '../../../assets/images/projects/project_todolist3.jpg'
+import {Slide} from "react-awesome-reveal";
 
 export type ProjectsArrayPropsType = {
     id: string
@@ -54,15 +55,17 @@ export const MainBlock3_Projects = () => {
 
     return (
         <div className={style.mainBlock3} id='projects'>
-            {/*<div className={s.container}>*/}
+            <Slide>
+                {/*<div className={s.container}>*/}
+
 
                 <Title title={'Мои проекты'}/>
 
                 <div className={style.mainBlock3_projects}>
                     <ProjectsList projects={projects}/>
                 </div>
-            {/*</div>*/}
-
+                {/*</div>*/}
+            </Slide>
         </div>
     );
 }

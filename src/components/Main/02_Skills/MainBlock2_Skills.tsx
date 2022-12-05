@@ -18,6 +18,7 @@ import Git from '../../../assets/icons/skills/git_02.svg'
 import Material from '../../../assets/icons/skills/material-ui.svg'
 import SASS from '../../../assets/icons/skills/SASS_01.svg'
 // import Figma from '../../../assets/icons/skills/figma.svg'
+import {Fade} from "react-awesome-reveal";
 
 export type SkillsArrayPropsType = {
     id: string
@@ -96,17 +97,18 @@ export const MainBlock2_Skills = () => {
 
     return (
         <div className={style.mainBlock2} id='skills'>
-            <div className={s.container}>
+            {/*<Fade>*/}
+                <div className={s.container}>
 
-                <Title title={'Технологии'}/>
+                    <Title title={'Технологии'}/>
 
-                {/*flex row*/}
-                <div className={style.mainBlock2_skills}>
-                    <SkillsList skills={skills}/>
+                    {/*flex row*/}
+                    <div className={style.mainBlock2_skills}>
+                        <SkillsList skills={skills}/>
+                    </div>
+
                 </div>
-
-            </div>
+            {/*</Fade>*/}
         </div>
-
     );
 }

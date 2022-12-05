@@ -74,6 +74,10 @@
     /*border: 1px solid black;*/
     color: white;
 
+    h2 {
+        color: $titleColorLight;
+    }
+
     .mainBlock4_resume {
         display: flex;
         justify-content: center;
