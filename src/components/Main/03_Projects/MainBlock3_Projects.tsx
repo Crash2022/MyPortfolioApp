@@ -29,27 +29,27 @@ export const MainBlock3_Projects = () => {
         {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Социальная сеть',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-            link: 'https://github.com/Crash2022/IT-Samurai-Social'
+            link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
             id: v1(),
             style: {backgroundImage: `url(${projectFriday})`},
             title: 'Пятничный проект',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-            link: 'https://github.com/Crash2022/Samurai-Counter'
+            link: 'https://Crash2022.github.io/FridayProject'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Портфолио',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
                 'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum',
-            link: 'https://github.com/Crash2022/MyPortfolioApp'
+            link: 'https://Crash2022.github.io/MyPortfolioApp'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
                 'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
                 'qui recusandae repellat voluptate voluptatem?',
-            link: 'https://github.com/Crash2022/Samurai-TodoList'
+            link: 'https://samuraitodo.herokuapp.com'
         }
     ]);
 
