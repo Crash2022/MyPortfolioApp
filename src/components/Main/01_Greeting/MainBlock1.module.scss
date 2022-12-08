@@ -47,11 +47,12 @@
                 }
             }
 
-            &:nth-child(2) {
-                span {
-                    font-size: 50px;
-                }
-            }
+            // для Typing Effect
+            //&:nth-child(2) {
+            //    span {
+            //        font-size: 50px;
+            //    }
+            //}
         }
         .mainBlock1_work {
             font-size: 30px;

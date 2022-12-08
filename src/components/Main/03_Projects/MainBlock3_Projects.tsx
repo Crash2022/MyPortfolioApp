@@ -55,9 +55,8 @@ export const MainBlock3_Projects = () => {
 
     return (
         <div className={style.mainBlock3} id='projects'>
-            <Slide>
+            <Slide direction={'left'}>
                 {/*<div className={s.container}>*/}
-
 
                 <Title title={'Мои проекты'}/>
 
