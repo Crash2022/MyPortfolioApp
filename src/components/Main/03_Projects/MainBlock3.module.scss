@@ -10,7 +10,7 @@
 
     .mainBlock3_projects {
         display: flex;
-        /*justify-content: space-between;*/
+        //justify-content: space-between;
         justify-content: center;
         flex-wrap: wrap;
         //padding: 20px;
@@ -38,7 +38,7 @@
             .item_image {
                 width: 100%;
                 height: 200px;
-                /*border: 1px solid black;*/
+                //border: 1px solid black;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -60,35 +60,52 @@
                     right: 0;
                     opacity: 0;
                 }
-                /*.item_image:hover {*/
-                /*    opacity: 0.5;*/
-                /*}*/
+
+                /*&:hover {
+                    opacity: 0.5;
+                }*/
 
                 a {
-                    //border: 1px solid $bgColorMediumDark;
+                    border: 1px solid $bgColorMediumDark;
                     padding: 15px;
                     text-decoration: none;
                     color: $bgColorMediumDark;
-                    /*background-color: #1f1f1f;*/
                     background-color: $bgColorLight;
-                    font-weight: bold;
-                    /*pointer-events: none; !*отмена перехода по ссылке*!*!
+                    //font-weight: bold;
+                    //pointer-events: none; /*отмена перехода по ссылке*/
                     //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
-                    !*opacity: 0.8;*!
+                    //opacity: 0.8;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: $hoverOpacity;
+                        //text-decoration: underline;
+                        text-decoration: none;
+                    }
+                }
+
+                /*чтобы кнопка была сверху*/
+                .item_button {
+                    position: relative;
+                    z-index: 1;
+                    box-shadow: 0 0 10px $bgColorMediumDark;
+
+                    // свойства для ссылки можно написать здесь
+                    /*border: 1px solid $bgColorMediumDark;
+                    padding: 15px;
+                    text-decoration: none;
+                    color: $bgColorMediumDark;
+                    background-color: $bgColorLight;
+                    //font-weight: bold;
+                    //pointer-events: none; !*отмена перехода по ссылке*!
+                    //box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+                    //opacity: 0.8;
                     cursor: pointer;
 
                     &:hover {
                         opacity: $hoverOpacity;
                         text-decoration: underline;
-                    }
-                }
-
-
-                !*чтобы кнопка была сверху*/
-                .item_button {
-                    position: relative;
-                    z-index: 1;
-                    box-shadow: 0 0 10px $bgColorMediumDark;
+                    }*/
                 }
             }
 
@@ -103,8 +120,8 @@
             }
         }
     }
-  }
 }
+
 
 /*--------------------------------------------------------------*/
 
