@@ -28,27 +28,25 @@ export const MainBlock3_Projects = () => {
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Социальная сеть',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            text: 'Данный проект написан на классовых компонентах. Стэк технологий: React, React Redux, Redux Form, TDD',
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
             id: v1(),
             style: {backgroundImage: `url(${projectFriday})`},
-            title: 'Пятничный проект',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-            link: 'https://Crash2022.github.io/FridayProject'
+            title: 'Карточки',
+            text: 'Приложение, с помощью которого можно обучаться по принципу "вопрос-ответ". ' +
+                'Стэк технологий: React, React Redux, Formik, Material UI, TDD. Проект разрабатывался в команде из 3-х человек',
+            link: 'https://onemore8762.github.io/cards'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Портфолио',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ' +
-                'culpa deserunt dolorem doloremque dolores ducimus eaque eos ex harum',
+            text: 'Сайт-портфолио, написанный с помощью React-библиотеки с использованием препроцессора SCSS',
             link: 'https://Crash2022.github.io/MyPortfolioApp'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, culpa deserunt ' +
-                'dolorem doloremque dolores ducimus eaque eos ex harum minus neque non optio porro possimus ' +
-                'qui recusandae repellat voluptate voluptatem?',
+            text: 'Проект написан на React с использованием функциональных компонент. Дизайн разработан с помощью библиотеки Material UI',
             link: 'https://samuraitodo.herokuapp.com'
         }
     ]);

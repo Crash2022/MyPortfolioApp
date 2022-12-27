@@ -79,14 +79,16 @@
             //max-height: 500px;
             border-radius: 50%;
             width: 35vw;
-            height: auto;
+            height: 35vw;
 
             @media (max-width: 1014px) {
                 width: 55vw;
+                height: 55vw;
             }
 
             @media (max-width: 657px) {
                 width: 45vw;
+                height: 45vw;
             }
         }
     }
