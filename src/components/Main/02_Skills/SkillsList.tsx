@@ -1,7 +1,6 @@
 import React from 'react'
 import {v1} from "uuid"
 import {SkillsArrayPropsType} from './MainBlock2_Skills'
-//import style from './MainBlock2.module.css'
 import style from './MainBlock2.module.scss'
 import {Skill_Item} from "./Skill_Item";
 

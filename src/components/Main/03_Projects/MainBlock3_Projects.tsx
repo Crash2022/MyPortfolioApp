@@ -1,12 +1,10 @@
 import React, {useState} from 'react'
-// import style from './MainBlock3.module.css'
 import style from './MainBlock3.module.scss'
-// import s from '../00_Main/Main.module.css'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../common/components/Title'
-import projectSocial from '../../../assets/images/projects/project_social2.jpg'
-import projectFriday from '../../../assets/images/projects/project_friday3.jpg'
+import projectSocial from '../../../assets/images/projects/project_social5.jpg'
+import projectCards from '../../../assets/images/projects/project_cards1.jpg'
 import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
 import projectTodolist from '../../../assets/images/projects/project_todolist3.jpg'
 import {Slide} from "react-awesome-reveal";
@@ -28,15 +26,15 @@ export const MainBlock3_Projects = () => {
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Социальная сеть',
-            text: 'Данный проект написан на классовых компонентах. Стэк технологий: React, React Redux, Redux Form, TDD',
+            text: 'Данный проект написан на классовых компонентах. Стэк технологий: React, Typescript, React Redux, Redux Form, TDD',
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
             id: v1(),
-            style: {backgroundImage: `url(${projectFriday})`},
+            style: {backgroundImage: `url(${projectCards})`},
             title: 'Карточки',
             text: 'Приложение, с помощью которого можно обучаться по принципу "вопрос-ответ". ' +
-                'Стэк технологий: React, React Redux, Formik, Material UI, TDD. Проект разрабатывался в команде из 3-х человек',
+                'Стэк технологий: React, Typescript, React Redux, Formik, Material UI, TDD. Проект разрабатывался в команде из 3-х человек',
             link: 'https://onemore8762.github.io/cards'
         },
         {
@@ -46,7 +44,9 @@ export const MainBlock3_Projects = () => {
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Тудулист',
-            text: 'Проект написан на React с использованием функциональных компонент. Дизайн разработан с помощью библиотеки Material UI',
+            text: 'Проект написан на React с использованием функциональных компонент. ' +
+                'Дизайн разработан с помощью библиотеки Material UI. ' +
+                'Стэк технологий: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
             link: 'https://samuraitodo.herokuapp.com'
         }
     ]);

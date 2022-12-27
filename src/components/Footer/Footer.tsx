@@ -13,16 +13,8 @@ import Material from '../../assets/icons/skills/material-ui.svg'
 
 export const Footer = () => {
     return (
-        // <div className={styleMain.mainBlock}>
-        //     <div className={styleMain.container}>
         <div className={style.footer}>
             <div className={s.container}>
-
-                {/*<div className={style.footer_title}>
-                    <h3>Чашин Александр</h3>
-                </div>*/}
-
-                {/*flex-row*/}
                 <div className={style.footer_items}>
                     <div className={style.footer_item}>
                         <img src={ReactLogo} alt="react"/>
@@ -49,11 +41,6 @@ export const Footer = () => {
                         <img src={Material} alt="material-ui"/>
                     </div>
                 </div>
-
-                {/*<div className={style.footer_title}>
-                    <h3>Чашин Александр</h3>
-                </div>*/}
-
                 <div className={style.footer_copyrigths}>
                     <div>
                         <h3>Чашин Александр.</h3>
@@ -63,10 +50,7 @@ export const Footer = () => {
                     </div>
 
                 </div>
-
             </div>
-            {/*</div>*/}
-            {/*</div>*/}
             <TopButton/>
         </div>
     );

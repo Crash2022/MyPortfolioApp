@@ -1,5 +1,4 @@
 import React from 'react'
-// import styles from './MainBlock3.module.css'
 import styles from './MainBlock3.module.scss'
 import {StyleType} from "./MainBlock3_Projects";
 

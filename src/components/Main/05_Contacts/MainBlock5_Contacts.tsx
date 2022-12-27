@@ -1,7 +1,5 @@
 import React from 'react'
-// import style from './MainBlock5.module.css'
 import style from './MainBlock5.module.scss'
-import {Button} from "../../../common/components/Button";
 import {Fade} from "react-awesome-reveal";
 
 export const MainBlock5_Contacts = () => {

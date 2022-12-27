@@ -1,6 +1,5 @@
 import React from 'react'
 import {v1} from "uuid"
-// import style from './MainBlock3.module.css'
 import style from './MainBlock3.module.scss'
 import {ProjectsArrayPropsType} from './MainBlock3_Projects';
 import {Project_Item} from './Project_Item';
@@ -14,15 +13,13 @@ export const ProjectsList = (props: ProjectsListPropsType) => {
             {
                 props.projects.map(el => {
                     return (
-                        // <div className={style.mainBlock3_projectItem_column}>
-                            <div key={v1()} className={style.mainBlock3_projectItem}>
-                                <Project_Item title={el.title}
-                                              text={el.text}
-                                              style={el.style}
-                                              link={el.link}
-                                />
-                            </div>
-                        // </div>
+                        <div key={v1()} className={style.mainBlock3_projectItem}>
+                            <Project_Item title={el.title}
+                                          text={el.text}
+                                          style={el.style}
+                                          link={el.link}
+                            />
+                        </div>
                     )
                 })
             }

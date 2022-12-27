@@ -1,19 +1,10 @@
 .mainBlock {
     background-color: white;
-    /*прежняя версия*/
-    /*max-width: 1400px;*/
-    /*margin: 0 auto;*/
 }
 
 .container {
-    /*прежняя версия*/
-    /*width: 100%;*/
-    /*!*max-width: 1400px;*!*/
-    /*margin: 0 auto;*/
-
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
-    /*border: 1px solid white;*/
 }
