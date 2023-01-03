@@ -9,14 +9,14 @@ export const MainBlock1_Greeting = () => {
             <Fade>
                 <div className={style.mainBlock1_text}>
                     <div className={style.mainBlock1_greeting}>
-                        <span>Добро пожаловать!</span>
+                        <span>Hi there!</span>
                     </div>
                     <div className={style.mainBlock1_name}>
-                        <h3>Меня зовут</h3>
-                        <h1>Чашин Александр</h1>
+                        <h3>My name is</h3>
+                        <h1>Chashin Alexander</h1>
                     </div>
                     <div className={style.mainBlock1_work}>
-                        <p>и я Front-End React-разработчик</p>
+                        <p>I'm front-end React-developer</p>
                     </div>
                 </div>
 

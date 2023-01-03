@@ -1,78 +1,3 @@
-/*
-@import './src/common/styles/sass/variables';
-@import './src/common/styles/sass/mixins';
-
-.mainBlock2 {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; !*блок по всей высоте*!
-    background-color: $bgColorMediumDark;
-    //border: 1px solid $bgColorMediumDark;
-    color: $fontColorLight;
-
-    .mainBlock2_skills {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: $marginBottomFromBlock;
-
-        !*ограничение по ширине*!
-        !*width: 90%;*!
-        !*margin: 0 auto;*!
-
-        .mainBlock2_skillItem {
-            //border: 1px solid $bgColorLight;
-            !*width: 150px;*! !*или убрать flex: 0 1 *!
-            min-width: 150px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex: 0 1 31%; !*по 3 элемента в ряду*!
-            margin: 5px;
-            padding: 10px;
-            //border: 1px solid $fontColorLight;
-
-            // чтобы выглядело как карточки
-            //background-color: $bgColorMedium;
-            //box-shadow: 0 0 10px #111111;
-
-            @media (max-width: 858px) {
-                flex: 0 1 45%; !*по 2 элемента в ряду*!
-            }
-
-            @media (max-width: 500px) {
-                flex: 0 1 85%; !*по 1 элементу в ряду*!
-                padding: 5px;
-            }
-
-            .item_icon {
-                //background-color: $bgColorLight;
-                //margin: 5px;
-
-                img {
-                    width: 50px;
-                    height: 50px;
-                }
-            }
-            .item_title {
-                font-size: 20px;
-                //padding: 5px;
-                h3 {
-                    margin: 10px 0 20px 0;
-                }
-            }
-            .item_text {
-                //padding: 5px;
-                margin-bottom: 15px;
-                @include text(1.4, 18px);
-            }
-        }
-    }
-}*/
-
-/*--------------------------------------------------------------*/
-
 @import './src/common/styles/sass/variables';
 @import './src/common/styles/sass/mixins';
 
@@ -80,7 +5,7 @@
     // почему если убрать два свойства, то появится белая полоса сверху?!
     display: flex;
     flex-direction: column;
-    //min-height: 100vh; /*блок по всей высоте*/
+    min-height: 100vh; /*блок по всей высоте*/
     background-color: $bgColorMediumDark;
     color: $fontColorLight;
 
@@ -92,16 +17,17 @@
     .mainBlock2_skills {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 -10px; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
+        margin: 0 -50px; /*отступ между колонками: отрицательное число вдвое меньше проектного*/
         padding: 0 50px;
         margin-bottom: $marginBottomFromBlock;
+        margin-top: 70px;
 
         // колонка = карточка
         .mainBlock2_skillItem_column {
             flex: 0 1 25%; /*0-нельзя увелич., 1-можно уменьшаться, %-размер колонки в ряду*/
             margin-bottom: 20px;
             //margin: 10px;
-            padding: 0 10px; /*тоже значение, что и отрицательный margin*/
+            padding: 0 50px; /*тоже значение, что и отрицательный margin*/
             //background-color: $bgColorMedium;
             //box-shadow: 0 0 10px #111111;
 
@@ -123,6 +49,7 @@
                 flex-direction: column;
                 align-items: center;
                 //border: 1px solid white;
+                margin-top: 20px;
 
                 // чтобы выглядело как карточки
                 //background-color: $bgColorMedium;

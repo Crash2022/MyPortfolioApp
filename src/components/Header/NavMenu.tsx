@@ -5,11 +5,11 @@ export const NavMenu = () => {
 
     return (
         <div className={style.navMenu}>
-            <a href="#main">Главная</a>
-            <a href="#skills">Технологии</a>
-            <a href="#projects">Проекты</a>
-            <a href="#resume">Резюме</a>
-            <a href="#contacts">Контакты</a>
+            <a href="#main">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">CV</a>
+            <a href="#contacts">Contacts</a>
         </div>
     );
 }

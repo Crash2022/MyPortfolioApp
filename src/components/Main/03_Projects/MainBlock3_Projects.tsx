@@ -23,7 +23,8 @@ export type StyleType = {
 
 export const MainBlock3_Projects = () => {
 
-    const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
+    // ru
+    /*const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Социальная сеть',
             text: 'Данный проект написан на классовых компонентах. Стэк технологий: React, Typescript, React Redux, Redux Form, TDD',
@@ -49,19 +50,44 @@ export const MainBlock3_Projects = () => {
                 'Стэк технологий: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
             link: 'https://samuraitodo.herokuapp.com'
         }
+    ]);*/
+
+    // eng
+    const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
+        {
+            id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Social Network',
+            text: 'This project is written with class components. Stack of used technologies: React, Typescript, React Redux, Redux Form, TDD',
+            link: 'https://Crash2022.github.io/IT-Samurai-Social'
+        },
+        {
+            id: v1(),
+            style: {backgroundImage: `url(${projectCards})`},
+            title: 'Education Cards',
+            text: 'This application helps to study developed on concept "question-answer". ' +
+                'Stack of used technologies: React, Typescript, React Redux, Formik, Material UI, TDD. Project was made in group of 3 person',
+            link: 'https://onemore8762.github.io/cards'
+        },
+        {
+            id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Portfolio',
+            text: 'This is an example of web-portfolio written with React and SCSS',
+            link: 'https://Crash2022.github.io/MyPortfolioApp'
+        },
+        {
+            id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Todolist',
+            text: 'Project is written with React functional components. ' +
+                'Design is developed using Material UI library. ' +
+                'Stack of used technologies: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
+            link: 'https://samuraitodo.herokuapp.com'
+        }
     ]);
 
     return (
         <div className={style.mainBlock3} id='projects'>
             <Slide direction={'left'}>
-                {/*<div className={s.container}>*/}
-
-                <Title title={'Мои проекты'}/>
-
+                <Title title={'Projects'}/>
                 <div className={style.mainBlock3_projects}>
                     <ProjectsList projects={projects}/>
                 </div>
-                {/*</div>*/}
             </Slide>
         </div>
     );

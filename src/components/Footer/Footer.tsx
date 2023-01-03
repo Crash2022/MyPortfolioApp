@@ -43,10 +43,10 @@ export const Footer = () => {
                 </div>
                 <div className={style.footer_copyrigths}>
                     <div>
-                        <h3>Чашин Александр.</h3>
+                        <h3>Chashin Alexander.</h3>
                     </div>
                     <div>
-                        <span>Все права защищены, 2022</span>
+                        <span>Copyright, 2022</span>
                     </div>
 
                 </div>

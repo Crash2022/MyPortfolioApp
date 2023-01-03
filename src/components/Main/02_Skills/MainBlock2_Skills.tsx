@@ -6,7 +6,8 @@ import {SkillsList} from './SkillsList'
 import {Title} from '../../../common/components/Title'
 import ReactLogo from '../../../assets/icons/skills/react_02.svg'
 import ReactRedux from '../../../assets/icons/skills/redux-logo_01.svg'
-import ReactNative from '../../../assets/icons/skills/react_04.svg'
+import ReduxToolkit from '../../../assets/icons/skills/ReduxToolkit_01.svg'
+// import ReactNative from '../../../assets/icons/skills/react_04.svg'
 import Typescript from '../../../assets/icons/skills/typescript_02.svg'
 import Formik from '../../../assets/icons/skills/formik.svg'
 import Storybook from '../../../assets/icons/skills/storybook_02.svg'
@@ -26,31 +27,32 @@ export type SkillsArrayPropsType = {
 
 export const MainBlock2_Skills = () => {
 
-    const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
+    // ru
+    /*const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
             id: v1(), icon: ReactLogo, title: 'React JS',
             text: 'На сегодняшний день React является одной из самых популярных и ' +
                 'эффективных библиотек для создания веб-приложений'
         },
-        {
+        /!*{
             id: v1(), icon: ReactRedux, title: 'React Redux/Redux Toolkit',
             text: 'Ни один крупный проект невозможно разрабатывать без стейт-менеджера, ' +
                 'таких как React-Redux или Redux Toolkit, ' +
                 'которые соответствуют FLUX-архитектуре'
-        },
-        /*{
-            id: v1(), icon: ReactRedux, title: 'React Redux/',
+        },*!/
+        {
+            id: v1(), icon: ReactRedux, title: 'React Redux',
             text: 'Использование библиотеки React-Redux способствует тому, чтобы разрабатываемое приложение соответствовало FLUX-архитектуре'
         },
         {
             id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
             text: 'Redux Toolkit является усовершенствованной версией React-Redux и делает разработку приложения более удобной'
-        },*/
-        {
+        },
+        /!*{
             id: v1(), icon: ReactNative, title: 'React Native',
             text: 'Сегодня более 70% информации просматривается с помощью мобильных приложений ' +
                 'и поэтому знание технологий для разработки приложений для мобильных устройств является обязательным'
-        },
+        },*!/
         {
             id: v1(), icon: Typescript, title: 'Typescript',
             text: 'Проекты становятся объемнее и сложнее, поэтому разработку приложений уже невозможно представить ' +
@@ -97,12 +99,76 @@ export const MainBlock2_Skills = () => {
             text: 'Любые шаги по разработке приложения, особенно в команде, ' +
                 'легко сохранять и отслеживать с помощью системы контроля версий GIT'
         },
+    ]);*/
+
+    // eng
+    const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
+        {
+            id: v1(), icon: ReactLogo, title: 'React JS',
+            text: 'Nowadays React is one of most popular libraries for development web-applications'
+        },
+        /*{
+            id: v1(), icon: ReactRedux, title: 'React Redux/Redux Toolkit',
+            text: 'Ни один крупный проект невозможно разрабатывать без стейт-менеджера, ' +
+                'таких как React-Redux или Redux Toolkit, ' +
+                'которые соответствуют FLUX-архитектуре'
+        },*/
+        {
+            id: v1(), icon: ReactRedux, title: 'React Redux',
+            text: 'Using React Redux help us to develop app which matches FLUX-architecture'
+        },
+        {
+            id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
+            text: 'Redux Toolkit is a newer version of React Redux which unify development process'
+        },
+        /*{
+            id: v1(), icon: ReactNative, title: 'React Native',
+            text: 'Сегодня более 70% информации просматривается с помощью мобильных приложений ' +
+                'и поэтому знание технологий для разработки приложений для мобильных устройств является обязательным'
+        },*/
+        {
+            id: v1(), icon: Typescript, title: 'Typescript',
+            text: `Today projects become more difficult, that's why it's necessary to use Typescript avoiding errors and saving development time`
+        },
+        {
+            id: v1(), icon: Formik, title: 'Formik',
+            text: 'Each application includes different elements of user interface, Formik helps to develop easier'
+        },
+        {
+            id: v1(), icon: Storybook, title: 'Storybook',
+            text: 'Developing with Storybook is a good example when we have tests and design of our app in one pack'
+        },
+        {
+            id: v1(), icon: Material, title: 'Material UI',
+            text: 'Such libraries gives us opportunity to make beautiful app design in short time'
+        },
+        {
+            id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
+            text: 'Of course knowing of this basis is required for creating each web-application'
+        },
+        {
+            id: v1(), icon: RestAPI, title: 'Rest API',
+            text: `All data is located on server, that's why it's necessary know API methods`
+        },
+        {
+            id: v1(), icon: Postman, title: 'Postman',
+            text: `We can make requests to server without any code using Postman application`
+        },
+        {
+            id: v1(), icon: Jest, title: 'JEST',
+            text: `Today more and more developers can make many deploys of app in one day, 
+            that's necessary to have testing system like TDD`
+        },
+        {
+            id: v1(), icon: Git, title: 'GIT',
+            text: 'Its comfortable to develop app, especially in group, using GIT, which gives you control for any step'
+        },
     ]);
 
     return (
         <div className={style.mainBlock2} id='skills'>
             <div className={s.container}>
-                <Title title={'Технологии'}/>
+                <Title title={'Skills'}/>
                 <div className={style.mainBlock2_skills}>
                     <SkillsList skills={skills}/>
                 </div>

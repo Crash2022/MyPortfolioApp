@@ -12,7 +12,7 @@ export const MainBlock4_Resume = () => {
         <div className={style.mainBlock4} id='resume'>
             <Fade>
                 <div className={s.container}>
-                    <Title title={'Резюме'}/>
+                    <Title title={'CV'}/>
                     <div className={style.mainBlock4_resume}>
                         <div className={style.mainBlock4_item_column}>
                             <div className={style.mainBlock4_photo}>
@@ -24,14 +24,13 @@ export const MainBlock4_Resume = () => {
                             <div className={style.mainBlock4_item_column}>
                                 <div className={style.mainBlock4_text_item}>
                                     <div className={style.mainBlock4_text_title}>
-                                        Front-End React-разработчик
+                                        Front-end React-developer
                                     </div>
                                     <div className={style.mainBlock4_text_body}>
-                                        Мой стэк знания технологий, а также опыт позволяют
-                                        разрабатывать веб приложения различного уровня и потребностей
+                                        I sure that my knowledge and experience will help to develop applications of different levels and tasks
                                     </div>
                                     <div className={style.mainBlock4_text_file}>
-                                        <Button title={'Скачать резюме'}/>
+                                        <Button title={'download CV'}/>
                                     </div>
                                 </div>
                             </div>
