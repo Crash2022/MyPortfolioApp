@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import style from './MainBlock3.module.scss'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
-import {Title} from '../../../common/components/Title'
+import {Title} from '../../../common/components/Title/Title'
 import projectSocial from '../../../assets/images/projects/project_social5.jpg'
 import projectCards from '../../../assets/images/projects/project_cards1.jpg'
 import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
@@ -56,7 +56,7 @@ export const MainBlock3_Projects = () => {
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Social Network',
-            text: 'This project is written with class components. Stack of used technologies: React, Typescript, React Redux, Redux Form, TDD',
+            text: 'This project is written with class features. Stack of used technologies: React, Typescript, React Redux, Redux Form, TDD',
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
@@ -74,7 +74,7 @@ export const MainBlock3_Projects = () => {
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Todolist',
-            text: 'Project is written with React functional components. ' +
+            text: 'Project is written with React functional features. ' +
                 'Design is developed using Material UI library. ' +
                 'Stack of used technologies: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
             link: 'https://samuraitodo.herokuapp.com'

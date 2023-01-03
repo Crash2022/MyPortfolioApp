@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './MainBlock4.module.scss'
-import {Title} from '../../../common/components/Title'
+import {Title} from '../../../common/components/Title/Title'
 import working from '../../../assets/images/photos/photo_resume_02.jpg'
-import {Button} from "../../../common/components/Button";
+import {Button} from "../../../common/components/Button/Button";
 import s from "../00_Main/Main.module.css";
 import {Fade} from "react-awesome-reveal";
 
