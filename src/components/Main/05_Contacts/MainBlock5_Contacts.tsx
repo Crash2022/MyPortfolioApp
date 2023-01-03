@@ -16,7 +16,7 @@ export const MainBlock5_Contacts = () => {
                             For any questions you can contact with me with any way below
                         </p>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_phone}>
+                    <div className={style.mainBlock5_leftInfo_info}>
                         <div>Phone number:</div>
                         <div>
                             <a href='tel:+79033988405'>
@@ -24,7 +24,7 @@ export const MainBlock5_Contacts = () => {
                             </a>
                         </div>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_email}>
+                    <div className={style.mainBlock5_leftInfo_info}>
                         <div>E-mail:</div>
                         <div>
                             <a href='mailto:crash56zzz@gmail.com'>
@@ -32,7 +32,7 @@ export const MainBlock5_Contacts = () => {
                             </a>
                         </div>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_location}>
+                    <div className={style.mainBlock5_leftInfo_info}>
                         <div>GitHub:</div>
                         <div>
                             <a href='https://github.com/Crash2022'>

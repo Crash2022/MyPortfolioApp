@@ -69,21 +69,26 @@
                 margin: 0 auto;
             }
         }
-        .mainBlock5_leftInfo_location {
+        .mainBlock5_leftInfo_info {
             :first-child {
                 font-weight: bold;
             }
         }
-        .mainBlock5_leftInfo_phone {
-            :first-child {
-                font-weight: bold;
-            }
-        }
-        .mainBlock5_leftInfo_email {
-            :first-child {
-                font-weight: bold;
-            }
-        }
+        //.mainBlock5_leftInfo_location {
+        //    :first-child {
+        //        font-weight: bold;
+        //    }
+        //}
+        //.mainBlock5_leftInfo_phone {
+        //    :first-child {
+        //        font-weight: bold;
+        //    }
+        //}
+        //.mainBlock5_leftInfo_email {
+        //    :first-child {
+        //        font-weight: bold;
+        //    }
+        //}
     }
 
     .mainBlock5_contactForm {

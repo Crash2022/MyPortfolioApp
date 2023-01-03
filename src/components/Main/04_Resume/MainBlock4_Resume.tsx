@@ -28,6 +28,7 @@ export const MainBlock4_Resume = () => {
             <Fade>
                 <div className={s.container}>
                     <Title title={'CV'}/>
+
                     <div className={style.mainBlock4_resume}>
                         <div className={style.mainBlock4_item_column}>
                             <div className={style.mainBlock4_photo}>
@@ -50,6 +51,7 @@ export const MainBlock4_Resume = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </Fade>
