@@ -28,7 +28,7 @@ export const MainBlock5_Contacts = () => {
                         <div>E-mail:</div>
                         <div>
                             <a href='mailto:crash56zzz@gmail.com'>
-                                crash56zzz@gmail.com
+                                ManForCoding@gmail.com
                             </a>
                         </div>
                     </div>

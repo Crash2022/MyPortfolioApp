@@ -8,6 +8,21 @@ import {Fade} from "react-awesome-reveal";
 
 export const MainBlock4_Resume = () => {
 
+    const getFile = () => {
+        fetch( 'Chashin_Alexander_Evgenievich_CV.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Chashin_Alexander_Evgenievich_CV.pdf';
+                alink.click();
+                alink.remove();
+            })
+        })
+    };
+
     return (
         <div className={style.mainBlock4} id='resume'>
             <Fade>
@@ -30,7 +45,7 @@ export const MainBlock4_Resume = () => {
                                         I sure that my knowledge and experience will help to develop applications of different levels and tasks
                                     </div>
                                     <div className={style.mainBlock4_text_file}>
-                                        <Button title={'download CV'}/>
+                                        <Button title={'download CV'} onClick={getFile}/>
                                     </div>
                                 </div>
                             </div>

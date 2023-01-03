@@ -5,7 +5,7 @@ import {TopButton} from "../../common/components/TopButton";
 import ReactLogo from '../../assets/icons/skills/react_02.svg'
 import ReactRedux from '../../assets/icons/skills/redux-logo_01.svg'
 import ReduxToolkit from '../../assets/icons/skills/ReduxToolkit_01.svg'
-import ReactNative from '../../assets/icons/skills/react_04.svg'
+import Formik from '../../assets/icons/skills/formik.svg'
 import Typescript from '../../assets/icons/skills/typescript_02.svg'
 import RestAPI from '../../assets/icons/skills/RestAPI_01.png'
 import Jest from '../../assets/icons/skills/jest.svg'
@@ -26,10 +26,10 @@ export const Footer = () => {
                         <img src={ReduxToolkit} alt="toolkit"/>
                     </div>
                     <div className={style.footer_item}>
-                        <img src={ReactNative} alt="native"/>
+                        <img src={Typescript} alt="ts"/>
                     </div>
                     <div className={style.footer_item}>
-                        <img src={Typescript} alt="ts"/>
+                        <img src={Formik} alt="formik"/>
                     </div>
                     <div className={style.footer_item}>
                         <img src={RestAPI} alt="rest-api"/>
