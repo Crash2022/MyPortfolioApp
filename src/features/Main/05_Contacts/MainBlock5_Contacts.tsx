@@ -6,7 +6,7 @@ import {Modal} from '../../../common/components/Modal/Modal';
 
 export const MainBlock5_Contacts = () => {
 
-    const [isOpen, setIsOpen] = useState<boolean>(true)
+    const [isOpen, setIsOpen] = useState<boolean>(false)
 
     const sendEmail = (e: any) => {
         e.preventDefault();
