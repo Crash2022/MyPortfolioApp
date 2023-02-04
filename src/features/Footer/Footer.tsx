@@ -4,12 +4,15 @@ import s from '../Main/00_Main/Main.module.css'
 import {TopButton} from "../../common/components/TopButton/TopButton";
 import ReactLogo from '../../assets/icons/skills/react_02.svg'
 import ReactRedux from '../../assets/icons/skills/redux-logo_01.svg'
-import ReduxToolkit from '../../assets/icons/skills/ReduxToolkit_01.svg'
-import Formik from '../../assets/icons/skills/formik.svg'
+// import ReduxToolkit from '../../assets/icons/skills/ReduxToolkit_01.svg'
+import Angular from '../../assets/icons/skills/angular.svg'
+// import Formik from '../../assets/icons/skills/formik.svg'
 import Typescript from '../../assets/icons/skills/typescript_02.svg'
-import RestAPI from '../../assets/icons/skills/RestAPI_01.png'
+// import RestAPI from '../../assets/icons/skills/RestAPI_01.png'
 import Jest from '../../assets/icons/skills/jest.svg'
-import Material from '../../assets/icons/skills/material-ui.svg'
+import NextJS from '../../assets/icons/skills/next-js_01.svg'
+import Gatsby from '../../assets/icons/skills/gatsby_02.svg'
+// import Material from '../../assets/icons/skills/material-ui.svg'
 
 export const Footer = () => {
     return (
@@ -22,24 +25,33 @@ export const Footer = () => {
                     <div className={style.footer_item}>
                         <img src={ReactRedux} alt="redux"/>
                     </div>
-                    <div className={style.footer_item}>
+                    {/*<div className={style.footer_item}>
                         <img src={ReduxToolkit} alt="toolkit"/>
-                    </div>
+                    </div>*/}
                     <div className={style.footer_item}>
                         <img src={Typescript} alt="ts"/>
                     </div>
                     <div className={style.footer_item}>
+                        <img src={Angular} alt="angular"/>
+                    </div>
+                    {/*<div className={style.footer_item}>
                         <img src={Formik} alt="formik"/>
+                    </div>*/}
+                    <div className={style.footer_item}>
+                        <img src={NextJS} alt="next-js"/>
                     </div>
                     <div className={style.footer_item}>
-                        <img src={RestAPI} alt="rest-api"/>
+                        <img src={Gatsby} alt="gatsby"/>
                     </div>
+                    {/*<div className={style.footer_item}>
+                        <img src={RestAPI} alt="rest-api"/>
+                    </div>*/}
                     <div className={style.footer_item}>
                         <img src={Jest} alt="jest"/>
                     </div>
-                    <div className={style.footer_item}>
+                    {/*<div className={style.footer_item}>
                         <img src={Material} alt="material-ui"/>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className={style.footer_copyrigths}>
                     <div>

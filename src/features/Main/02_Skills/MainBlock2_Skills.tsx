@@ -9,10 +9,13 @@ import ReactRedux from '../../../assets/icons/skills/redux-logo_01.svg'
 import ReduxToolkit from '../../../assets/icons/skills/ReduxToolkit_01.svg'
 // import ReactNative from '../../../assets/icons/skills/react_04.svg'
 import Typescript from '../../../assets/icons/skills/typescript_02.svg'
-import Formik from '../../../assets/icons/skills/formik.svg'
+// import Formik from '../../../assets/icons/skills/formik.svg'
+import Angular from '../../../assets/icons/skills/angular.svg'
 import Storybook from '../../../assets/icons/skills/storybook_02.svg'
 import RestAPI from '../../../assets/icons/skills/RestAPI_01.png'
-import Postman from '../../../assets/icons/skills/postman_01.svg'
+// import Postman from '../../../assets/icons/skills/postman_01.svg'
+import NextJS from '../../../assets/icons/skills/next-js_01.svg'
+import Gatsby from '../../../assets/icons/skills/gatsby_02.svg'
 import Jest from '../../../assets/icons/skills/jest.svg'
 import Git from '../../../assets/icons/skills/git_02.svg'
 import Material from '../../../assets/icons/skills/material-ui.svg'
@@ -104,7 +107,7 @@ export const MainBlock2_Skills = () => {
     // eng
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
-            id: v1(), icon: ReactLogo, title: 'React JS',
+            id: v1(), icon: ReactLogo, title: 'React',
             text: 'Nowadays React is one of most popular libraries for development web-applications'
         },
         /*{
@@ -127,37 +130,50 @@ export const MainBlock2_Skills = () => {
                 'и поэтому знание технологий для разработки приложений для мобильных устройств является обязательным'
         },*/
         {
-            id: v1(), icon: Typescript, title: 'Typescript',
-            text: `Today projects become more difficult, that's why it's necessary to use Typescript avoiding errors and saving development time`
-        },
-        {
-            id: v1(), icon: Formik, title: 'Formik',
-            text: 'Each application includes different elements of user interface, Formik helps to develop easier'
-        },
-        {
             id: v1(), icon: Storybook, title: 'Storybook',
             text: 'Developing with Storybook is a good example when we have tests and design of our app in one pack'
+        },
+        {
+            id: v1(), icon: Typescript, title: 'Typescript',
+            text: `Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time`
+        },
+        /*{
+            id: v1(), icon: Formik, title: 'Formik',
+            text: 'Each application includes different elements of user interface. Formik helps to develop easier'
+        },*/
+        {
+            id: v1(), icon: Angular, title: 'Angular',
+            text: 'Angular lets you start small and supports you as your team and apps grow'
+        },
+        {
+            id: v1(), icon: NextJS, title: 'Next JS',
+            text: `Next.js enables you to create full-stack web applications by extending the latest React features`
+        },
+        {
+            id: v1(), icon: Gatsby, title: 'Gatsby',
+            // text: `Accelerating Gatsby’s growth and bringing composable architectures to the whole web`
+            text: `Build a fast, secure, and powerful website using React-based, open-source framework`
         },
         {
             id: v1(), icon: Material, title: 'Material UI',
             text: 'Such libraries gives us opportunity to make beautiful app design in short time'
         },
-        {
+        /*{
             id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
             text: 'Of course knowing of this basis is required for creating each web-application'
-        },
+        },*/
         {
             id: v1(), icon: RestAPI, title: 'Rest API',
             text: `All data is located on server, that's why it's necessary know API methods`
         },
-        {
+        /*{
             id: v1(), icon: Postman, title: 'Postman',
             text: `We can make requests to server without any code using Postman application`
-        },
+        },*/
         {
             id: v1(), icon: Jest, title: 'JEST',
             text: `Today more and more developers can make many deploys of app in one day, 
-            that's necessary to have testing system like TDD`
+            that's necessary to support app with testing system`
         },
         {
             id: v1(), icon: Git, title: 'GIT',
