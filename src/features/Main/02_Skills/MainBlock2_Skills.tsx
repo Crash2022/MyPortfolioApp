@@ -172,7 +172,7 @@ export const MainBlock2_Skills = () => {
         },*/
         {
             id: v1(), icon: Jest, title: 'JEST',
-            text: `Today more and more developers can make many deploys of app in one day, 
+            text: `Today developers make many deploys of app per day, 
             that's necessary to support app with testing system`
         },
         {
