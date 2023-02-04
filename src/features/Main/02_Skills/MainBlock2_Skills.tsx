@@ -7,19 +7,15 @@ import {Title} from '../../../common/components/Title/Title'
 import ReactLogo from '../../../assets/icons/skills/react_02.svg'
 import ReactRedux from '../../../assets/icons/skills/redux-logo_01.svg'
 import ReduxToolkit from '../../../assets/icons/skills/ReduxToolkit_01.svg'
-// import ReactNative from '../../../assets/icons/skills/react_04.svg'
 import Typescript from '../../../assets/icons/skills/typescript_02.svg'
-// import Formik from '../../../assets/icons/skills/formik.svg'
 import Angular from '../../../assets/icons/skills/angular.svg'
 import Storybook from '../../../assets/icons/skills/storybook_02.svg'
 import RestAPI from '../../../assets/icons/skills/RestAPI_01.png'
-// import Postman from '../../../assets/icons/skills/postman_01.svg'
 import NextJS from '../../../assets/icons/skills/next-js_01.svg'
 import Gatsby from '../../../assets/icons/skills/gatsby_02.svg'
 import Jest from '../../../assets/icons/skills/jest.svg'
 import Git from '../../../assets/icons/skills/git_02.svg'
 import Material from '../../../assets/icons/skills/material-ui.svg'
-import SASS from '../../../assets/icons/skills/SASS_01.svg'
 
 export type SkillsArrayPropsType = {
     id: string
@@ -110,12 +106,6 @@ export const MainBlock2_Skills = () => {
             id: v1(), icon: ReactLogo, title: 'React',
             text: 'Nowadays React is one of most popular libraries for development web-applications'
         },
-        /*{
-            id: v1(), icon: ReactRedux, title: 'React Redux/Redux Toolkit',
-            text: 'Ни один крупный проект невозможно разрабатывать без стейт-менеджера, ' +
-                'таких как React-Redux или Redux Toolkit, ' +
-                'которые соответствуют FLUX-архитектуре'
-        },*/
         {
             id: v1(), icon: ReactRedux, title: 'React Redux',
             text: 'Using React Redux help us to develop app which matches FLUX-architecture'
@@ -124,11 +114,6 @@ export const MainBlock2_Skills = () => {
             id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
             text: 'Redux Toolkit is a newer version of React Redux which unify development process'
         },
-        /*{
-            id: v1(), icon: ReactNative, title: 'React Native',
-            text: 'Сегодня более 70% информации просматривается с помощью мобильных приложений ' +
-                'и поэтому знание технологий для разработки приложений для мобильных устройств является обязательным'
-        },*/
         {
             id: v1(), icon: Storybook, title: 'Storybook',
             text: 'Developing with Storybook is a good example when we have tests and design of our app in one pack'

@@ -10,10 +10,8 @@
 
     .mainBlock3_projects {
         display: flex;
-        //justify-content: space-between;
         justify-content: center;
         flex-wrap: wrap;
-        //padding: 20px;
         margin-bottom: $marginBottomFromBlock;
 
         @media (max-width: 801px) {
