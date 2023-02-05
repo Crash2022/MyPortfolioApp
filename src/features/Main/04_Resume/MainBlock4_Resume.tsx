@@ -5,7 +5,6 @@ import working from '../../../assets/images/photos/photo_resume_02.jpg'
 import {Button} from "../../../common/components/Button/Button";
 import s from "../00_Main/Main.module.css";
 import {Fade} from "react-awesome-reveal";
-import axios from "axios";
 
 export const MainBlock4_Resume = () => {
 

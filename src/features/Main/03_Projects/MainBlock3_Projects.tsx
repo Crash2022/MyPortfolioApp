@@ -65,7 +65,7 @@ export const MainBlock3_Projects = () => {
             title: 'Education Cards',
             text: 'This application helps to study developed on concept "question-answer". ' +
                 'Stack of used technologies: React, Typescript, React Redux, Formik, Material UI, TDD. Project was made in group of 3 person',
-            link: 'https://onemore8762.github.io/cards'
+            link: 'https://education-cards.vercel.app/'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Portfolio',
