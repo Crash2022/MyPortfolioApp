@@ -5,6 +5,7 @@ import working from '../../../assets/images/photos/photo_resume_02.jpg'
 import {Button} from "../../../common/components/Button/Button";
 import s from "../00_Main/Main.module.css";
 import {Fade} from "react-awesome-reveal";
+import axios from "axios";
 
 export const MainBlock4_Resume = () => {
 
@@ -22,6 +23,42 @@ export const MainBlock4_Resume = () => {
             })
         })
     };
+
+    /*const getFile = () => {
+        axios.get('Chashin_Alexander_Evgenievich_CV.pdf', {responseType: 'blob'})
+            .then(({data}) => {
+                const blob = new Blob(
+                    [data],
+                    {type: 'application/pdf'}
+                )
+
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.setAttribute('download', 'Chashin_Alexander_Evgenievich_CV.pdf')
+                // alink.download = 'Chashin_Alexander_Evgenievich_CV.pdf';
+                document.body.appendChild(alink)
+                alink.click();
+                alink.remove();
+            })
+    };*/
+
+    /*const getFile = async () => {
+        const res = await axios.get('Chashin_Alexander_Evgenievich_CV.pdf', {responseType: 'blob'})
+            .then(response => response.data)
+
+        const blob = new Blob([res]);
+        const fileURL = window.URL.createObjectURL(blob);
+        const alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'Chashin_Alexander_Evgenievich_CV.pdf';
+        document.body.appendChild(alink);
+        alink.click();
+        alink.remove();
+        URL.revokeObjectURL(fileURL);
+    };*/
 
     return (
         <div className={style.mainBlock4} id='resume'>
@@ -43,7 +80,8 @@ export const MainBlock4_Resume = () => {
                                         Front-end React-developer
                                     </div>
                                     <div className={style.mainBlock4_text_body}>
-                                        I sure that my knowledge and experience will help to develop applications of different levels and tasks
+                                        I sure that my knowledge and experience will help to develop applications of
+                                        different levels and tasks
                                     </div>
                                     <div className={style.mainBlock4_text_file}>
                                         <Button title={'download CV'} onClick={getFile}/>
