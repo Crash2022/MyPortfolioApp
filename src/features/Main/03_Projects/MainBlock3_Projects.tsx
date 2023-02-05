@@ -70,7 +70,7 @@ export const MainBlock3_Projects = () => {
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Portfolio',
             text: 'This is an example of web-portfolio written with React and SCSS',
-            link: 'https://Crash2022.github.io/MyPortfolioApp'
+            link: 'https://my-portfolio-app-beryl.vercel.app/'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Todolist',
