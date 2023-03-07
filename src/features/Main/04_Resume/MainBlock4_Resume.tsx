@@ -76,7 +76,7 @@ export const MainBlock4_Resume = () => {
                             <div className={style.mainBlock4_item_column}>
                                 <div className={style.mainBlock4_text_item}>
                                     <div className={style.mainBlock4_text_title}>
-                                        Front-end React-developer
+                                        Front-end developer
                                     </div>
                                     <div className={style.mainBlock4_text_body}>
                                         I sure that my knowledge and experience will help to develop applications of

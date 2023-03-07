@@ -16,7 +16,7 @@ export const MainBlock1_Greeting = () => {
                         <h1>Chashin Alexander</h1>
                     </div>
                     <div className={style.mainBlock1_work}>
-                        <p>I'm front-end React-developer</p>
+                        <p>I'm front-end developer</p>
                     </div>
                 </div>
 
