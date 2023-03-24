@@ -77,7 +77,7 @@ export const MainBlock3_Projects = () => {
             text: 'Project is written with React functional features. ' +
                 'Design is developed using Material UI library. ' +
                 'Stack of used technologies: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
-            link: 'https://samuraitodo.herokuapp.com'
+            link: 'https://Crash2022.github.io/Samurai-TodoList'
         }
     ]);
 
