@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './MainBlock3.module.scss'
+import s from './MainBlock3.module.scss'
 import {StyleType} from "./MainBlock3_Projects"
 import {useTranslation} from 'react-i18next'
 
@@ -16,11 +16,11 @@ export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style
 
     return (
         <>
-            <div className={styles.item_image} style={style}>
-                <a className={styles.item_button} href={link}>{t('Go')}</a>
+            <div className={s.item_image} style={style}>
+                <a className={s.item_button} href={link}>{t('Go')}</a>
             </div>
-            <div className={styles.item_title}><h3>{title}</h3></div>
-            <div className={styles.item_description}>{text}</div>
+            <div className={s.item_title}><h3>{title}</h3></div>
+            <div className={s.item_description}>{text}</div>
         </>
     );
 }

@@ -9,7 +9,7 @@ import Typescript from '../../shared/assets/icons/skills/typescript_02.svg'
 import Jest from '../../shared/assets/icons/skills/jest.svg'
 import NextJS from '../../shared/assets/icons/skills/next-js_01.svg'
 import Gatsby from '../../shared/assets/icons/skills/gatsby_02.svg'
-import {useTranslation} from 'react-i18next';
+import {useTranslation} from 'react-i18next'
 
 export const Footer = () => {
 
@@ -53,5 +53,5 @@ export const Footer = () => {
             </div>
             <TopButton/>
         </div>
-    );
+    )
 }

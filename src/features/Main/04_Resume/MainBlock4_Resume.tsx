@@ -1,9 +1,9 @@
 import React from 'react'
+import s from "../00_Main/Main.module.css"
 import style from './MainBlock4.module.scss'
 import {Title} from '../../../shared/ui/Title/Title'
 import working from '../../../shared/assets/images/photos/photo_resume_02.jpg'
 import {Button} from "../../../shared/ui/Button/Button"
-import s from "../00_Main/Main.module.css"
 import {Fade} from "react-awesome-reveal"
 import {useTranslation} from 'react-i18next'
 

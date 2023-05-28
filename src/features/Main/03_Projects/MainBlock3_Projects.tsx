@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import style from './MainBlock3.module.scss'
+import s from './MainBlock3.module.scss'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../shared/ui/Title/Title'
@@ -75,10 +75,10 @@ export const MainBlock3_Projects = () => {
     ]);
 
     return (
-        <div className={style.mainBlock3} id='projects'>
+        <div className={s.mainBlock3} id='projects'>
             <Slide direction={'left'}>
                 <Title title={t('T_Projects')}/>
-                <div className={style.mainBlock3_projects}>
+                <div className={s.mainBlock3_projects}>
                     <ProjectsList projects={projects}/>
                 </div>
             </Slide>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import style from './MainBlock5.module.scss'
+import s from './MainBlock5.module.scss'
 import {Fade} from 'react-awesome-reveal'
 import emailjs from 'emailjs-com'
 import {Modal} from '../../../shared/ui/Modal/Modal'
@@ -34,17 +34,17 @@ export const MainBlock5_Contacts = () => {
     return (
 
         <Fade>
-            <div className={style.mainBlock5_contacts}>
-                <div className={style.mainBlock5_leftInfo}>
-                    <div className={style.mainBlock5_leftInfo_title}>
+            <div className={s.mainBlock5_contacts}>
+                <div className={s.mainBlock5_leftInfo}>
+                    <div className={s.mainBlock5_leftInfo_title}>
                         <h2>{t('Info')}</h2>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_text}>
+                    <div className={s.mainBlock5_leftInfo_text}>
                         <p>
                             {t('ContactInfo')}
                         </p>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_info}>
+                    <div className={s.mainBlock5_leftInfo_info}>
                         <div>{t('PhoneN')}</div>
                         <div>
                             <a href="tel:+79033988405">
@@ -52,7 +52,7 @@ export const MainBlock5_Contacts = () => {
                             </a>
                         </div>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_info}>
+                    <div className={s.mainBlock5_leftInfo_info}>
                         <div>{t('E_Mail')}</div>
                         <div>
                             <a href="mailto:crash56zzz@gmail.com">
@@ -60,7 +60,7 @@ export const MainBlock5_Contacts = () => {
                             </a>
                         </div>
                     </div>
-                    <div className={style.mainBlock5_leftInfo_info}>
+                    <div className={s.mainBlock5_leftInfo_info}>
                         <div>GitHub:</div>
                         <div>
                             <a href="https://github.com/Crash2022">
@@ -72,26 +72,26 @@ export const MainBlock5_Contacts = () => {
 
                 <Modal open={isOpen} setIsOpen={setIsOpen}/>
 
-                <form className={style.mainBlock5_contactForm} id="contacts" onSubmit={sendEmail}>
-                    <div className={style.mainBlock5_form_title}>
+                <form className={s.mainBlock5_contactForm} id="contacts" onSubmit={sendEmail}>
+                    <div className={s.mainBlock5_form_title}>
                         <h2>{t('ContactMe')}</h2>
                     </div>
-                    <div className={style.mainBlock5_form_input}>
+                    <div className={s.mainBlock5_form_input}>
                         <div>{t('Y_Name')}</div>
                         <input type="text" name="name"/>
                         {/*<input type="text" name="name" placeholder={t('Pl_Name')}/>*/}
                     </div>
-                    <div className={style.mainBlock5_form_input}>
+                    <div className={s.mainBlock5_form_input}>
                         <div>{t('Y_Email')}</div>
                         <input type="text" name="email"/>
                         {/*<input type="text" name="email" placeholder={t('Pl_Email')}/>*/}
                     </div>
-                    <div className={style.mainBlock5_form_textarea}>
+                    <div className={s.mainBlock5_form_textarea}>
                         <div>{t('Y_Message')}</div>
                         <textarea name="message"></textarea>
                         {/*<textarea name="message" placeholder={t('Pl_Message')}></textarea>*/}
                     </div>
-                    <div className={style.mainBlock5_form_sendButton}>
+                    <div className={s.mainBlock5_form_sendButton}>
                         <button type="submit">{t('Send')}</button>
                     </div>
                 </form>
