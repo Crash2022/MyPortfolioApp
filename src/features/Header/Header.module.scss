@@ -1,0 +1,66 @@
+@import '../../shared/styles/variables';
+
+.header {
+    height: var(--navbar-height);
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    /*вариант через sticky*/
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*z-index: 2;*/
+
+    /*вариант через fixed*/
+    /*position: fixed;*/
+    /*z-index: 9999;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+
+    .navMenu {
+        width: 700px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 50px;
+
+        @media (max-width: 800px) {
+            margin: 0 auto;
+        }
+
+        @media (max-width: 500px) {
+            /*display: none;*/
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        a {
+            color: $fontColorDark;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            @media (max-width: 800px) {
+                font-size: 16px;
+
+            }
+            @media (max-width: 500px) {
+                padding: 10px;
+            }
+
+            &:hover {
+                /*text-decoration: underline;*/
+                color: $bgColorLight;
+            }
+        }
+
+        .active {
+            color: $bgColorLight;
+        }
+    }
+}

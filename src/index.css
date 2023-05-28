@@ -1,5 +1,4 @@
 /*Обнуление*/
-
 html,body {
     font-family: 'Mulish', sans-serif;
     width: 100%;
@@ -35,6 +34,12 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 
 /*h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}*/
+
+/*глобальные переменные*/
+
+:root {
+    --navbar-height: 60px;
+}
 
 /*подключаем шрифты и добавляем его (в строчке html,body)*/
 @font-face {

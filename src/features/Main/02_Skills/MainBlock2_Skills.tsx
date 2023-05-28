@@ -16,6 +16,7 @@ import Gatsby from '../../../shared/assets/icons/skills/gatsby_02.svg'
 import Jest from '../../../shared/assets/icons/skills/jest.svg'
 import Git from '../../../shared/assets/icons/skills/git_02.svg'
 import Material from '../../../shared/assets/icons/skills/material-ui.svg'
+import {useTranslation} from 'react-i18next'
 
 export type SkillsArrayPropsType = {
     id: string
@@ -26,101 +27,28 @@ export type SkillsArrayPropsType = {
 
 export const MainBlock2_Skills = () => {
 
-    // ru
-    /*const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
-        {
-            id: v1(), icon: ReactLogo, title: 'React JS',
-            text: 'На сегодняшний день React является одной из самых популярных и ' +
-                'эффективных библиотек для создания веб-приложений'
-        },
-        /!*{
-            id: v1(), icon: ReactRedux, title: 'React Redux/Redux Toolkit',
-            text: 'Ни один крупный проект невозможно разрабатывать без стейт-менеджера, ' +
-                'таких как React-Redux или Redux Toolkit, ' +
-                'которые соответствуют FLUX-архитектуре'
-        },*!/
-        {
-            id: v1(), icon: ReactRedux, title: 'React Redux',
-            text: 'Использование библиотеки React-Redux способствует тому, чтобы разрабатываемое приложение соответствовало FLUX-архитектуре'
-        },
-        {
-            id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
-            text: 'Redux Toolkit является усовершенствованной версией React-Redux и делает разработку приложения более удобной'
-        },
-        /!*{
-            id: v1(), icon: ReactNative, title: 'React Native',
-            text: 'Сегодня более 70% информации просматривается с помощью мобильных приложений ' +
-                'и поэтому знание технологий для разработки приложений для мобильных устройств является обязательным'
-        },*!/
-        {
-            id: v1(), icon: Typescript, title: 'Typescript',
-            text: 'Проекты становятся объемнее и сложнее, поэтому разработку приложений уже невозможно представить ' +
-                'без использования Typescript, который помогает разрабатывать приложение без ошибок, экономя время'
-        },
-        {
-            id: v1(), icon: Formik, title: 'Formik',
-            text: 'Любое приложение содержит элементы взаимодействия с пользователем, а библиотека Formik ' +
-                'позволяет легко работать с этими данными'
-        },
-        {
-            id: v1(), icon: Storybook, title: 'Storybook',
-            text: 'Очень удобно, когда можно посмотреть отдельные части приложения на этапе разработки,' +
-                ' а также подключить систему тестирования для постоянного отслеживания на наличие ошибок'
+    const {t} = useTranslation('main-skills')
 
-        },
-        {
-            id: v1(), icon: Material, title: 'Material UI',
-            text: 'Знание подобной библиотеки позволяет в короткие сроки сделать ' +
-                'приложение с красивым дизайном и удобным интерфейсом'
-        },
-        {
-            id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
-            text: 'Вёрстка приложения является его "фасадом", а различные ' +
-                'препроцессоры способствуют более гибкой разработке'
-        },
-        {
-            id: v1(), icon: RestAPI, title: 'Rest API',
-            text: 'Любое приложение получает данные с сервера, ' +
-                'поэтому необходимо знать методы взаимодействия с ним'
-        },
-        {
-            id: v1(), icon: Postman, title: 'Postman',
-            text: 'Знание подобных программ значительно ускоряет разработку приложения, ' +
-                'ведь мы можем без написания кода взаимодействовать с сервером'
-        },
-        {
-            id: v1(), icon: Jest, title: 'JEST',
-            text: 'Чтобы свести количество ошибок приложения к минимуму, ' +
-                'нужно заранее разрабатывать систему тестирования, например, по методу TDD'
-        },
-        {
-            id: v1(), icon: Git, title: 'Git',
-            text: 'Любые шаги по разработке приложения, особенно в команде, ' +
-                'легко сохранять и отслеживать с помощью системы контроля версий GIT'
-        },
-    ]);*/
-
-    // eng
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
             id: v1(), icon: ReactLogo, title: 'React',
-            text: 'Nowadays React is one of most popular libraries for development web-applications'
+            text: t('React')
         },
         {
             id: v1(), icon: ReactRedux, title: 'React Redux',
-            text: 'Using React Redux help us to develop app which matches FLUX-architecture'
+            text: t('ReactRedux')
         },
         {
             id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
-            text: 'Redux Toolkit is a newer version of React Redux which unify development process'
+            text: t('ReactToolkit')
         },
         {
             id: v1(), icon: Storybook, title: 'Storybook',
-            text: 'Developing with Storybook is a good example when we have tests and design of our app in one pack'
+            text: t('Storybook')
         },
         {
             id: v1(), icon: Typescript, title: 'Typescript',
-            text: `Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time`
+            text: t('Typescript')
         },
         /*{
             id: v1(), icon: Formik, title: 'Formik',
@@ -128,20 +56,20 @@ export const MainBlock2_Skills = () => {
         },*/
         {
             id: v1(), icon: Angular, title: 'Angular',
-            text: 'Angular lets you start small and supports you as your team and apps grow'
+            text: t('Angular')
         },
         {
             id: v1(), icon: NextJS, title: 'Next JS',
-            text: `Next.js enables you to create full-stack web applications by extending the latest React features`
+            text: t('NextJS')
         },
         {
             id: v1(), icon: Gatsby, title: 'Gatsby',
             // text: `Accelerating Gatsby’s growth and bringing composable architectures to the whole web`
-            text: `Build a fast, secure, and powerful website using React-based, open-source framework`
+            text: t('Gatsby')
         },
         {
             id: v1(), icon: Material, title: 'Material UI',
-            text: 'Such libraries gives us opportunity to make beautiful app design in short time'
+            text: t('Material')
         },
         /*{
             id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
@@ -149,7 +77,7 @@ export const MainBlock2_Skills = () => {
         },*/
         {
             id: v1(), icon: RestAPI, title: 'Rest API',
-            text: `All data is located on server, that's why it's necessary know API methods`
+            text: t('RestAPI')
         },
         /*{
             id: v1(), icon: Postman, title: 'Postman',
@@ -157,19 +85,18 @@ export const MainBlock2_Skills = () => {
         },*/
         {
             id: v1(), icon: Jest, title: 'JEST',
-            text: `Today developers make many deploys of app per day, 
-            that's necessary to support app with testing system`
+            text: t('Jest')
         },
         {
             id: v1(), icon: Git, title: 'GIT',
-            text: 'Its comfortable to develop app, especially in group, using GIT, which gives you control for any step'
+            text: t('Git')
         },
-    ]);
+    ])
 
     return (
         <div className={style.mainBlock2} id='skills'>
             <div className={s.container}>
-                <Title title={'Skills'}/>
+                <Title title={t('T_Skills')}/>
                 <div className={style.mainBlock2_skills}>
                     <SkillsList skills={skills}/>
                 </div>

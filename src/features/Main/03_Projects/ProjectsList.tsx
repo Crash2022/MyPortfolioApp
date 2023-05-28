@@ -1,8 +1,8 @@
 import React from 'react'
 import {v1} from "uuid"
 import style from './MainBlock3.module.scss'
-import {ProjectsArrayPropsType} from './MainBlock3_Projects';
-import {Project_Item} from './Project_Item';
+import {ProjectsArrayPropsType} from './MainBlock3_Projects'
+import {Project_Item} from './Project_Item'
 
 type ProjectsListPropsType = { projects: Array<ProjectsArrayPropsType> }
 

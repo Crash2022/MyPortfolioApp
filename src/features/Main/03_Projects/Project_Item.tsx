@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './MainBlock3.module.scss'
-import {StyleType} from "./MainBlock3_Projects";
+import {StyleType} from "./MainBlock3_Projects"
+import {useTranslation} from 'react-i18next'
 
 type ProjectItemPropsType = {
     title: string
@@ -11,10 +12,12 @@ type ProjectItemPropsType = {
 
 export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style, link}) => {
 
+    const {t} = useTranslation('main-projects')
+
     return (
         <>
             <div className={styles.item_image} style={style}>
-                <a className={styles.item_button} href={link}>Go to project</a>
+                <a className={styles.item_button} href={link}>{t('Go')}</a>
             </div>
             <div className={styles.item_title}><h3>{title}</h3></div>
             <div className={styles.item_description}>{text}</div>

@@ -46,7 +46,7 @@ export const Footer = () => {
                         <h3>{t('Chashin')}</h3>
                     </div>
                     <div>
-                        <span>{t('Copyright')}Copyright, 2022</span>
+                        <span>{t('Copyright')}</span>
                     </div>
 
                 </div>

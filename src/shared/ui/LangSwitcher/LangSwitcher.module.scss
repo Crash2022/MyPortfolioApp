@@ -1,0 +1,17 @@
+.langSwitcher {
+    > div {
+        &:hover {
+            cursor: pointer;
+            color: #f5df4e;
+        }
+    }
+
+    .languageItem {
+        display: flex;
+        align-items: center;
+
+        .active {
+            font-weight: bold;
+        }
+    }
+}

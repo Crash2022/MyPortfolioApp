@@ -1,0 +1,22 @@
+{
+  "T_Projects": "Проекты",
+  "Go": "Перейти к проекту",
+
+  "EducationCards": "Обучающие карточки",
+  "EducationCards_Desc": "Это обучающее приложение разработано по принципу вопрос-ответ. Стэк технологий: React, Typescript, React Redux, Formik, Material UI, TDD. Проект разрабатывался в команде из 3-х человек",
+
+  "SocialNetwork": "Социальная сеть",
+  "SocialNetwork_Desc": "Проект разработан с использованием классовых компонент. Стэк технологий: React, Typescript, React Redux, Redux Form, TDD",
+
+  "Inctagram": "Inctagram",
+  "Inctagram_Desc": "Это социальная сеть для любителей фотографий. На данный момент проект находится на стадии разработки, деплоя нет. Стэк технологий: NextJS, Typescript, RTK Query, React Hook Forms, Custom UI-Kit, SCSS, i18n. Проект разрабатывается в команде из 5-ти человек",
+
+  "BikeShop": "Веломагазин",
+  "BikeShop_Desc": "Данный проект включает в себя панель управления для работников магазина, а также онлайн-магазин. Стэк технологий: React, Typescript, Zustand, React Hook Forms, Custom UI-Kit, SCSS. Проект разрабатывался в команде из 6-ти человек",
+
+  "Portfolio": "Портфолио",
+  "Portfolio_Desc": "Это пример сайта-портфолио (визитка), разработанный на React с использованием препроцессора SCSS, а также библиотеки i18n",
+
+  "Todolist": "Тудулист",
+  "Todolist_Desc": "Проект разработан с использованием функциональных компонент. Для дизайна использовалась библиотека Material UI. Стэк технологий: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD"
+}

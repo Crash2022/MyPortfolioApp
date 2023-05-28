@@ -3,8 +3,11 @@ import style from './MainBlock5.module.scss'
 import {Fade} from 'react-awesome-reveal'
 import emailjs from 'emailjs-com'
 import {Modal} from '../../../shared/ui/Modal/Modal'
+import {useTranslation} from 'react-i18next'
 
 export const MainBlock5_Contacts = () => {
+
+    const {t} = useTranslation('main-contacts')
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
@@ -34,15 +37,15 @@ export const MainBlock5_Contacts = () => {
             <div className={style.mainBlock5_contacts}>
                 <div className={style.mainBlock5_leftInfo}>
                     <div className={style.mainBlock5_leftInfo_title}>
-                        <h2>Info</h2>
+                        <h2>{t('Info')}</h2>
                     </div>
                     <div className={style.mainBlock5_leftInfo_text}>
                         <p>
-                            For any questions you can contact with me with any way below
+                            {t('ContactInfo')}
                         </p>
                     </div>
                     <div className={style.mainBlock5_leftInfo_info}>
-                        <div>Phone number:</div>
+                        <div>{t('PhoneN')}</div>
                         <div>
                             <a href="tel:+79033988405">
                                 +7 (9033) 98-84-05
@@ -50,7 +53,7 @@ export const MainBlock5_Contacts = () => {
                         </div>
                     </div>
                     <div className={style.mainBlock5_leftInfo_info}>
-                        <div>E-mail:</div>
+                        <div>{t('E_Mail')}</div>
                         <div>
                             <a href="mailto:crash56zzz@gmail.com">
                                 ManForCoding@gmail.com
@@ -71,22 +74,25 @@ export const MainBlock5_Contacts = () => {
 
                 <form className={style.mainBlock5_contactForm} id="contacts" onSubmit={sendEmail}>
                     <div className={style.mainBlock5_form_title}>
-                        <h2>Contact Me</h2>
+                        <h2>{t('ContactMe')}</h2>
                     </div>
                     <div className={style.mainBlock5_form_input}>
-                        <div>Your name:</div>
-                        <input type="text" name="name" placeholder="Name"/>
+                        <div>{t('Y_Name')}</div>
+                        <input type="text" name="name"/>
+                        {/*<input type="text" name="name" placeholder={t('Pl_Name')}/>*/}
                     </div>
                     <div className={style.mainBlock5_form_input}>
-                        <div>Your e-mail:</div>
-                        <input type="text" name="email" placeholder="E-Mail"/>
+                        <div>{t('Y_Email')}</div>
+                        <input type="text" name="email"/>
+                        {/*<input type="text" name="email" placeholder={t('Pl_Email')}/>*/}
                     </div>
                     <div className={style.mainBlock5_form_textarea}>
-                        <div>Your message:</div>
-                        <textarea name="message" placeholder="Enter your message"></textarea>
+                        <div>{t('Y_Message')}</div>
+                        <textarea name="message"></textarea>
+                        {/*<textarea name="message" placeholder={t('Pl_Message')}></textarea>*/}
                     </div>
                     <div className={style.mainBlock5_form_sendButton}>
-                        <button type="submit">Send</button>
+                        <button type="submit">{t('Send')}</button>
                     </div>
                 </form>
             </div>

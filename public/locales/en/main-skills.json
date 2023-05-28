@@ -1,0 +1,16 @@
+{
+  "T_Skills": "Skills",
+
+  "React": "Nowadays React is one of most popular libraries for development web-applications",
+  "ReactRedux": "Using React Redux help us to develop app which matches FLUX-architecture",
+  "ReactToolkit": "Redux Toolkit is a newer version of React Redux which unify development process",
+  "Storybook": "Developing with Storybook is a good example when we have tests and design of our app in one pack",
+  "Typescript": "Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time",
+  "Angular": "Angular lets you start small and supports you as your team and apps grow",
+  "NextJS": "Next.js enables you to create full-stack web applications by extending the latest React features",
+  "Gatsby": "Build a fast, secure, and powerful website using React-based, open-source framework",
+  "Material": "Such libraries gives us opportunity to make beautiful app design in short time",
+  "RestAPI": "All data is located on server, that's why it's necessary know API methods",
+  "Jest": "Today developers make many deploys of app per day, that's necessary to support app with testing system",
+  "Git": "It's comfortable to develop app, especially in group, using GIT, which gives you control for any step"
+}

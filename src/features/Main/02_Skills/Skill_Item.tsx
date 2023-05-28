@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './MainBlock2.module.scss'
-import {Fade} from "react-awesome-reveal";
+import {Fade} from "react-awesome-reveal"
 
 type SkillItemPropsType = {
     icon: string

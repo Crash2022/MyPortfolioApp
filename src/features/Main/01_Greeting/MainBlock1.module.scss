@@ -2,7 +2,7 @@
 
 .mainBlock1 {
     //min-height: 100vh;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - var(--navbar-height));
     background-color: $bgColorLight;
     display: flex;
     justify-content: space-around;
