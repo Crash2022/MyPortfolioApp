@@ -1,14 +1,14 @@
 import React from 'react'
 import style from './Footer.module.scss'
 import s from '../Main/00_Main/Main.module.css'
-import {TopButton} from "../../common/components/TopButton/TopButton";
-import ReactLogo from '../../assets/icons/skills/react_02.svg'
-import ReactRedux from '../../assets/icons/skills/redux-logo_01.svg'
-import Angular from '../../assets/icons/skills/angular.svg'
-import Typescript from '../../assets/icons/skills/typescript_02.svg'
-import Jest from '../../assets/icons/skills/jest.svg'
-import NextJS from '../../assets/icons/skills/next-js_01.svg'
-import Gatsby from '../../assets/icons/skills/gatsby_02.svg'
+import {TopButton} from "../../shared/ui/TopButton/TopButton";
+import ReactLogo from '../../shared/assets/icons/skills/react_02.svg'
+import ReactRedux from '../../shared/assets/icons/skills/redux-logo_01.svg'
+import Angular from '../../shared/assets/icons/skills/angular.svg'
+import Typescript from '../../shared/assets/icons/skills/typescript_02.svg'
+import Jest from '../../shared/assets/icons/skills/jest.svg'
+import NextJS from '../../shared/assets/icons/skills/next-js_01.svg'
+import Gatsby from '../../shared/assets/icons/skills/gatsby_02.svg'
 
 export const Footer = () => {
     return (

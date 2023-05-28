@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './MainBlock1.module.scss'
-import myPhotoMain from '../../../assets/images/photos/myPhotoMain.jpg'
+import myPhotoMain from '../../../shared/assets/images/photos/myPhotoMain.jpg'
 import {Fade} from "react-awesome-reveal"
 
 export const MainBlock1_Greeting = () => {

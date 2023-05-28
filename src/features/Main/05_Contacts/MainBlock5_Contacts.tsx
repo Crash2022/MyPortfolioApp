@@ -1,21 +1,21 @@
 import React, {useState} from 'react'
 import style from './MainBlock5.module.scss'
-import {Fade} from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal'
 import emailjs from 'emailjs-com'
-import {Modal} from '../../../common/components/Modal/Modal';
+import {Modal} from '../../../shared/ui/Modal/Modal'
 
 export const MainBlock5_Contacts = () => {
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
     const sendEmail = (e: any) => {
-        e.preventDefault();
+        e.preventDefault()
 
         emailjs.sendForm('service_nfpb73d', 'template_jbyxrbk', e.target, '4hkbwOjaxwH58jClT')
             .then(result => {
-                // console.log(result.text);
-                e.target.reset();
-                setIsOpen(true);
+                // console.log(result.text)
+                e.target.reset()
+                setIsOpen(true)
 
                 // setTimeout(()=> {
                 //     setIsOpen(false)
@@ -23,9 +23,9 @@ export const MainBlock5_Contacts = () => {
 
             })
             .catch(error => {
-                console.log(error.text);
+                console.log(error.text)
             })
-        // e.target.reset();
+        // e.target.reset()
     }
 
     return (
@@ -91,5 +91,5 @@ export const MainBlock5_Contacts = () => {
                 </form>
             </div>
         </Fade>
-    );
+    )
 }

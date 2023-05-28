@@ -2,13 +2,13 @@ import React, {useState} from 'react'
 import style from './MainBlock3.module.scss'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
-import {Title} from '../../../common/components/Title/Title'
-import projectCards from '../../../assets/images/projects/project_cards1.jpg'
-import projectSocial from '../../../assets/images/projects/project_social5.jpg'
-import projectInctagram from '../../../assets/images/projects/project_inctagram.jpg'
-import projectBikeshop from '../../../assets/images/projects/project_bikeshop.jpg'
-import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
-import projectTodolist from '../../../assets/images/projects/project_todolist3.jpg'
+import {Title} from '../../../shared/ui/Title/Title'
+import projectCards from '../../../shared/assets/images/projects/project_cards1.jpg'
+import projectSocial from '../../../shared/assets/images/projects/project_social5.jpg'
+import projectInctagram from '../../../shared/assets/images/projects/project_inctagram.jpg'
+import projectBikeshop from '../../../shared/assets/images/projects/project_bikeshop.jpg'
+import projectPortfolio from '../../../shared/assets/images/projects/project_portfolio3.jpg'
+import projectTodolist from '../../../shared/assets/images/projects/project_todolist3.jpg'
 import {Slide} from "react-awesome-reveal"
 
 export type ProjectsArrayPropsType = {
@@ -73,7 +73,7 @@ export const MainBlock3_Projects = () => {
             id: v1(),
             style: {backgroundImage: `url(${projectInctagram})`},
             title: 'Inctagram',
-            text: 'This is a social network for people who has passion in photos. Just now project is not deployed because in progress yet.' +
+            text: 'This is a social network for people who has passion in photos. Just now project is not deployed because in progress yet. ' +
                 'Stack of used technologies: NextJS, Typescript, RTK Query, React Hook Forms, Custom UI-Kit, SCSS, i18n. Developing in group of 6 persons',
             link: 'https://github.com/Crash2022/Inctagram'
         },

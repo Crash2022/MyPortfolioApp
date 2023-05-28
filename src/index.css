@@ -39,9 +39,9 @@ img {vertical-align: top;}
 /*подключаем шрифты и добавляем его (в строчке html,body)*/
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-ExtraLight.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-ExtraLight.woff') format('woff'),
-    url('./assets/fonts/Mulish-ExtraLight.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-ExtraLight.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-ExtraLight.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -49,9 +49,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Medium.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-Medium.woff') format('woff'),
-    url('./assets/fonts/Mulish-Medium.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-Medium.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-Medium.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -59,9 +59,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Bold.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-Bold.woff') format('woff'),
-    url('./assets/fonts/Mulish-Bold.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-Bold.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-Bold.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -69,9 +69,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Light.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-Light.woff') format('woff'),
-    url('./assets/fonts/Mulish-Light.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-Light.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-Light.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -79,9 +79,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-ExtraLight_1.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-ExtraLight_1.woff') format('woff'),
-    url('./assets/fonts/Mulish-ExtraLight_1.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-ExtraLight_1.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-ExtraLight_1.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-ExtraLight_1.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -89,9 +89,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Black.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-Black.woff') format('woff'),
-    url('./assets/fonts/Mulish-Black.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-Black.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-Black.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -99,9 +99,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-ExtraBold.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-ExtraBold.woff') format('woff'),
-    url('./assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-ExtraBold.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-ExtraBold.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -109,9 +109,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-SemiBold.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-SemiBold.woff') format('woff'),
-    url('./assets/fonts/Mulish-SemiBold.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-SemiBold.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-SemiBold.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -119,9 +119,9 @@ img {vertical-align: top;}
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Regular.woff2') format('woff2'),
-    url('./assets/fonts/Mulish-Regular.woff') format('woff'),
-    url('./assets/fonts/Mulish-Regular.ttf') format('truetype');
+    src: url('shared/assets/fonts/Mulish-Regular.woff2') format('woff2'),
+    url('shared/assets/fonts/Mulish-Regular.woff') format('woff'),
+    url('shared/assets/fonts/Mulish-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

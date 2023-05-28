@@ -1,5 +1,5 @@
-@import '../../styles/sass/variables';
-@import '../../styles/sass/mixins';
+@import '../../styles/variables';
+@import '../../styles/mixins';
 
 .sendButton {
   margin: 0 auto;
@@ -20,7 +20,7 @@
     }
 
     &::after {
-      content: url('../../../assets/icons/decor/arrow-right_01_dark.svg');
+      content: url('../../assets/icons/decor/arrow-right_01_dark.svg');
       position: absolute;
       top: 5px;
       bottom: 0;
