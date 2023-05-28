@@ -42,7 +42,7 @@
             color: $fontColorDark;
         }
 
-        @media (max-width: 890px) {
+        @media (max-width: 1030px) {
             flex: 0 1 100%;
             text-align: center;
             padding: 50px 50px 0px 50px;
@@ -61,7 +61,7 @@
             }
         }
         .mainBlock5_leftInfo_text {
-            max-width: 600px;
+            //max-width: 600px;
 
             @media (max-width: 890px) {
                 max-width: 70%;

@@ -40,9 +40,7 @@ export const MainBlock5_Contacts = () => {
                         <h2>{t('Info')}</h2>
                     </div>
                     <div className={s.mainBlock5_leftInfo_text}>
-                        <p>
-                            {t('ContactInfo')}
-                        </p>
+                        {t('ContactInfo')}
                     </div>
                     <div className={s.mainBlock5_leftInfo_info}>
                         <div>{t('PhoneN')}</div>
