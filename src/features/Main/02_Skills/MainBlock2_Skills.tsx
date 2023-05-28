@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import s from '../00_Main/Main.module.css'
 import style from './MainBlock2.module.scss'
 import {v1} from 'uuid'
@@ -17,6 +17,7 @@ import Jest from '../../../shared/assets/icons/skills/jest.svg'
 import Git from '../../../shared/assets/icons/skills/git_02.svg'
 import Material from '../../../shared/assets/icons/skills/material-ui.svg'
 import {useTranslation} from 'react-i18next'
+import i18n from 'i18next'
 
 export type SkillsArrayPropsType = {
     id: string
@@ -93,6 +94,15 @@ export const MainBlock2_Skills = () => {
         },
     ])
 
+    // useEffect(() => {
+    //     if (i18n.language === 'en') {
+    //         i18n.changeLanguage('en').then()
+    //     }
+    //     if (i18n.language === 'ru') {
+    //         i18n.changeLanguage('ru').then()
+    //     }
+    // }, [i18n.language])
+
     return (
         <div className={style.mainBlock2} id='skills'>
             <div className={s.container}>
@@ -102,5 +112,5 @@ export const MainBlock2_Skills = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 }

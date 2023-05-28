@@ -9,12 +9,28 @@ void i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng: 'ru',
-        debug: process.env.NODE_ENV === 'development',
-
+        fallbackLng: ['ru', 'en'],
+        // debug: process.env.NODE_ENV === 'development',
+        debug: true,
+        detection: {
+            order: ["cookie", "localStorage", "htmlTag", "path", "subdomain"],
+            caches: ["cookie"],
+        },
         interpolation: {
             escapeValue: false // not needed for react as it escapes by default
-        }
+        },
+        // resources: {
+        //     en: {
+        //         translation: {
+        //             // here we will place our translations...
+        //         }
+        //     },
+        //     ru: {
+        //         translation: {
+        //             // here we will place our translations...
+        //         }
+        //     },
+        // }
     })
 
 export default i18n
