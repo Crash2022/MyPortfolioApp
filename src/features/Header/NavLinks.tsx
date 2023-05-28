@@ -1,5 +1,4 @@
 import React from 'react'
-import s from './NavLinks.module.scss'
 import {useTranslation} from 'react-i18next'
 
 export const NavLinks = () => {

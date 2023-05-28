@@ -72,7 +72,7 @@ export const MainBlock3_Projects = () => {
             link: 'https://Crash2022.github.io/Samurai-TodoList'
             // link: 'https://samuraitodo.herokuapp.com'
         }
-    ]);
+    ])
 
     return (
         <div className={s.mainBlock3} id='projects'>
