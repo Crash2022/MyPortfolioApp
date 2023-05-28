@@ -4,6 +4,7 @@ import myPhotoMain from '../../../shared/assets/images/photos/myPhotoMain.jpg'
 import {Fade} from "react-awesome-reveal"
 
 export const MainBlock1_Greeting = () => {
+
     return (
         <div className={style.mainBlock1} id='main'>
             <Fade>

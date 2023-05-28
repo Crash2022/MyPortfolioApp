@@ -10,11 +10,11 @@ export const NavMenu = () => {
     return (
         <div className={style.navMenu}>
             <a href="#main">{t('Home')}</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">CV</a>
-            <a href="#contacts">Contacts</a>
+            <a href="#skills">{t('Skills')}</a>
+            <a href="#projects">{t('Projects')}</a>
+            <a href="#resume">{t('CV')}</a>
+            <a href="#contacts">{t('Contacts')}</a>
             <LangSwitcher/>
         </div>
-    );
+    )
 }
