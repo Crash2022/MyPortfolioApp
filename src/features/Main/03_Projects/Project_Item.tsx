@@ -22,5 +22,5 @@ export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style
             <div className={s.item_title}><h3>{title}</h3></div>
             <div className={s.item_description}>{text}</div>
         </>
-    );
+    )
 }

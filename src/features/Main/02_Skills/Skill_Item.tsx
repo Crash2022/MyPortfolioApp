@@ -22,5 +22,5 @@ export const Skill_Item: React.FC<SkillItemPropsType> = ({icon, title, text}) =>
                 {text}
             </div>
         </Fade>
-    );
+    )
 }

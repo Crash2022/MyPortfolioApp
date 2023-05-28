@@ -22,5 +22,5 @@ export const SkillsList = (props: SkillsListPropsType) => {
                 })
             }
         </>
-    );
+    )
 }
