@@ -3,11 +3,13 @@ import style from './MainBlock3.module.scss'
 import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../common/components/Title/Title'
-import projectSocial from '../../../assets/images/projects/project_social5.jpg'
 import projectCards from '../../../assets/images/projects/project_cards1.jpg'
+import projectSocial from '../../../assets/images/projects/project_social5.jpg'
+import projectInctagram from '../../../assets/images/projects/project_inctagram.jpg'
+import projectBikeshop from '../../../assets/images/projects/project_bikeshop.jpg'
 import projectPortfolio from '../../../assets/images/projects/project_portfolio3.jpg'
 import projectTodolist from '../../../assets/images/projects/project_todolist3.jpg'
-import {Slide} from "react-awesome-reveal";
+import {Slide} from "react-awesome-reveal"
 
 export type ProjectsArrayPropsType = {
     id: string
@@ -55,29 +57,46 @@ export const MainBlock3_Projects = () => {
     // eng
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
+            id: v1(),
+            style: {backgroundImage: `url(${projectCards})`},
+            title: 'Education Cards',
+            text: 'This application helps to study. Developed on concept "question-answer". ' +
+                'Stack of used technologies: React, Typescript, React Redux, Formik, Material UI, TDD. Project was made in group of 3 persons',
+            link: 'https://education-cards.vercel.app'
+        },
+        {
             id: v1(), style: {backgroundImage: `url(${projectSocial})`}, title: 'Social Network',
-            text: 'This project is written with class features. Stack of used technologies: React, Typescript, React Redux, Redux Form, TDD',
+            text: 'This project is developed with class features. Stack of used technologies: React, Typescript, React Redux, Redux Form, TDD',
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
             id: v1(),
-            style: {backgroundImage: `url(${projectCards})`},
-            title: 'Education Cards',
-            text: 'This application helps to study developed on concept "question-answer". ' +
-                'Stack of used technologies: React, Typescript, React Redux, Formik, Material UI, TDD. Project was made in group of 3 person',
-            link: 'https://education-cards.vercel.app/'
+            style: {backgroundImage: `url(${projectInctagram})`},
+            title: 'Inctagram',
+            text: 'This is a social network for people who has passion in photos. Just now project is not deployed because in progress yet.' +
+                'Stack of used technologies: NextJS, Typescript, RTK Query, React Hook Forms, Custom UI-Kit, SCSS, i18n. Developing in group of 6 persons',
+            link: 'https://github.com/Crash2022/Inctagram'
+        },
+        {
+            id: v1(),
+            style: {backgroundImage: `url(${projectBikeshop})`},
+            title: 'BikeShop',
+            text: 'This project contains workspace for workers and public online-shop. ' +
+                'Stack of used technologies: React, Typescript, Zustand, React Hook Forms, Custom UI-Kit, SCSS. Project was developed in group of 5 persons',
+            link: 'https://bike-shop-rho.vercel.app'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectPortfolio})`}, title: 'Portfolio',
-            text: 'This is an example of web-portfolio written with React and SCSS',
-            link: 'https://my-portfolio-app-beryl.vercel.app/'
+            text: 'This is an example of web-portfolio developed with React and SCSS',
+            link: 'https://my-portfolio-app-beryl.vercel.app'
         },
         {
             id: v1(), style: {backgroundImage: `url(${projectTodolist})`}, title: 'Todolist',
-            text: 'Project is written with React functional features. ' +
+            text: 'Project is developed with React functional features. ' +
                 'Design is developed using Material UI library. ' +
                 'Stack of used technologies: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD',
-            link: 'https://samuraitodo.herokuapp.com'
+            link: 'https://Crash2022.github.io/Samurai-TodoList'
+            // link: 'https://samuraitodo.herokuapp.com'
         }
     ]);
 
