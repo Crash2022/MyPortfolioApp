@@ -14,9 +14,9 @@
   "BikeShop": "BikeShop",
   "BikeShop_Desc": "This project contains workspace for workers and public online-shop. Stack of used technologies: React, Typescript, Zustand, React Hook Forms, Custom UI-Kit, SCSS. Project was developed in group of 5 persons",
 
-  "Portfolio": "Social Network",
+  "Portfolio": "Portfolio",
   "Portfolio_Desc": "This is an example of web-portfolio developed with React and SCSS, including i18n",
 
-  "Todolist": "Social Network",
+  "Todolist": "Todolist",
   "Todolist_Desc": "Project is developed with React functional features. Design is developed using Material UI library. Stack of used technologies: React, Typescript, Redux Toolkit, Formik, Material UI, Storybook, TDD"
 }
