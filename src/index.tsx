@@ -7,7 +7,7 @@ import {LoaderScreen} from './shared/ui/Loader/LoaderScreen'
 
 ReactDOM.render(
     <Suspense fallback={<LoaderScreen variant={'ellipsis'}/>}>
-    {/*<Suspense fallback={<div>Загрузка</div>}>*/}
+    {/*<Suspense fallback={<div>Загрузка...</div>}>*/}
         <App/>
     </Suspense>,
     document.getElementById('root')

@@ -9,7 +9,7 @@ void i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng: ['en', 'ru'],
+        fallbackLng: ['ru', 'en'],
         // lng: 'ru',
         // defaultNS: 'ru',
         // debug: process.env.NODE_ENV === 'development',
