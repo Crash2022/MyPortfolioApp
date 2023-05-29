@@ -7,6 +7,7 @@ import {Footer} from "./features/Footer/Footer"
 // https://my-portfolio-app-beryl.vercel.app/
 
 export const App = () => {
+
     return (
         <div className="App">
             <Header/>
