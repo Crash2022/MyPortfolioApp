@@ -29,18 +29,18 @@ export const MainBlock2_Skills = () => {
     const {t} = useTranslation('main-skills')
 
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
-        { id: '1', icon: ReactLogo, title: 'React', text: 'React' },
-        { id: '2', icon: ReactRedux, title: 'React Redux', text: 'ReactRedux' },
-        { id: '3', icon: ReduxToolkit, title: 'Redux Toolkit', text: 'ReactToolkit' },
-        { id: '4', icon: Storybook, title: 'Storybook', text: 'Storybook' },
-        { id: '5', icon: Typescript, title: 'Typescript', text: 'Typescript' },
-        { id: '6', icon: Angular, title: 'Angular', text: 'Angular' },
-        { id: '7', icon: NextJS, title: 'Next JS', text: 'NextJS' },
-        { id: '8', icon: Gatsby, title: 'Gatsby', text: 'Gatsby' },
-        { id: '9', icon: Material, title: 'Material UI', text: 'Material' },
-        { id: '10', icon: RestAPI, title: 'Rest API', text: 'RestAPI' },
-        { id: '11', icon: Jest, title: 'JEST', text: 'Jest' },
-        { id: '12', icon: Git, title: 'GIT', text: 'Git' },
+        { id: '1', icon: ReactLogo, title: 'React', text: 'S_React' },
+        { id: '2', icon: ReactRedux, title: 'ReactRedux', text: 'S_ReactRedux' },
+        { id: '3', icon: ReduxToolkit, title: 'ReduxToolkit', text: 'S_ReactToolkit' },
+        { id: '4', icon: Storybook, title: 'Storybook', text: 'S_Storybook' },
+        { id: '5', icon: Typescript, title: 'Typescript', text: 'S_Typescript' },
+        { id: '6', icon: Angular, title: 'Angular', text: 'S_Angular' },
+        { id: '7', icon: NextJS, title: 'NextJS', text: 'S_NextJS' },
+        { id: '8', icon: Gatsby, title: 'Gatsby', text: 'S_Gatsby' },
+        { id: '9', icon: Material, title: 'MaterialUI', text: 'S_Material' },
+        { id: '10', icon: RestAPI, title: 'RestAPI', text: 'S_RestAPI' },
+        { id: '11', icon: Jest, title: 'JEST', text: 'S_Jest' },
+        { id: '12', icon: Git, title: 'GIT', text: 'S_Git' },
         /*{
             id: v1(), icon: Formik, title: 'Formik',
             text: 'Each application includes different elements of user interface. Formik helps to develop easier'

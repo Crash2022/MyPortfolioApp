@@ -1,16 +1,39 @@
 {
   "T_Skills": "Skills",
 
-  "React": "Nowadays React is one of most popular libraries for development web-applications",
-  "ReactRedux": "Using React Redux help us to develop app which matches FLUX-architecture",
-  "ReactToolkit": "Redux Toolkit is a newer version of React Redux which unify development process",
-  "Storybook": "Developing with Storybook is a good example when we have tests and design of our app in one pack",
-  "Typescript": "Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time",
-  "Angular": "Angular lets you start small and supports you as your team and apps grow",
-  "NextJS": "Next.js enables you to create full-stack web applications by extending the latest React features",
-  "Gatsby": "Build a fast, secure, and powerful website using React-based, open-source framework",
-  "Material": "Such libraries gives us opportunity to make beautiful app design in short time",
-  "RestAPI": "All data is located on server, that's why it's necessary know API methods",
-  "Jest": "Today developers make many deploys of app per day, that's necessary to support app with testing system",
-  "Git": "It's comfortable to develop app, especially in group, using GIT, which gives you control for any step"
+  "React": "React",
+  "S_React": "Nowadays React is one of most popular libraries for development web-applications",
+
+  "ReactRedux": "React Redux",
+  "S_ReactRedux": "Using React Redux help us to develop app which matches FLUX-architecture",
+
+  "ReduxToolkit": "React Toolkit",
+  "S_ReactToolkit": "Redux Toolkit is a newer version of React Redux which unify development process",
+
+  "Storybook": "Storybook",
+  "S_Storybook": "Developing with Storybook is a good example when we have tests and design of our app in one pack",
+
+  "Typescript": "Typescript",
+  "S_Typescript": "Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time",
+
+  "Angular": "Angular",
+  "S_Angular": "Angular lets you start small and supports you as your team and apps grow",
+
+  "NextJS": "NextJS",
+  "S_NextJS": "Next.js enables you to create full-stack web applications by extending the latest React features",
+
+  "Gatsby": "Gatsby",
+  "S_Gatsby": "Build a fast, secure, and powerful website using React-based, open-source framework",
+
+  "MaterialUI": "Material UI",
+  "S_Material": "Such libraries gives us opportunity to make beautiful app design in short time",
+
+  "RestAPI": "Rest API",
+  "S_RestAPI": "All data is located on server, that's why it's necessary know API methods",
+
+  "JEST": "JEST",
+  "S_Jest": "Today developers make many deploys of app per day, that's necessary to support app with testing system",
+
+  "GIT": "GIT",
+  "S_Git": "It's comfortable to develop app, especially in group, using GIT, which gives you control for any step"
 }
