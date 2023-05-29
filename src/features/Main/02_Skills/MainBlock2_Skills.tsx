@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import s from '../00_Main/Main.module.css'
 import style from './MainBlock2.module.scss'
-import {v1} from 'uuid'
 import {SkillsList} from './SkillsList'
 import {Title} from '../../../shared/ui/Title/Title'
 import ReactLogo from '../../../shared/assets/icons/skills/react_02.svg'
@@ -17,7 +16,6 @@ import Jest from '../../../shared/assets/icons/skills/jest.svg'
 import Git from '../../../shared/assets/icons/skills/git_02.svg'
 import Material from '../../../shared/assets/icons/skills/material-ui.svg'
 import {useTranslation} from 'react-i18next'
-import i18n from 'i18next'
 
 export type SkillsArrayPropsType = {
     id: string
@@ -32,23 +30,23 @@ export const MainBlock2_Skills = () => {
 
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
-            id: v1(), icon: ReactLogo, title: 'React',
+            id: '1', icon: ReactLogo, title: 'React',
             text: t('React')
         },
         {
-            id: v1(), icon: ReactRedux, title: 'React Redux',
+            id: '2', icon: ReactRedux, title: 'React Redux',
             text: t('ReactRedux')
         },
         {
-            id: v1(), icon: ReduxToolkit, title: 'Redux Toolkit',
+            id: '3', icon: ReduxToolkit, title: 'Redux Toolkit',
             text: t('ReactToolkit')
         },
         {
-            id: v1(), icon: Storybook, title: 'Storybook',
+            id: '4', icon: Storybook, title: 'Storybook',
             text: t('Storybook')
         },
         {
-            id: v1(), icon: Typescript, title: 'Typescript',
+            id: '5', icon: Typescript, title: 'Typescript',
             text: t('Typescript')
         },
         /*{
@@ -56,20 +54,20 @@ export const MainBlock2_Skills = () => {
             text: 'Each application includes different elements of user interface. Formik helps to develop easier'
         },*/
         {
-            id: v1(), icon: Angular, title: 'Angular',
+            id: '6', icon: Angular, title: 'Angular',
             text: t('Angular')
         },
         {
-            id: v1(), icon: NextJS, title: 'Next JS',
+            id: '7', icon: NextJS, title: 'Next JS',
             text: t('NextJS')
         },
         {
-            id: v1(), icon: Gatsby, title: 'Gatsby',
+            id: '8', icon: Gatsby, title: 'Gatsby',
             // text: `Accelerating Gatsby’s growth and bringing composable architectures to the whole web`
             text: t('Gatsby')
         },
         {
-            id: v1(), icon: Material, title: 'Material UI',
+            id: '9', icon: Material, title: 'Material UI',
             text: t('Material')
         },
         /*{
@@ -77,7 +75,7 @@ export const MainBlock2_Skills = () => {
             text: 'Of course knowing of this basis is required for creating each web-application'
         },*/
         {
-            id: v1(), icon: RestAPI, title: 'Rest API',
+            id: '10', icon: RestAPI, title: 'Rest API',
             text: t('RestAPI')
         },
         /*{
@@ -85,23 +83,14 @@ export const MainBlock2_Skills = () => {
             text: `We can make requests to server without any code using Postman application`
         },*/
         {
-            id: v1(), icon: Jest, title: 'JEST',
+            id: '11', icon: Jest, title: 'JEST',
             text: t('Jest')
         },
         {
-            id: v1(), icon: Git, title: 'GIT',
+            id: '12', icon: Git, title: 'GIT',
             text: t('Git')
         },
     ])
-
-    // useEffect(() => {
-    //     if (i18n.language === 'en') {
-    //         i18n.changeLanguage('en').then()
-    //     }
-    //     if (i18n.language === 'ru') {
-    //         i18n.changeLanguage('ru').then()
-    //     }
-    // }, [i18n.language])
 
     return (
         <div className={style.mainBlock2} id='skills'>

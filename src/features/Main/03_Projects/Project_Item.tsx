@@ -10,7 +10,7 @@ type ProjectItemPropsType = {
     link: string
 }
 
-export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style, link}) => {
+export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style, link }) => {
 
     const {t} = useTranslation('main-projects')
 

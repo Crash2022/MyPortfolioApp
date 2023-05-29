@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import s from './MainBlock3.module.scss'
-import {v1} from 'uuid'
 import {ProjectsList} from './ProjectsList'
 import {Title} from '../../../shared/ui/Title/Title'
 import projectCards from '../../../shared/assets/images/projects/project_cards1.jpg'
@@ -30,42 +29,42 @@ export const MainBlock3_Projects = () => {
 
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
-            id: v1(),
+            id: '1',
             style: {backgroundImage: `url(${projectCards})`},
             title: t('EducationCards'),
             text: t('EducationCards_Desc'),
             link: 'https://education-cards.vercel.app'
         },
         {
-            id: v1(),
+            id: '2',
             style: {backgroundImage: `url(${projectSocial})`},
             title: t('SocialNetwork'),
             text: t('SocialNetwork_Desc'),
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
-            id: v1(),
+            id: '3',
             style: {backgroundImage: `url(${projectInctagram})`},
             title: t('Inctagram'),
             text: t('Inctagram_Desc'),
             link: 'https://github.com/Crash2022/Inctagram'
         },
         {
-            id: v1(),
+            id: '4',
             style: {backgroundImage: `url(${projectBikeshop})`},
             title: t('BikeShop'),
             text: t('BikeShop_Desc'),
             link: 'https://bike-shop-rho.vercel.app'
         },
         {
-            id: v1(),
+            id: '5',
             style: {backgroundImage: `url(${projectPortfolio})`},
             title: t('Portfolio'),
             text: t('Portfolio_Desc'),
             link: 'https://my-portfolio-app-beryl.vercel.app'
         },
         {
-            id: v1(),
+            id: '6',
             style: {backgroundImage: `url(${projectTodolist})`},
             title: t('Todolist'),
             text: t('Todolist_Desc'),
