@@ -19,8 +19,8 @@ export const Project_Item: React.FC<ProjectItemPropsType> = ({title, text, style
             <div className={s.item_image} style={style}>
                 <a className={s.item_button} href={link} target={'_blank'}>{t('Go')}</a>
             </div>
-            <div className={s.item_title}><h3>{title}</h3></div>
-            <div className={s.item_description}>{text}</div>
+            <div className={s.item_title}><h3>{t(title)}</h3></div>
+            <div className={s.item_description}>{t(text)}</div>
         </>
     )
 }

@@ -3,13 +3,10 @@ import {v1} from "uuid"
 import s from './MainBlock3.module.scss'
 import {ProjectsArrayPropsType} from './MainBlock3_Projects'
 import {Project_Item} from './Project_Item'
-import {useTranslation} from 'react-i18next'
 
 type ProjectsListPropsType = { projects: Array<ProjectsArrayPropsType> }
 
 export const ProjectsList = (props: ProjectsListPropsType) => {
-
-    const {t} = useTranslation('main-projects')
 
     return (
         <>

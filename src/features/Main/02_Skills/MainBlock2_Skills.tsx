@@ -30,66 +30,53 @@ export const MainBlock2_Skills = () => {
 
     const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
         {
-            id: '1', icon: ReactLogo, title: 'React',
-            text: t('React')
+            id: '1', icon: ReactLogo, title: 'React', text: 'React'
         },
         {
-            id: '2', icon: ReactRedux, title: 'React Redux',
-            text: t('ReactRedux')
+            id: '2', icon: ReactRedux, title: 'React Redux', text: 'ReactRedux'
         },
         {
-            id: '3', icon: ReduxToolkit, title: 'Redux Toolkit',
-            text: t('ReactToolkit')
+            id: '3', icon: ReduxToolkit, title: 'Redux Toolkit', text: 'ReactToolkit'
         },
         {
-            id: '4', icon: Storybook, title: 'Storybook',
-            text: t('Storybook')
+            id: '4', icon: Storybook, title: 'Storybook', text: 'Storybook'
         },
         {
-            id: '5', icon: Typescript, title: 'Typescript',
-            text: t('Typescript')
+            id: '5', icon: Typescript, title: 'Typescript', text: 'Typescript'
         },
         /*{
             id: v1(), icon: Formik, title: 'Formik',
             text: 'Each application includes different elements of user interface. Formik helps to develop easier'
         },*/
         {
-            id: '6', icon: Angular, title: 'Angular',
-            text: t('Angular')
+            id: '6', icon: Angular, title: 'Angular', text: 'Angular'
         },
         {
-            id: '7', icon: NextJS, title: 'Next JS',
-            text: t('NextJS')
+            id: '7', icon: NextJS, title: 'Next JS', text: 'NextJS'
         },
         {
-            id: '8', icon: Gatsby, title: 'Gatsby',
-            // text: `Accelerating Gatsby’s growth and bringing composable architectures to the whole web`
-            text: t('Gatsby')
+            id: '8', icon: Gatsby, title: 'Gatsby', text: 'Gatsby'
         },
         {
-            id: '9', icon: Material, title: 'Material UI',
-            text: t('Material')
+            id: '9', icon: Material, title: 'Material UI', text: 'Material'
         },
         /*{
             id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
             text: 'Of course knowing of this basis is required for creating each web-application'
         },*/
         {
-            id: '10', icon: RestAPI, title: 'Rest API',
-            text: t('RestAPI')
+            id: '10', icon: RestAPI, title: 'Rest API', text: 'RestAPI'
         },
         /*{
             id: v1(), icon: Postman, title: 'Postman',
             text: `We can make requests to server without any code using Postman application`
         },*/
         {
-            id: '11', icon: Jest, title: 'JEST',
-            text: t('Jest')
+            id: '11', icon: Jest, title: 'JEST', text: 'Jest'
         },
         {
-            id: '12', icon: Git, title: 'GIT',
-            text: t('Git')
-        },
+            id: '12', icon: Git, title: 'GIT', text: 'Git'
+        }
     ])
 
     return (
