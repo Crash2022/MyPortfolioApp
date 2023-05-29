@@ -11,7 +11,7 @@ type SkillItemPropsType = {
 
 export const Skill_Item: React.FC<SkillItemPropsType> = ({icon, title, text}) => {
 
-    const {t} = useTranslation('main-projects')
+    const {t} = useTranslation('main-skills')
 
     return (
         <Fade>
