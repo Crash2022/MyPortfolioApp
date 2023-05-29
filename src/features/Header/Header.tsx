@@ -7,10 +7,12 @@ export const Header = () => {
 
     return (
         <div className={style.header} id='main'>
+            <div className={style.container}>
             <nav className={style.navMenu}>
                 <NavLinks/>
                 <LangSwitcher/>
             </nav>
+            </div>
         </div>
     )
 }
