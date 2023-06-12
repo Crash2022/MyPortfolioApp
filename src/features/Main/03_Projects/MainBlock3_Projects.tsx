@@ -37,25 +37,26 @@ export const MainBlock3_Projects = () => {
         },
         {
             id: '2',
+            style: {backgroundImage: `url(${projectBikeshop})`},
+            title: 'BikeShop',
+            text: 'BikeShop_Desc',
+            link: 'https://bike-shop-rho.vercel.app'
+        },
+        {
+            id: '3',
             style: {backgroundImage: `url(${projectSocial})`},
             title: 'SocialNetwork',
             text: 'SocialNetwork_Desc',
             link: 'https://Crash2022.github.io/IT-Samurai-Social'
         },
         {
-            id: '3',
+            id: '4',
             style: {backgroundImage: `url(${projectInctagram})`},
             title: 'Inctagram',
             text: 'Inctagram_Desc',
             link: 'https://github.com/Crash2022/Inctagram'
         },
-        {
-            id: '4',
-            style: {backgroundImage: `url(${projectBikeshop})`},
-            title: 'BikeShop',
-            text: 'BikeShop_Desc',
-            link: 'https://bike-shop-rho.vercel.app'
-        },
+
         {
             id: '5',
             style: {backgroundImage: `url(${projectPortfolio})`},
