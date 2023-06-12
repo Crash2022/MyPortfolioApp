@@ -7,7 +7,7 @@
   "ReactRedux": "React Redux",
   "S_ReactRedux": "Используя React Redux даёт нам возможность разрабатывать приложение с FLUX-архитектурой",
 
-  "ReduxToolkit": "React Toolkit",
+  "ReduxToolkit": "Redux Toolkit",
   "S_ReactToolkit": "Redux Toolkit является новой версией React Redux, который делает процесс разработки более гибким и эффективным",
 
   "Storybook": "Storybook",
