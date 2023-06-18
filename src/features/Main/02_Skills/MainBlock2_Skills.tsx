@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import s from '../00_Main/Main.module.css'
 import style from './MainBlock2.module.scss'
 import {SkillsList} from './SkillsList'
@@ -7,7 +7,8 @@ import ReactLogo from '../../../shared/assets/icons/skills/react_02.svg'
 import ReactRedux from '../../../shared/assets/icons/skills/redux-logo_01.svg'
 import ReduxToolkit from '../../../shared/assets/icons/skills/ReduxToolkit_01.svg'
 import Typescript from '../../../shared/assets/icons/skills/typescript_02.svg'
-import Angular from '../../../shared/assets/icons/skills/angular.svg'
+import Vue from '../../../shared/assets/icons/skills/vue-logo.svg'
+// import Angular from '../../../shared/assets/icons/skills/angular.svg'
 import Storybook from '../../../shared/assets/icons/skills/storybook_02.svg'
 import RestAPI from '../../../shared/assets/icons/skills/RestAPI_01.png'
 import NextJS from '../../../shared/assets/icons/skills/next-js_01.svg'
@@ -28,13 +29,14 @@ export const MainBlock2_Skills = () => {
 
     const {t} = useTranslation('main-skills')
 
-    const [skills, setSkills] = useState<Array<SkillsArrayPropsType>>([
+    const skills: Array<SkillsArrayPropsType> = [
         { id: '1', icon: ReactLogo, title: 'React', text: 'S_React' },
         { id: '2', icon: ReactRedux, title: 'ReactRedux', text: 'S_ReactRedux' },
         { id: '3', icon: ReduxToolkit, title: 'ReduxToolkit', text: 'S_ReactToolkit' },
-        { id: '4', icon: Storybook, title: 'Storybook', text: 'S_Storybook' },
-        { id: '5', icon: Typescript, title: 'Typescript', text: 'S_Typescript' },
-        { id: '6', icon: Angular, title: 'Angular', text: 'S_Angular' },
+        { id: '4', icon: Typescript, title: 'Typescript', text: 'S_Typescript' },
+        { id: '5', icon: Storybook, title: 'Storybook', text: 'S_Storybook' },
+        // { id: '6', icon: Angular, title: 'Angular', text: 'S_Angular' },
+        { id: '6', icon: Vue, title: 'Vue', text: 'S_Vue' },
         { id: '7', icon: NextJS, title: 'NextJS', text: 'S_NextJS' },
         { id: '8', icon: Gatsby, title: 'Gatsby', text: 'S_Gatsby' },
         { id: '9', icon: Material, title: 'MaterialUI', text: 'S_Material' },
@@ -53,7 +55,7 @@ export const MainBlock2_Skills = () => {
             id: v1(), icon: Postman, title: 'Postman',
             text: `We can make requests to server without any code using Postman application`
         },*/
-    ])
+    ]
 
     return (
         <div className={style.mainBlock2} id='skills'>
