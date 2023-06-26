@@ -54,7 +54,7 @@ export const MainBlock3_Projects = () => {
             style: {backgroundImage: `url(${projectInctagram})`},
             title: 'Inctagram',
             text: 'Inctagram_Desc',
-            link: 'https://github.com/Crash2022/Inctagram'
+            link: 'https://inctagram-grammeri.vercel.app'
         },
 
         {
