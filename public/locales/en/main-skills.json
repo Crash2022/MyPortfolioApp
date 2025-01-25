@@ -19,9 +19,6 @@
   "Vue": "Vue",
   "S_Vue": "Vue lets you start small and supports you as your team and apps grow",
 
-  "Angular": "Angular",
-  "S_Angular": "Angular lets you start small and supports you as your team and apps grow",
-
   "NextJS": "NextJS",
   "S_NextJS": "Next.js enables you to create full-stack web applications by extending the latest React features",
 
@@ -30,6 +27,9 @@
 
   "MaterialUI": "Material UI",
   "S_Material": "Such libraries gives us opportunity to make beautiful app design in short time",
+
+  "AntDesign": "Ant Design",
+  "S_Antd": "Such libraries gives us opportunity to make beautiful app design in short time",
 
   "RestAPI": "Rest API",
   "S_RestAPI": "All data is located on server, that's why it's necessary know API methods",

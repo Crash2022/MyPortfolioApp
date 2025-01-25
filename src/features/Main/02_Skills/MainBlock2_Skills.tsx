@@ -16,6 +16,7 @@ import Gatsby from '../../../shared/assets/icons/skills/gatsby_02.svg'
 import Jest from '../../../shared/assets/icons/skills/jest.svg'
 import Git from '../../../shared/assets/icons/skills/git_02.svg'
 import Material from '../../../shared/assets/icons/skills/material-ui.svg'
+import Antd from '../../../shared/assets/icons/skills/antd.svg'
 import {useTranslation} from 'react-i18next'
 
 export type SkillsArrayPropsType = {
@@ -34,15 +35,15 @@ export const MainBlock2_Skills = () => {
         { id: '2', icon: ReactRedux, title: 'ReactRedux', text: 'S_ReactRedux' },
         { id: '3', icon: ReduxToolkit, title: 'ReduxToolkit', text: 'S_ReactToolkit' },
         { id: '4', icon: Typescript, title: 'Typescript', text: 'S_Typescript' },
-        { id: '5', icon: Vue, title: 'Vue', text: 'S_Vue' },
         { id: '6', icon: Storybook, title: 'Storybook', text: 'S_Storybook' },
-        // { id: '6', icon: Angular, title: 'Angular', text: 'S_Angular' },
         { id: '7', icon: NextJS, title: 'NextJS', text: 'S_NextJS' },
-        { id: '8', icon: Gatsby, title: 'Gatsby', text: 'S_Gatsby' },
+        // { id: '8', icon: Gatsby, title: 'Gatsby', text: 'S_Gatsby' },
+        { id: '9', icon: Antd, title: 'AntDesign', text: 'S_Antd' },
         { id: '9', icon: Material, title: 'MaterialUI', text: 'S_Material' },
         { id: '10', icon: RestAPI, title: 'RestAPI', text: 'S_RestAPI' },
         { id: '11', icon: Jest, title: 'JEST', text: 'S_Jest' },
         { id: '12', icon: Git, title: 'GIT', text: 'S_Git' },
+        { id: '5', icon: Vue, title: 'Vue', text: 'S_Vue' },
         /*{
             id: v1(), icon: Formik, title: 'Formik',
             text: 'Each application includes different elements of user interface. Formik helps to develop easier'
