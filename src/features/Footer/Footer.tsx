@@ -7,9 +7,9 @@ import ReactRedux from '../../shared/assets/icons/skills/redux-logo_01.svg'
 import Antd from '../../shared/assets/icons/skills/antd.svg'
 import Typescript from '../../shared/assets/icons/skills/typescript_02.svg'
 import Zustand from '../../shared/assets/icons/skills/zustand.svg'
-// import Jest from '../../shared/assets/icons/skills/jest.svg'
 import NextJS from '../../shared/assets/icons/skills/next-js_01.svg'
 import Material from '../../shared/assets/icons/skills/material-ui.svg'
+// import Jest from '../../shared/assets/icons/skills/jest.svg'
 import {useTranslation} from 'react-i18next'
 
 export const Footer = () => {
