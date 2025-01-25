@@ -6,7 +6,8 @@ import ReactLogo from '../../shared/assets/icons/skills/react_02.svg'
 import ReactRedux from '../../shared/assets/icons/skills/redux-logo_01.svg'
 import Antd from '../../shared/assets/icons/skills/antd.svg'
 import Typescript from '../../shared/assets/icons/skills/typescript_02.svg'
-import Jest from '../../shared/assets/icons/skills/jest.svg'
+import Zustand from '../../shared/assets/icons/skills/zustand.svg'
+// import Jest from '../../shared/assets/icons/skills/jest.svg'
 import NextJS from '../../shared/assets/icons/skills/next-js_01.svg'
 import Material from '../../shared/assets/icons/skills/material-ui.svg'
 import {useTranslation} from 'react-i18next'
@@ -29,6 +30,9 @@ export const Footer = () => {
                         <img src={Typescript} alt="ts"/>
                     </div>
                     <div className={style.footer_item}>
+                        <img src={Zustand} alt="zustand"/>
+                    </div>
+                    <div className={style.footer_item}>
                         <img src={Antd} alt="antd"/>
                     </div>
                     <div className={style.footer_item}>
@@ -37,9 +41,9 @@ export const Footer = () => {
                     <div className={style.footer_item}>
                         <img src={NextJS} alt="next-js"/>
                     </div>
-                    <div className={style.footer_item}>
-                        <img src={Jest} alt="jest"/>
-                    </div>
+                    {/*<div className={style.footer_item}>*/}
+                    {/*    <img src={Jest} alt="jest"/>*/}
+                    {/*</div>*/}
                 </div>
                 <div className={style.footer_copyrigths}>
                     <div>

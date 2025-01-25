@@ -16,6 +16,9 @@
   "Typescript": "Typescript",
   "S_Typescript": "Today projects become more difficult, that's why it's necessary to use Typescript for saving dev time",
 
+  "Zustand": "Zustand",
+  "S_Zustand": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated",
+
   "Vue": "Vue",
   "S_Vue": "Vue lets you start small and supports you as your team and apps grow",
 
