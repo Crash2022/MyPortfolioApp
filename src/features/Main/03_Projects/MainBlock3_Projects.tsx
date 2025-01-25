@@ -30,33 +30,33 @@ export const MainBlock3_Projects = () => {
     const [projects, setProjects] = useState<Array<ProjectsArrayPropsType>>([
         {
             id: '1',
-            style: {backgroundImage: `url(${projectCards})`},
-            title: 'EducationCards',
-            text: 'EducationCards_Desc',
-            link: 'https://education-cards.vercel.app'
-        },
-        {
-            id: '2',
             style: {backgroundImage: `url(${projectBikeshop})`},
             title: 'BikeShop',
             text: 'BikeShop_Desc',
             link: 'https://bike-shop-rho.vercel.app'
         },
         {
-            id: '3',
-            style: {backgroundImage: `url(${projectSocial})`},
-            title: 'SocialNetwork',
-            text: 'SocialNetwork_Desc',
-            link: 'https://Crash2022.github.io/IT-Samurai-Social'
+            id: '2',
+            style: {backgroundImage: `url(${projectCards})`},
+            title: 'EducationCards',
+            text: 'EducationCards_Desc',
+            link: 'https://education-cards.vercel.app'
         },
         {
-            id: '4',
+            id: '3',
             style: {backgroundImage: `url(${projectInctagram})`},
             title: 'Inctagram',
             text: 'Inctagram_Desc',
             link: 'https://inctagram-grammeri.vercel.app'
         },
 
+        {
+            id: '4',
+            style: {backgroundImage: `url(${projectSocial})`},
+            title: 'SocialNetwork',
+            text: 'SocialNetwork_Desc',
+            link: 'https://Crash2022.github.io/IT-Samurai-Social'
+        },
         {
             id: '5',
             style: {backgroundImage: `url(${projectPortfolio})`},
