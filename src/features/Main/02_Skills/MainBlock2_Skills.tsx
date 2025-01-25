@@ -36,25 +36,12 @@ export const MainBlock2_Skills = () => {
         { id: '4', icon: Typescript, title: 'Typescript', text: 'S_Typescript' },
         { id: '5', icon: Storybook, title: 'Storybook', text: 'S_Storybook' },
         { id: '6', icon: NextJS, title: 'NextJS', text: 'S_NextJS' },
-        { id: '6', icon: Zustand, title: 'Zustand', text: 'S_Zustand' },
-        { id: '7', icon: Antd, title: 'AntDesign', text: 'S_Antd' },
-        { id: '8', icon: Material, title: 'MaterialUI', text: 'S_Material' },
-        { id: '9', icon: RestAPI, title: 'RestAPI', text: 'S_RestAPI' },
-        { id: '10', icon: Jest, title: 'JEST', text: 'S_Jest' },
-        { id: '11', icon: Git, title: 'GIT', text: 'S_Git' },
-        // { id: '12', icon: Vue, title: 'Vue', text: 'S_Vue' },
-        /*{
-            id: v1(), icon: Formik, title: 'Formik',
-            text: 'Each application includes different elements of user interface. Formik helps to develop easier'
-        },*/
-        /*{
-           id: v1(), icon: SASS, title: 'SCSS/HTML/CSS',
-           text: 'Of course knowing of this basis is required for creating each web-application'
-       },*/
-        /*{
-            id: v1(), icon: Postman, title: 'Postman',
-            text: `We can make requests to server without any code using Postman application`
-        },*/
+        { id: '7', icon: Zustand, title: 'Zustand', text: 'S_Zustand' },
+        { id: '8', icon: Antd, title: 'AntDesign', text: 'S_Antd' },
+        { id: '9', icon: Material, title: 'MaterialUI', text: 'S_Material' },
+        { id: '10', icon: RestAPI, title: 'RestAPI', text: 'S_RestAPI' },
+        { id: '11', icon: Jest, title: 'JEST', text: 'S_Jest' },
+        { id: '12', icon: Git, title: 'GIT', text: 'S_Git' },
     ]
 
     return (
